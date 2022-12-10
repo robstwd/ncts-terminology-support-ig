@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ImplementationGuide xmlns="http://hl7.org/fhir">
+  <id value="ncts.terminology.support.01" />
+  <url value="https://github.com/robswtd/fhir/ig/ImplementationGuide/ncts.terminology.support.01" />
+  <version value="0.0.1"/>
+  <name value="RobsNCTSTerminologySupportIG" />
+  <title value="Rob's NCTS Terminology Support FHIR IG" />
+  <status value="draft"/>
+  <experimental value="true"/>
+  <publisher value="Rob Eastwood (himself)"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="https://github.com/robstwd"/>
+    </telecom>
+  </contact>
+  <description value="FHIR IG terminology tests"/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="AU"/>
+    </coding>
+  </jurisdiction>
+  <packageId value="ncts.terminology.support.01" />
+  <license value="CC0-1.0"/>
+  <fhirVersion value="4.0.1"/>
+  <definition>
+
+    <!-- ValueSet definitions-->
+      <resource>
+        <reference>
+          <reference value="ValueSet/australian-indigenous-status-1" />
+        </reference>
+        <name value="Australian Indigenous Status" />
+        <description value="NCTIS Data Components value set from NCTS https://healthterminologies.gov.au/fhir/ValueSet/nctis-data-components-1" />
+      </resource>
+
+    <!-- CodeSystem definitions-->
+      <resource>
+        <reference>
+          <reference value="CodeSystem/australian-indigenous-status-1" />
+        </reference>
+        <name value="Australian Indigenous Status" />
+        <description value="NCTIS Data Components value set from NCTS https://healthterminologies.gov.au/fhir/ValueSet/nctis-data-components-1"/>
+      </resource>
+      
+    <page>
+      <nameUrl value="toc.html"/>
+      <title value="Table of Contents"/>
+      <generation value="html"/>
+      <page>
+        <nameUrl value="index.html"/>
+        <title value="Rob's Test FHIR Implementation Guide Home Page"/>
+        <generation value="html"/>
+      </page>
+    </page>
+    <parameter>
+      <code value="copyrightyear"/>
+      <value value="2022+"/>
+    </parameter>
+    <parameter>
+      <code value="releaselabel"/>
+      <value value="CI Build"/>
+    </parameter>
+    <parameter>
+      <code value="find-other-resources"/>
+      <value value="true"/>
+    </parameter>
+    <parameter>
+      <code value="path-liquid"/>
+      <value value="templates\liquid"/>
+    </parameter>
+    <parameter>
+      <code value="shownav"/>
+      <value value="true"/>
+    </parameter>
+    <!-- Uncomment one or more of these if you want to limit which syntaxes are supported or want to disable the display of mappings -->
+    <!-- <parameter>
+      <code value="excludexml"/>
+      <value value="true"/>
+    </parameter>-->
+    <!-- <parameter>
+      <code value="excludejson"/>
+      <value value="true"/>
+    </parameter>-->
+    <parameter>
+      <code value="excludettl"/>
+      <value value="true"/>
+    </parameter>
+    <parameter>
+      <code value="excludemap"/>
+      <value value="true"/>
+    </parameter>
+    <parameter>
+      <code value="logging"/>
+      <value value="init"/>
+    </parameter>
+    <parameter>
+      <code value="logging"/>
+      <value value="progress"/>
+    </parameter>
+    <parameter>
+      <code value="logging"/>
+      <value value="tx"/>
+    </parameter>
+    <parameter>
+      <code value="logging"/>
+      <value value="generate"/>
+    </parameter>
+    <parameter>
+      <code value="logging"/>
+      <value value="html"/>
+    </parameter>
+    <parameter>
+      <code value="showsource"/>
+      <value value="true"/>
+    </parameter>
+    <parameter>
+      <code value="path-resource" />
+      <value value="input/resources/ValueSet" />
+    </parameter>
+    <parameter>
+      <code value="path-resource" />
+      <value value="input/resources/CodeSystem/" />
+    </parameter>
+  </definition>
+</ImplementationGuide>

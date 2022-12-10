@@ -1,0 +1,1201 @@
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "https://www.humanservices.gov.au/organisations/health-professionals/enablers/air-vaccine-code-formats"
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "language" : "en",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:7967f33f-bf40-475c-bc55-892a469b40af",
+    "timestamp" : "2022-12-07T21:16:53.512Z",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "version",
+      "valueUri" : "https://www.humanservices.gov.au/organisations/health-professionals/enablers/air-vaccine-code-formats|20210222"
+    }],
+    "contains" : [{
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
+        "valueString" : "Adacel"
+      }],
+      "system" : "https://www.humanservices.gov.au/organisations/health-professionals/enablers/air-vaccine-code-formats",
+      "code" : "ADCL",
+      "display" : "Adacel"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
+        "valueString" : "Adacel Polio"
+      }],
+      "system" : "https://www.humanservices.gov.au/organisations/health-professionals/enablers/air-vaccine-code-formats",
+      "code" : "ADPO",
+      "display" : "Adacel Polio"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
+        "valueString" : "ADT Booster"
+      }],
+      "system" : "https://www.humanservices.gov.au/organisations/health-professionals/enablers/air-vaccine-code-formats",
+      "code" : "ADT",
+      "display" : "ADT Booster"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
+        "valueString" : "Afluria Quad"
+      }],
+      "system" : "https://www.humanservices.gov.au/organisations/health-professionals/enablers/air-vaccine-code-formats",
+      "code" : "AFLR",
+      "display" : "Afluria Quad"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
+        "valueString" : "Agrippal"
+      }],
+      "system" : "https://www.humanservices.gov.au/organisations/health-professionals/enablers/air-vaccine-code-formats",
+      "code" : "AGRPAL",
+      "display" : "Agrippal"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
+        "valueString" : "Avaxim"
+      }],
+      "system" : "https://www.humanservices.gov.au/organisations/health-professionals/enablers/air-vaccine-code-formats",
+      "code" : "AVAXM",
+      "display" : "Avaxim"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
+        "valueString" : "BCG vaccine"
+      }],
+      "system" : "https://www.humanservices.gov.au/organisations/health-professionals/enablers/air-vaccine-code-formats",
+      "code" : "BCG",
+      "display" : "BCG vaccine"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
+        "valueString" : "Bexsero"
+      }],
+      "system" : "https://www.humanservices.gov.au/organisations/health-professionals/enablers/air-vaccine-code-formats",
+      "code" : "BEXO",
+      "display" : "Bexsero"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
+        "valueString" : "Boostrix-IPV"
+      }],
+      "system" : "https://www.humanservices.gov.au/organisations/health-professionals/enablers/air-vaccine-code-formats",
+      "code" : "BOIPV",
+      "display" : "Boostrix-IPV"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
+        "valueString" : "Boostrix"
+      }],
+      "system" : "https://www.humanservices.gov.au/organisations/health-professionals/enablers/air-vaccine-code-formats",
+      "code" : "BOOST",
+      "display" : "Boostrix"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
+        "valueString" : "CDT - combined Diphtheria, Tetanus"
+      }],
+      "system" : "https://www.humanservices.gov.au/organisations/health-professionals/enablers/air-vaccine-code-formats",
+      "code" : "CDT",
+      "display" : "CDT - combined Diphtheria, Tetanus"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
+        "valueString" : "Comvax"
+      }],
+      "system" : "https://www.humanservices.gov.au/organisations/health-professionals/enablers/air-vaccine-code-formats",
+      "code" : "CMX",
+      "display" : "Comvax"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
+        "valueString" : "Pfizer Comirnaty"
+      }],
+      "system" : "https://www.humanservices.gov.au/organisations/health-professionals/enablers/air-vaccine-code-formats",
+      "code" : "COMIRN",
+      "display" : "Pfizer Comirnaty"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
+        "valueString" : "COVID-19 Vaccine AstraZeneca"
+      }],
+      "system" : "https://www.humanservices.gov.au/organisations/health-professionals/enablers/air-vaccine-code-formats",
+      "code" : "COVAST",
+      "display" : "COVID-19 Vaccine AstraZeneca"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
+        "valueString" : "Dukoral"
+      }],
+      "system" : "https://www.humanservices.gov.au/organisations/health-professionals/enablers/air-vaccine-code-formats",
+      "code" : "DKRAL",
+      "display" : "Dukoral"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
+        "valueString" : "Triple Antigen"
+      }],
+      "system" : "https://www.humanservices.gov.au/organisations/health-professionals/enablers/air-vaccine-code-formats",
+      "code" : "DTP",
+      "display" : "Triple Antigen"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
+        "valueString" : "Generic DTPa"
+      }],
+      "system" : "https://www.humanservices.gov.au/organisations/health-professionals/enablers/air-vaccine-code-formats",
+      "code" : "DTPA",
+      "display" : "Generic DTPa"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
+        "valueString" : "Engerix-B (adult)"
+      }],
+      "system" : "https://www.humanservices.gov.au/organisations/health-professionals/enablers/air-vaccine-code-formats",
+      "code" : "ENGBA",
+      "display" : "Engerix-B (adult)"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
+        "valueString" : "Engerix-B (paediatric)"
+      }],
+      "system" : "https://www.humanservices.gov.au/organisations/health-professionals/enablers/air-vaccine-code-formats",
+      "code" : "ENGP",
+      "display" : "Engerix-B (paediatric)"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
+        "valueString" : "Flucelvax Quad"
+      }],
+      "system" : "https://www.humanservices.gov.au/organisations/health-professionals/enablers/air-vaccine-code-formats",
+      "code" : "FCELQD",
+      "display" : "Flucelvax Quad"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
+        "valueString" : "Fluzone High-Dose Quadrivalent"
+      }],
+      "system" : "https://www.humanservices.gov.au/organisations/health-professionals/enablers/air-vaccine-code-formats",
+      "code" : "FLHDQD",
+      "display" : "Fluzone High-Dose Quadrivalent"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
+        "valueString" : "Fluarix"
+      }],
+      "system" : "https://www.humanservices.gov.au/organisations/health-professionals/enablers/air-vaccine-code-formats",
+      "code" : "FLRIX",
+      "display" : "Fluarix"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
+        "valueString" : "Fluad"
+      }],
+      "system" : "https://www.humanservices.gov.au/organisations/health-professionals/enablers/air-vaccine-code-formats",
+      "code" : "FLUAD",
+      "display" : "Fluad"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
+        "valueString" : "Fluzone High-Dose"
+      }],
+      "system" : "https://www.humanservices.gov.au/organisations/health-professionals/enablers/air-vaccine-code-formats",
+      "code" : "FLUHID",
+      "display" : "Fluzone High-Dose"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
+        "valueString" : "Fluad Quad"
+      }],
+      "system" : "https://www.humanservices.gov.au/organisations/health-professionals/enablers/air-vaccine-code-formats",
+      "code" : "FLUQAD",
+      "display" : "Fluad Quad"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
+        "valueString" : "Fluarix Tetra"
+      }],
+      "system" : "https://www.humanservices.gov.au/organisations/health-professionals/enablers/air-vaccine-code-formats",
+      "code" : "FLUTET",
+      "display" : "Fluarix Tetra"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
+        "valueString" : "bioCSL Fluvax"
+      }],
+      "system" : "https://www.humanservices.gov.au/organisations/health-professionals/enablers/air-vaccine-code-formats",
+      "code" : "FLUVAX",
+      "display" : "bioCSL Fluvax"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
+        "valueString" : "Fluvirin"
+      }],
+      "system" : "https://www.humanservices.gov.au/organisations/health-professionals/enablers/air-vaccine-code-formats",
+      "code" : "FLVRN",
+      "display" : "Fluvirin"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
+        "valueString" : "FluQuadri Junior"
+      }],
+      "system" : "https://www.humanservices.gov.au/organisations/health-professionals/enablers/air-vaccine-code-formats",
+      "code" : "FQDJN",
+      "display" : "FluQuadri Junior"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
+        "valueString" : "FluQuadri"
+      }],
+      "system" : "https://www.humanservices.gov.au/organisations/health-professionals/enablers/air-vaccine-code-formats",
+      "code" : "FQUAD",
+      "display" : "FluQuadri"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
+        "valueString" : "Fluvax Junior"
+      }],
+      "system" : "https://www.humanservices.gov.au/organisations/health-professionals/enablers/air-vaccine-code-formats",
+      "code" : "FVXJNR",
+      "display" : "Fluvax Junior"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
+        "valueString" : "Generic Diphtheria"
+      }],
+      "system" : "https://www.humanservices.gov.au/organisations/health-professionals/enablers/air-vaccine-code-formats",
+      "code" : "GNDIP",
+      "display" : "Generic Diphtheria"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
+        "valueString" : "Generic Influenza"
+      }],
+      "system" : "https://www.humanservices.gov.au/organisations/health-professionals/enablers/air-vaccine-code-formats",
+      "code" : "GNFLU",
+      "display" : "Generic Influenza"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
+        "valueString" : "Generic Hepatitis B"
+      }],
+      "system" : "https://www.humanservices.gov.au/organisations/health-professionals/enablers/air-vaccine-code-formats",
+      "code" : "GNHEP",
+      "display" : "Generic Hepatitis B"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
+        "valueString" : "Generic HIB"
+      }],
+      "system" : "https://www.humanservices.gov.au/organisations/health-professionals/enablers/air-vaccine-code-formats",
+      "code" : "GNHIB",
+      "display" : "Generic HIB"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
+        "valueString" : "Generic Hepatitis A"
+      }],
+      "system" : "https://www.humanservices.gov.au/organisations/health-professionals/enablers/air-vaccine-code-formats",
+      "code" : "GNHPA",
+      "display" : "Generic Hepatitis A"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
+        "valueString" : "Generic HPV"
+      }],
+      "system" : "https://www.humanservices.gov.au/organisations/health-professionals/enablers/air-vaccine-code-formats",
+      "code" : "GNHPV",
+      "display" : "Generic HPV"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
+        "valueString" : "Generic Japanese Encephalitis"
+      }],
+      "system" : "https://www.humanservices.gov.au/organisations/health-professionals/enablers/air-vaccine-code-formats",
+      "code" : "GNJEN",
+      "display" : "Generic Japanese Encephalitis"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
+        "valueString" : "Generic Meningococcal ACWY"
+      }],
+      "system" : "https://www.humanservices.gov.au/organisations/health-professionals/enablers/air-vaccine-code-formats",
+      "code" : "GNMCY",
+      "display" : "Generic Meningococcal ACWY"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
+        "valueString" : "Generic Measles"
+      }],
+      "system" : "https://www.humanservices.gov.au/organisations/health-professionals/enablers/air-vaccine-code-formats",
+      "code" : "GNMEA",
+      "display" : "Generic Measles"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
+        "valueString" : "Generic Meningococcal C"
+      }],
+      "system" : "https://www.humanservices.gov.au/organisations/health-professionals/enablers/air-vaccine-code-formats",
+      "code" : "GNMEN",
+      "display" : "Generic Meningococcal C"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
+        "valueString" : "Generic Meningococcal B"
+      }],
+      "system" : "https://www.humanservices.gov.au/organisations/health-professionals/enablers/air-vaccine-code-formats",
+      "code" : "GNMNB",
+      "display" : "Generic Meningococcal B"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
+        "valueString" : "Generic Mumps"
+      }],
+      "system" : "https://www.humanservices.gov.au/organisations/health-professionals/enablers/air-vaccine-code-formats",
+      "code" : "GNMUM",
+      "display" : "Generic Mumps"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
+        "valueString" : "Generic Pneumococcal"
+      }],
+      "system" : "https://www.humanservices.gov.au/organisations/health-professionals/enablers/air-vaccine-code-formats",
+      "code" : "GNPNE",
+      "display" : "Generic Pneumococcal"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
+        "valueString" : "Generic Poliomyelitis"
+      }],
+      "system" : "https://www.humanservices.gov.au/organisations/health-professionals/enablers/air-vaccine-code-formats",
+      "code" : "GNPOL",
+      "display" : "Generic Poliomyelitis"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
+        "valueString" : "Generic Rabies"
+      }],
+      "system" : "https://www.humanservices.gov.au/organisations/health-professionals/enablers/air-vaccine-code-formats",
+      "code" : "GNRBS",
+      "display" : "Generic Rabies"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
+        "valueString" : "Generic Rotavirus"
+      }],
+      "system" : "https://www.humanservices.gov.au/organisations/health-professionals/enablers/air-vaccine-code-formats",
+      "code" : "GNROX",
+      "display" : "Generic Rotavirus"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
+        "valueString" : "Generic Rubella"
+      }],
+      "system" : "https://www.humanservices.gov.au/organisations/health-professionals/enablers/air-vaccine-code-formats",
+      "code" : "GNRUB",
+      "display" : "Generic Rubella"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
+        "valueString" : "Generic Tetanus"
+      }],
+      "system" : "https://www.humanservices.gov.au/organisations/health-professionals/enablers/air-vaccine-code-formats",
+      "code" : "GNTET",
+      "display" : "Generic Tetanus"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
+        "valueString" : "Generic Typhoid"
+      }],
+      "system" : "https://www.humanservices.gov.au/organisations/health-professionals/enablers/air-vaccine-code-formats",
+      "code" : "GNTYD",
+      "display" : "Generic Typhoid"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
+        "valueString" : "Generic Varicella-Zoster"
+      }],
+      "system" : "https://www.humanservices.gov.au/organisations/health-professionals/enablers/air-vaccine-code-formats",
+      "code" : "GNVAR",
+      "display" : "Generic Varicella-Zoster"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
+        "valueString" : "Generic Yellow Fever"
+      }],
+      "system" : "https://www.humanservices.gov.au/organisations/health-professionals/enablers/air-vaccine-code-formats",
+      "code" : "GNYFEV",
+      "display" : "Generic Yellow Fever"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
+        "valueString" : "Twinrix"
+      }],
+      "system" : "https://www.humanservices.gov.au/organisations/health-professionals/enablers/air-vaccine-code-formats",
+      "code" : "HATWAD",
+      "display" : "Twinrix"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
+        "valueString" : "Twinrix Junior"
+      }],
+      "system" : "https://www.humanservices.gov.au/organisations/health-professionals/enablers/air-vaccine-code-formats",
+      "code" : "HATWNJ",
+      "display" : "Twinrix Junior"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
+        "valueString" : "Havrix"
+      }],
+      "system" : "https://www.humanservices.gov.au/organisations/health-professionals/enablers/air-vaccine-code-formats",
+      "code" : "HAVAD",
+      "display" : "Havrix"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
+        "valueString" : "Vaqta (paediatric/adolescent)"
+      }],
+      "system" : "https://www.humanservices.gov.au/organisations/health-professionals/enablers/air-vaccine-code-formats",
+      "code" : "HAVAQ",
+      "display" : "Vaqta (paediatric/adolescent)"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
+        "valueString" : "Havrix Junior"
+      }],
+      "system" : "https://www.humanservices.gov.au/organisations/health-professionals/enablers/air-vaccine-code-formats",
+      "code" : "HAVJ",
+      "display" : "Havrix Junior"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
+        "valueString" : "HibTITER"
+      }],
+      "system" : "https://www.humanservices.gov.au/organisations/health-professionals/enablers/air-vaccine-code-formats",
+      "code" : "HBOC",
+      "display" : "HibTITER"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
+        "valueString" : "Generic HBV"
+      }],
+      "system" : "https://www.humanservices.gov.au/organisations/health-professionals/enablers/air-vaccine-code-formats",
+      "code" : "HBV",
+      "display" : "Generic HBV"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
+        "valueString" : "H-B-VAX II (paediatric)"
+      }],
+      "system" : "https://www.humanservices.gov.au/organisations/health-professionals/enablers/air-vaccine-code-formats",
+      "code" : "HBVP",
+      "display" : "H-B-VAX II (paediatric)"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
+        "valueString" : "H-B-Vax II (adult)"
+      }],
+      "system" : "https://www.humanservices.gov.au/organisations/health-professionals/enablers/air-vaccine-code-formats",
+      "code" : "HBVXA",
+      "display" : "H-B-Vax II (adult)"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
+        "valueString" : "Hiberix"
+      }],
+      "system" : "https://www.humanservices.gov.au/organisations/health-professionals/enablers/air-vaccine-code-formats",
+      "code" : "HBX",
+      "display" : "Hiberix"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
+        "valueString" : "Merieux Inactivated Rabies Vaccine"
+      }],
+      "system" : "https://www.humanservices.gov.au/organisations/health-professionals/enablers/air-vaccine-code-formats",
+      "code" : "HDCV",
+      "display" : "Merieux Inactivated Rabies Vaccine"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
+        "valueString" : "Hexaxim"
+      }],
+      "system" : "https://www.humanservices.gov.au/organisations/health-professionals/enablers/air-vaccine-code-formats",
+      "code" : "HEXAXM",
+      "display" : "Hexaxim"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
+        "valueString" : "Gardasil"
+      }],
+      "system" : "https://www.humanservices.gov.au/organisations/health-professionals/enablers/air-vaccine-code-formats",
+      "code" : "HPV",
+      "display" : "Gardasil"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
+        "valueString" : "Cervarix"
+      }],
+      "system" : "https://www.humanservices.gov.au/organisations/health-professionals/enablers/air-vaccine-code-formats",
+      "code" : "HPVCX",
+      "display" : "Cervarix"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
+        "valueString" : "Gardasil 9"
+      }],
+      "system" : "https://www.humanservices.gov.au/organisations/health-professionals/enablers/air-vaccine-code-formats",
+      "code" : "HPVNIN",
+      "display" : "Gardasil 9"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
+        "valueString" : "Infanrix hexa"
+      }],
+      "system" : "https://www.humanservices.gov.au/organisations/health-professionals/enablers/air-vaccine-code-formats",
+      "code" : "IFHX",
+      "display" : "Infanrix hexa"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
+        "valueString" : "Infanrix IPV"
+      }],
+      "system" : "https://www.humanservices.gov.au/organisations/health-professionals/enablers/air-vaccine-code-formats",
+      "code" : "IFIP",
+      "display" : "Infanrix IPV"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
+        "valueString" : "Infanrix Penta"
+      }],
+      "system" : "https://www.humanservices.gov.au/organisations/health-professionals/enablers/air-vaccine-code-formats",
+      "code" : "IFPA",
+      "display" : "Infanrix Penta"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
+        "valueString" : "Infanrix"
+      }],
+      "system" : "https://www.humanservices.gov.au/organisations/health-professionals/enablers/air-vaccine-code-formats",
+      "code" : "IFX",
+      "display" : "Infanrix"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
+        "valueString" : "Infanrix-HepB"
+      }],
+      "system" : "https://www.humanservices.gov.au/organisations/health-professionals/enablers/air-vaccine-code-formats",
+      "code" : "IFXB",
+      "display" : "Infanrix-HepB"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
+        "valueString" : "Imojev"
+      }],
+      "system" : "https://www.humanservices.gov.au/organisations/health-professionals/enablers/air-vaccine-code-formats",
+      "code" : "IMOJEV",
+      "display" : "Imojev"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
+        "valueString" : "Influvac Tetra"
+      }],
+      "system" : "https://www.humanservices.gov.au/organisations/health-professionals/enablers/air-vaccine-code-formats",
+      "code" : "INFLTA",
+      "display" : "Influvac Tetra"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
+        "valueString" : "Influvac"
+      }],
+      "system" : "https://www.humanservices.gov.au/organisations/health-professionals/enablers/air-vaccine-code-formats",
+      "code" : "INFLUV",
+      "display" : "Influvac"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
+        "valueString" : "IPOL - inactivated polio vaccine"
+      }],
+      "system" : "https://www.humanservices.gov.au/organisations/health-professionals/enablers/air-vaccine-code-formats",
+      "code" : "IPV",
+      "display" : "IPOL - inactivated polio vaccine"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
+        "valueString" : "JESPECT"
+      }],
+      "system" : "https://www.humanservices.gov.au/organisations/health-professionals/enablers/air-vaccine-code-formats",
+      "code" : "JESPCT",
+      "display" : "JESPECT"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
+        "valueString" : "JE-VAX"
+      }],
+      "system" : "https://www.humanservices.gov.au/organisations/health-professionals/enablers/air-vaccine-code-formats",
+      "code" : "JEVAX",
+      "display" : "JE-VAX"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
+        "valueString" : "Menactra"
+      }],
+      "system" : "https://www.humanservices.gov.au/organisations/health-professionals/enablers/air-vaccine-code-formats",
+      "code" : "MENACT",
+      "display" : "Menactra"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
+        "valueString" : "Bi Meningo"
+      }],
+      "system" : "https://www.humanservices.gov.au/organisations/health-professionals/enablers/air-vaccine-code-formats",
+      "code" : "MENGO",
+      "display" : "Bi Meningo"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
+        "valueString" : "Menjugate"
+      }],
+      "system" : "https://www.humanservices.gov.au/organisations/health-professionals/enablers/air-vaccine-code-formats",
+      "code" : "MENJUG",
+      "display" : "Menjugate"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
+        "valueString" : "Meningitec"
+      }],
+      "system" : "https://www.humanservices.gov.au/organisations/health-professionals/enablers/air-vaccine-code-formats",
+      "code" : "MENTEC",
+      "display" : "Meningitec"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
+        "valueString" : "Menomune"
+      }],
+      "system" : "https://www.humanservices.gov.au/organisations/health-professionals/enablers/air-vaccine-code-formats",
+      "code" : "MENUME",
+      "display" : "Menomune"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
+        "valueString" : "Mencevax ACWY"
+      }],
+      "system" : "https://www.humanservices.gov.au/organisations/health-professionals/enablers/air-vaccine-code-formats",
+      "code" : "MENVAX",
+      "display" : "Mencevax ACWY"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
+        "valueString" : "Menveo"
+      }],
+      "system" : "https://www.humanservices.gov.au/organisations/health-professionals/enablers/air-vaccine-code-formats",
+      "code" : "MENVO",
+      "display" : "Menveo"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
+        "valueString" : "Generic MMR"
+      }],
+      "system" : "https://www.humanservices.gov.au/organisations/health-professionals/enablers/air-vaccine-code-formats",
+      "code" : "MMR",
+      "display" : "Generic MMR"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
+        "valueString" : "M-M-R II"
+      }],
+      "system" : "https://www.humanservices.gov.au/organisations/health-professionals/enablers/air-vaccine-code-formats",
+      "code" : "MMRCSL",
+      "display" : "M-M-R II"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
+        "valueString" : "Priorix"
+      }],
+      "system" : "https://www.humanservices.gov.au/organisations/health-professionals/enablers/air-vaccine-code-formats",
+      "code" : "MMRSKB",
+      "display" : "Priorix"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
+        "valueString" : "Menitorix"
+      }],
+      "system" : "https://www.humanservices.gov.au/organisations/health-professionals/enablers/air-vaccine-code-formats",
+      "code" : "MNTRX",
+      "display" : "Menitorix"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
+        "valueString" : "NeisVac-C"
+      }],
+      "system" : "https://www.humanservices.gov.au/organisations/health-professionals/enablers/air-vaccine-code-formats",
+      "code" : "NEISVC",
+      "display" : "NeisVac-C"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
+        "valueString" : "Nimenrix"
+      }],
+      "system" : "https://www.humanservices.gov.au/organisations/health-professionals/enablers/air-vaccine-code-formats",
+      "code" : "NIMRIX",
+      "display" : "Nimenrix"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
+        "valueString" : "Oral Polio (Polio Sabin)"
+      }],
+      "system" : "https://www.humanservices.gov.au/organisations/health-professionals/enablers/air-vaccine-code-formats",
+      "code" : "OPV",
+      "display" : "Oral Polio (Polio Sabin)"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
+        "valueString" : "Generic (Monovalent) Pertussis"
+      }],
+      "system" : "https://www.humanservices.gov.au/organisations/health-professionals/enablers/air-vaccine-code-formats",
+      "code" : "P",
+      "display" : "Generic (Monovalent) Pertussis"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
+        "valueString" : "Panvax"
+      }],
+      "system" : "https://www.humanservices.gov.au/organisations/health-professionals/enablers/air-vaccine-code-formats",
+      "code" : "PANVAX",
+      "display" : "Panvax"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
+        "valueString" : "Rabipur"
+      }],
+      "system" : "https://www.humanservices.gov.au/organisations/health-professionals/enablers/air-vaccine-code-formats",
+      "code" : "PCECV",
+      "display" : "Rabipur"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
+        "valueString" : "Pediacel"
+      }],
+      "system" : "https://www.humanservices.gov.au/organisations/health-professionals/enablers/air-vaccine-code-formats",
+      "code" : "PDCL",
+      "display" : "Pediacel"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
+        "valueString" : "Poliacel"
+      }],
+      "system" : "https://www.humanservices.gov.au/organisations/health-professionals/enablers/air-vaccine-code-formats",
+      "code" : "PLCL",
+      "display" : "Poliacel"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
+        "valueString" : "Pneumovax 23"
+      }],
+      "system" : "https://www.humanservices.gov.au/organisations/health-professionals/enablers/air-vaccine-code-formats",
+      "code" : "PNEUMO",
+      "display" : "Pneumovax 23"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
+        "valueString" : "ProQuad"
+      }],
+      "system" : "https://www.humanservices.gov.au/organisations/health-professionals/enablers/air-vaccine-code-formats",
+      "code" : "PROQAD",
+      "display" : "ProQuad"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
+        "valueString" : "ProHIBit"
+      }],
+      "system" : "https://www.humanservices.gov.au/organisations/health-professionals/enablers/air-vaccine-code-formats",
+      "code" : "PRPD",
+      "display" : "ProHIBit"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
+        "valueString" : "PedvaxHIB"
+      }],
+      "system" : "https://www.humanservices.gov.au/organisations/health-professionals/enablers/air-vaccine-code-formats",
+      "code" : "PRPOMP",
+      "display" : "PedvaxHIB"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
+        "valueString" : "ActHIB"
+      }],
+      "system" : "https://www.humanservices.gov.au/organisations/health-professionals/enablers/air-vaccine-code-formats",
+      "code" : "PRPT",
+      "display" : "ActHIB"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
+        "valueString" : "Prevenar 7"
+      }],
+      "system" : "https://www.humanservices.gov.au/organisations/health-professionals/enablers/air-vaccine-code-formats",
+      "code" : "PRVNR",
+      "display" : "Prevenar 7"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
+        "valueString" : "Prevenar 13"
+      }],
+      "system" : "https://www.humanservices.gov.au/organisations/health-professionals/enablers/air-vaccine-code-formats",
+      "code" : "PRVTH",
+      "display" : "Prevenar 13"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
+        "valueString" : "Priorix-tetra"
+      }],
+      "system" : "https://www.humanservices.gov.au/organisations/health-professionals/enablers/air-vaccine-code-formats",
+      "code" : "PRXTET",
+      "display" : "Priorix-tetra"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
+        "valueString" : "Quadracel"
+      }],
+      "system" : "https://www.humanservices.gov.au/organisations/health-professionals/enablers/air-vaccine-code-formats",
+      "code" : "QDCL",
+      "display" : "Quadracel"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
+        "valueString" : "Rotarix"
+      }],
+      "system" : "https://www.humanservices.gov.au/organisations/health-professionals/enablers/air-vaccine-code-formats",
+      "code" : "ROTRIX",
+      "display" : "Rotarix"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
+        "valueString" : "RotaTeq"
+      }],
+      "system" : "https://www.humanservices.gov.au/organisations/health-professionals/enablers/air-vaccine-code-formats",
+      "code" : "ROTTEQ",
+      "display" : "RotaTeq"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
+        "valueString" : "Stamaril"
+      }],
+      "system" : "https://www.humanservices.gov.au/organisations/health-professionals/enablers/air-vaccine-code-formats",
+      "code" : "STAMRL",
+      "display" : "Stamaril"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
+        "valueString" : "Synflorix"
+      }],
+      "system" : "https://www.humanservices.gov.au/organisations/health-professionals/enablers/air-vaccine-code-formats",
+      "code" : "SYNFLX",
+      "display" : "Synflorix"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
+        "valueString" : "Tripacel"
+      }],
+      "system" : "https://www.humanservices.gov.au/organisations/health-professionals/enablers/air-vaccine-code-formats",
+      "code" : "TCL",
+      "display" : "Tripacel"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
+        "valueString" : "Td"
+      }],
+      "system" : "https://www.humanservices.gov.au/organisations/health-professionals/enablers/air-vaccine-code-formats",
+      "code" : "TDT",
+      "display" : "Td"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
+        "valueString" : "Tet-Tox"
+      }],
+      "system" : "https://www.humanservices.gov.au/organisations/health-professionals/enablers/air-vaccine-code-formats",
+      "code" : "TETTOX",
+      "display" : "Tet-Tox"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
+        "valueString" : "Trumenba"
+      }],
+      "system" : "https://www.humanservices.gov.au/organisations/health-professionals/enablers/air-vaccine-code-formats",
+      "code" : "TRMBA",
+      "display" : "Trumenba"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
+        "valueString" : "Typherix"
+      }],
+      "system" : "https://www.humanservices.gov.au/organisations/health-professionals/enablers/air-vaccine-code-formats",
+      "code" : "TYPHRX",
+      "display" : "Typherix"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
+        "valueString" : "Typhim Vi"
+      }],
+      "system" : "https://www.humanservices.gov.au/organisations/health-professionals/enablers/air-vaccine-code-formats",
+      "code" : "TYPHVI",
+      "display" : "Typhim Vi"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
+        "valueString" : "Vaqta (adult)"
+      }],
+      "system" : "https://www.humanservices.gov.au/organisations/health-professionals/enablers/air-vaccine-code-formats",
+      "code" : "VAQAD",
+      "display" : "Vaqta (adult)"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
+        "valueString" : "Vaxigrip"
+      }],
+      "system" : "https://www.humanservices.gov.au/organisations/health-professionals/enablers/air-vaccine-code-formats",
+      "code" : "VAXGRP",
+      "display" : "Vaxigrip"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
+        "valueString" : "Vaxigrip Tetra"
+      }],
+      "system" : "https://www.humanservices.gov.au/organisations/health-professionals/enablers/air-vaccine-code-formats",
+      "code" : "VAXTET",
+      "display" : "Vaxigrip Tetra"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
+        "valueString" : "Vaxigrip Junior"
+      }],
+      "system" : "https://www.humanservices.gov.au/organisations/health-professionals/enablers/air-vaccine-code-formats",
+      "code" : "VGRJNR",
+      "display" : "Vaxigrip Junior"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
+        "valueString" : "Vivaxim"
+      }],
+      "system" : "https://www.humanservices.gov.au/organisations/health-professionals/enablers/air-vaccine-code-formats",
+      "code" : "VIVAXM",
+      "display" : "Vivaxim"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
+        "valueString" : "Vivotif Oral"
+      }],
+      "system" : "https://www.humanservices.gov.au/organisations/health-professionals/enablers/air-vaccine-code-formats",
+      "code" : "VIVOTF",
+      "display" : "Vivotif Oral"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
+        "valueString" : "Varilrix"
+      }],
+      "system" : "https://www.humanservices.gov.au/organisations/health-professionals/enablers/air-vaccine-code-formats",
+      "code" : "VLRIX",
+      "display" : "Varilrix"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
+        "valueString" : "Varivax"
+      }],
+      "system" : "https://www.humanservices.gov.au/organisations/health-professionals/enablers/air-vaccine-code-formats",
+      "code" : "VRVAX",
+      "display" : "Varivax"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
+        "valueString" : "Zostavax"
+      }],
+      "system" : "https://www.humanservices.gov.au/organisations/health-professionals/enablers/air-vaccine-code-formats",
+      "code" : "ZOTVAX",
+      "display" : "Zostavax"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
+        "valueString" : "HBVaxII (Thiomersal free)"
+      }],
+      "system" : "https://www.humanservices.gov.au/organisations/health-professionals/enablers/air-vaccine-code-formats",
+      "code" : "HBVXII",
+      "display" : "HBVaxII (Thiomersal free)"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
+        "valueString" : "Hepatitis B Immunoglobulin"
+      }],
+      "system" : "https://www.humanservices.gov.au/organisations/health-professionals/enablers/air-vaccine-code-formats",
+      "code" : "HBIG",
+      "display" : "Hepatitis B Immunoglobulin"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
+        "valueString" : "Q fever vaccine"
+      }],
+      "system" : "https://www.humanservices.gov.au/organisations/health-professionals/enablers/air-vaccine-code-formats",
+      "code" : "QFEVER",
+      "display" : "Q fever vaccine"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
+        "valueString" : "Rabies IMOG 10 ml"
+      }],
+      "system" : "https://www.humanservices.gov.au/organisations/health-professionals/enablers/air-vaccine-code-formats",
+      "code" : "RIGTEN",
+      "display" : "Rabies IMOG 10 ml"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
+        "valueString" : "Rabies IMOG 2ml"
+      }],
+      "system" : "https://www.humanservices.gov.au/organisations/health-professionals/enablers/air-vaccine-code-formats",
+      "code" : "RIGTWO",
+      "display" : "Rabies IMOG 2ml"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------

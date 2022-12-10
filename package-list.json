@@ -1,0 +1,13 @@
+{
+ "package-id" : "ncts.terminology.support.01",
+ "title" : "Rob's NCTS Terminology Support FHIR IG", 
+ "canonical" : "https://github.com/robeastwood-agency/fhir/ig/ImplementationGuide/ncts.terminology.support.01", 
+ "introduction" : "The introduction that should appear in the FHIR IG registry",
+ "list" : [{
+  "version" : "0.0.1",
+  "desc" : "Continuous Integration Build (latest in version control)",
+  "path" : "http://me.org/fhir/ig/myig",
+  "status" : "ci-build",
+  "current" : true
+ }]
+}
