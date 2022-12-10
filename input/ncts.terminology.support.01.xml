@@ -123,5 +123,13 @@
       <code value="path-resource" />
       <value value="input/resources/CodeSystem/" />
     </parameter>
+    <parameter>
+      <code value="special-url" />
+      <value value="https://healthterminologies.gov.au/fhir/CodeSystem/australian-indigenous-status-1"/>
+    </parameter>
+    <parameter>
+      <code value="special-url" />
+      <value value="https://healthterminologies.gov.au/fhir/ValueSet/australian-indigenous-status-1" />
+    </parameter>
   </definition>
 </ImplementationGuide>
