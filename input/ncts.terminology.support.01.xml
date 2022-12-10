@@ -32,7 +32,7 @@
           <reference value="ValueSet/australian-indigenous-status-1" />
         </reference>
         <name value="Australian Indigenous Status" />
-        <description value="NCTIS Data Components value set from NCTS https://healthterminologies.gov.au/fhir/ValueSet/nctis-data-components-1" />
+        <description value="The Australian Indigenous Status value set includes values to support the representation of a person's Indigenous status. That is, whether a person identifies as being of Aboriginal or Torres Strait Islander origin. The values are those concepts defined in the Australian Indigenous Status code system (https://healthterminologies.gov.au/fhir/CodeSystem/australian-indigenous-status-1)." />
       </resource>
 
     <!-- CodeSystem definitions-->
@@ -41,7 +41,7 @@
           <reference value="CodeSystem/australian-indigenous-status-1" />
         </reference>
         <name value="Australian Indigenous Status" />
-        <description value="NCTIS Data Components value set from NCTS https://healthterminologies.gov.au/fhir/ValueSet/nctis-data-components-1"/>
+        <description value="The Australian Indigenous Status code system defines concepts to support the representation of a person's Indigenous status. That is, whether a person identifies as being of Aboriginal or Torres Strait Islander origin, as represented by a code. The concepts defined in this code system are equivalent to those defined in the METeOR value domains for Person Indigenous status code N for http://meteor.aihw.gov.au/content/index.phtml/itemId/602545, http://meteor.aihw.gov.au/content/index.phtml/itemId/270885, and http://meteor.aihw.gov.au/content/index.phtml/itemId/291036."/>
       </resource>
       
     <page>
