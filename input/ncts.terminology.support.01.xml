@@ -34,6 +34,13 @@
         <name value="Australian Indigenous Status" />
         <description value="The Australian Indigenous Status value set includes values to support the representation of a person's Indigenous status. That is, whether a person identifies as being of Aboriginal or Torres Strait Islander origin. The values are those concepts defined in the Australian Indigenous Status code system (https://healthterminologies.gov.au/fhir/CodeSystem/australian-indigenous-status-1)." />
       </resource>
+      <resource>
+        <reference>
+          <reference value="ValueSet/common-languages-australia-2" />
+        </reference>
+        <name value="Common Languages in Australia" />
+        <description value="The Common Languages in Australia value set includes languages that are commonly encountered in Australia, including a comprehensive set of Australian Indigenous languages." />
+      </resource>
 
     <!-- CodeSystem definitions-->
       <resource>
@@ -130,6 +137,10 @@
     <parameter>
       <code value="special-url" />
       <value value="https://healthterminologies.gov.au/fhir/ValueSet/australian-indigenous-status-1" />
+    </parameter>
+    <parameter>
+      <code value="special-url" />
+      <value value="https://healthterminologies.gov.au/fhir/ValueSet/common-languages-australia-2" />
     </parameter>
   </definition>
 </ImplementationGuide>
