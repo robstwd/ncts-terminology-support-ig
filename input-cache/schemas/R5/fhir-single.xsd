@@ -47,7 +47,7 @@
   POSSIBILITY OF SUCH DAMAGE.
   
 
-  Generated on Sat, Dec 10, 2022 18:52+0000 for FHIR v5.0.0-cibuild 
+  Generated on Mon, Dec 12, 2022 06:54+0000 for FHIR v5.0.0-cibuild 
 -->
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://hl7.org/fhir" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" targetNamespace="http://hl7.org/fhir" elementFormDefault="qualified" version="5.0.0-cibuild">
   <!-- Note: When using this schema with some tools, it may also be necessary to declare xmlns:xml="http://www.w3.org/XML/1998/namespace", however this causes performance issues with other tools and thus is not in the base schemas. -->
@@ -35657,7 +35657,7 @@ RegisteredName | UserFriendlyName | PatientReportedName.</xs:documentation>
           </xs:element>
           <xs:element name="status" minOccurs="1" maxOccurs="1" type="EncounterStatus">
             <xs:annotation>
-              <xs:documentation xml:lang="en">planned | in-progress | onhold | discharged | completed | cancelled | discontinued | entered-in-error | unknown.</xs:documentation>
+              <xs:documentation xml:lang="en">planned | in-progress | on-hold | discharged | completed | cancelled | discontinued | entered-in-error | unknown.</xs:documentation>
            </xs:annotation>
           </xs:element>
           <xs:element name="statusHistory" type="Encounter.StatusHistory" minOccurs="0" maxOccurs="unbounded">
@@ -35798,7 +35798,7 @@ RegisteredName | UserFriendlyName | PatientReportedName.</xs:documentation>
         <xs:sequence>
           <xs:element name="status" minOccurs="1" maxOccurs="1" type="EncounterStatus">
             <xs:annotation>
-              <xs:documentation xml:lang="en">planned | in-progress | onhold | discharged | completed | cancelled | discontinued | entered-in-error | unknown.</xs:documentation>
+              <xs:documentation xml:lang="en">planned | in-progress | on-hold | discharged | completed | cancelled | discontinued | entered-in-error | unknown.</xs:documentation>
            </xs:annotation>
           </xs:element>
           <xs:element name="period" minOccurs="1" maxOccurs="1" type="Period">
@@ -36017,7 +36017,7 @@ RegisteredName | UserFriendlyName | PatientReportedName.</xs:documentation>
           <xs:documentation xml:lang="en">In Progress</xs:documentation>
         </xs:annotation>
       </xs:enumeration>
-      <xs:enumeration value="onhold">
+      <xs:enumeration value="on-hold">
         <xs:annotation>
           <xs:documentation xml:lang="en">On Hold</xs:documentation>
         </xs:annotation>
@@ -46407,7 +46407,7 @@ RegisteredName | UserFriendlyName | PatientReportedName.</xs:documentation>
           </xs:element>
           <xs:element name="location" minOccurs="0" maxOccurs="unbounded" type="CodeableConcept">
             <xs:annotation>
-              <xs:documentation xml:lang="en">The type of location of the constituent within this component e.g. intragranular, blend.</xs:documentation>
+              <xs:documentation xml:lang="en">The physical location of the constituent/ingredient within the component. Example – if the component is the bead in the capsule, then the location would be where the ingredient resides within the product part – intragranular, extra-granular, etc.</xs:documentation>
            </xs:annotation>
           </xs:element>
           <xs:element name="function" minOccurs="0" maxOccurs="unbounded" type="CodeableConcept">
@@ -46415,9 +46415,9 @@ RegisteredName | UserFriendlyName | PatientReportedName.</xs:documentation>
               <xs:documentation xml:lang="en">The function of this constituent within the component e.g. binder.</xs:documentation>
            </xs:annotation>
           </xs:element>
-          <xs:element name="locationForIngredient" minOccurs="0" maxOccurs="unbounded" type="CodeableReference">
+          <xs:element name="hasIngredient" minOccurs="0" maxOccurs="unbounded" type="CodeableReference">
             <xs:annotation>
-              <xs:documentation xml:lang="en">An ingredient that this component is the location for in this manufactured item. The component is physically made of this ingredient (and possibly others), rather than just being a container for it.</xs:documentation>
+              <xs:documentation xml:lang="en">The ingredient that is the constituent of the given component.</xs:documentation>
            </xs:annotation>
           </xs:element>
         </xs:sequence>
@@ -57353,7 +57353,7 @@ Deceased patients may also be marked as inactive for the same reasons, but may b
           </xs:element>
           <xs:element name="relatedArtifact" minOccurs="0" maxOccurs="unbounded" type="RelatedArtifact">
             <xs:annotation>
-              <xs:documentation xml:lang="en">Citations, references and other related documents.</xs:documentation>
+              <xs:documentation xml:lang="en">Citations, references, URLs and other related documents.  When using relatedArtifact to share URLs, the relatedArtifact.type will often be set to one of &quot;documentation&quot; or &quot;supported-with&quot; and the URL value will often be in relatedArtifact.document.url but another possible location is relatedArtifact.resource when it is a canonical URL.</xs:documentation>
            </xs:annotation>
           </xs:element>
           <xs:element name="date" minOccurs="0" maxOccurs="1" type="dateTime">
@@ -57381,7 +57381,7 @@ Deceased patients may also be marked as inactive for the same reasons, but may b
               <xs:documentation xml:lang="en">Codes categorizing the type of study such as investigational vs. observational, type of blinding, type of randomization, safety vs. efficacy, etc.</xs:documentation>
            </xs:annotation>
           </xs:element>
-          <xs:element name="focus" type="ResearchStudy.Focus" minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="focus" minOccurs="0" maxOccurs="unbounded" type="CodeableReference">
             <xs:annotation>
               <xs:documentation xml:lang="en">The medication(s), food(s), therapy(ies), device(s) or other concerns or interventions that the study is seeking to gain more information about.</xs:documentation>
            </xs:annotation>
@@ -57453,7 +57453,7 @@ Deceased patients may also be marked as inactive for the same reasons, but may b
           </xs:element>
           <xs:element name="comparisonGroup" type="ResearchStudy.ComparisonGroup" minOccurs="0" maxOccurs="unbounded">
             <xs:annotation>
-              <xs:documentation xml:lang="en">Describes an expected sequence of events for one of the participants of a study.  E.g. Exposure to drug A, wash-out, exposure to drug B, wash-out, follow-up.</xs:documentation>
+              <xs:documentation xml:lang="en">Describes an expected event or sequence of events for one of the subjects of a study. E.g. for a living subject: exposure to drug A, wash-out, exposure to drug B, wash-out, follow-up. E.g. for a stability study: {store sample from lot A at 25 degrees for 1 month}, {store sample from lot A at 40 degrees for 1 month}.</xs:documentation>
            </xs:annotation>
           </xs:element>
           <xs:element name="objective" type="ResearchStudy.Objective" minOccurs="0" maxOccurs="unbounded">
@@ -57463,17 +57463,12 @@ Deceased patients may also be marked as inactive for the same reasons, but may b
           </xs:element>
           <xs:element name="outcomeMeasure" type="ResearchStudy.OutcomeMeasure" minOccurs="0" maxOccurs="unbounded">
             <xs:annotation>
-              <xs:documentation xml:lang="en">An outcome or planned variable to measure during the study.</xs:documentation>
+              <xs:documentation xml:lang="en">An &quot;outcome measure&quot;, &quot;endpoint&quot;, &quot;effect measure&quot; or &quot;measure of effect&quot; is a specific measurement or observation used to quantify the effect of experimental variables on the participants in a study, or for observational studies, to describe patterns of diseases or traits or associations with exposures, risk factors or treatment.</xs:documentation>
            </xs:annotation>
           </xs:element>
           <xs:element name="result" minOccurs="0" maxOccurs="unbounded" type="Reference">
             <xs:annotation>
               <xs:documentation xml:lang="en">Link to one or more sets of results generated by the study.  Could also link to a research registry holding the results such as ClinicalTrials.gov.</xs:documentation>
-           </xs:annotation>
-          </xs:element>
-          <xs:element name="webLocation" type="ResearchStudy.WebLocation" minOccurs="0" maxOccurs="unbounded">
-            <xs:annotation>
-              <xs:documentation xml:lang="en">A general storage or archive location for the study.  This may contain an assortment of content which is not specified in advance.</xs:documentation>
            </xs:annotation>
           </xs:element>
         </xs:sequence>
@@ -57495,32 +57490,6 @@ Deceased patients may also be marked as inactive for the same reasons, but may b
           <xs:element name="value" minOccurs="0" maxOccurs="1" type="string">
             <xs:annotation>
               <xs:documentation xml:lang="en">The name.</xs:documentation>
-           </xs:annotation>
-          </xs:element>
-        </xs:sequence>
-      </xs:extension>
-    </xs:complexContent>
-  </xs:complexType>
-  <xs:complexType name="ResearchStudy.Focus">
-    <xs:annotation>
-      <xs:documentation xml:lang="en">A scientific study of nature that sometimes includes processes involved in health and disease. For example, clinical trials are research studies that involve people. These studies may be related to new ways to screen, prevent, diagnose, and treat disease. They may also study certain outcomes and certain groups of people by looking at data collected in the past or future.</xs:documentation>
-    </xs:annotation>
-    <xs:complexContent>
-      <xs:extension base="BackboneElement">
-        <xs:sequence>
-          <xs:element name="productCode" minOccurs="0" maxOccurs="1" type="CodeableConcept">
-            <xs:annotation>
-              <xs:documentation xml:lang="en">Identification of product under study.  This may be any combination of code and/or name.</xs:documentation>
-           </xs:annotation>
-          </xs:element>
-          <xs:element name="focusType" minOccurs="0" maxOccurs="unbounded" type="CodeableConcept">
-            <xs:annotation>
-              <xs:documentation xml:lang="en">Indicates whether the focus is a medication, a device, a procedure, a specific factor or some other intervention or characteristic.</xs:documentation>
-           </xs:annotation>
-          </xs:element>
-          <xs:element name="factor" minOccurs="0" maxOccurs="1" type="markdown">
-            <xs:annotation>
-              <xs:documentation xml:lang="en">A factor corresponds to an independent variable manipulated by the experimentalist with the intention to affect biological systems in a way that can be measured by an assay.</xs:documentation>
            </xs:annotation>
           </xs:element>
         </xs:sequence>
@@ -57627,13 +57596,11 @@ Deceased patients may also be marked as inactive for the same reasons, but may b
     <xs:complexContent>
       <xs:extension base="BackboneElement">
         <xs:sequence>
-          <xs:choice minOccurs="0" maxOccurs="1" >
+          <xs:element name="identifier" minOccurs="0" maxOccurs="unbounded" type="Identifier">
             <xs:annotation>
               <xs:documentation xml:lang="en">Allows the comparisonGroup for the study and the comparisonGroup for the subject to be linked easily.</xs:documentation>
-            </xs:annotation>
-            <xs:element name="identifierUri" type="uri"/>
-            <xs:element name="identifierIdentifier" type="Identifier"/>
-          </xs:choice>
+           </xs:annotation>
+          </xs:element>
           <xs:element name="name" minOccurs="1" maxOccurs="1" type="string">
             <xs:annotation>
               <xs:documentation xml:lang="en">Unique, human-readable label for this comparisonGroup of the study.</xs:documentation>
@@ -57714,27 +57681,6 @@ Deceased patients may also be marked as inactive for the same reasons, but may b
           <xs:element name="reference" minOccurs="0" maxOccurs="1" type="Reference">
             <xs:annotation>
               <xs:documentation xml:lang="en">Structured outcome definition.</xs:documentation>
-           </xs:annotation>
-          </xs:element>
-        </xs:sequence>
-      </xs:extension>
-    </xs:complexContent>
-  </xs:complexType>
-  <xs:complexType name="ResearchStudy.WebLocation">
-    <xs:annotation>
-      <xs:documentation xml:lang="en">A scientific study of nature that sometimes includes processes involved in health and disease. For example, clinical trials are research studies that involve people. These studies may be related to new ways to screen, prevent, diagnose, and treat disease. They may also study certain outcomes and certain groups of people by looking at data collected in the past or future.</xs:documentation>
-    </xs:annotation>
-    <xs:complexContent>
-      <xs:extension base="BackboneElement">
-        <xs:sequence>
-          <xs:element name="classifier" minOccurs="0" maxOccurs="1" type="CodeableConcept">
-            <xs:annotation>
-              <xs:documentation xml:lang="en">Describes the nature of the location being specified.</xs:documentation>
-           </xs:annotation>
-          </xs:element>
-          <xs:element name="url" minOccurs="1" maxOccurs="1" type="uri">
-            <xs:annotation>
-              <xs:documentation xml:lang="en">The location address.</xs:documentation>
            </xs:annotation>
           </xs:element>
         </xs:sequence>
@@ -61155,6 +61101,11 @@ Deceased patients may also be marked as inactive for the same reasons, but may b
               <xs:documentation xml:lang="en">Moiety, for structural modifications.</xs:documentation>
            </xs:annotation>
           </xs:element>
+          <xs:element name="characterization" type="SubstanceDefinition.Characterization" minOccurs="0" maxOccurs="unbounded">
+            <xs:annotation>
+              <xs:documentation xml:lang="en">General specifications for this substance.</xs:documentation>
+           </xs:annotation>
+          </xs:element>
           <xs:element name="property" type="SubstanceDefinition.Property" minOccurs="0" maxOccurs="unbounded">
             <xs:annotation>
               <xs:documentation xml:lang="en">General specifications for this substance.</xs:documentation>
@@ -61267,6 +61218,39 @@ Deceased patients may also be marked as inactive for the same reasons, but may b
       </xs:extension>
     </xs:complexContent>
   </xs:complexType>
+  <xs:complexType name="SubstanceDefinition.Characterization">
+    <xs:annotation>
+      <xs:documentation xml:lang="en">The detailed description of a substance, typically at a level beyond what is used for prescribing.</xs:documentation>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="BackboneElement">
+        <xs:sequence>
+          <xs:choice minOccurs="0" maxOccurs="1" >
+            <xs:annotation>
+              <xs:documentation xml:lang="en">A code expressing the type of property.</xs:documentation>
+            </xs:annotation>
+            <xs:element name="imageAttachment" type="Attachment"/>
+            <xs:element name="imageReference" type="Reference"/>
+          </xs:choice>
+          <xs:element name="form" minOccurs="0" maxOccurs="1" type="CodeableConcept">
+            <xs:annotation>
+              <xs:documentation xml:lang="en">The specific chemical entity of the substance being characterized, to distinguish for example salt or base.</xs:documentation>
+           </xs:annotation>
+          </xs:element>
+          <xs:element name="technique" minOccurs="0" maxOccurs="1" type="CodeableConcept">
+            <xs:annotation>
+              <xs:documentation xml:lang="en">The method used to elucidate the characterization of the drug substance. Example: HPLC.</xs:documentation>
+           </xs:annotation>
+          </xs:element>
+          <xs:element name="description" minOccurs="0" maxOccurs="1" type="string">
+            <xs:annotation>
+              <xs:documentation xml:lang="en">Narrative text about the characterization.</xs:documentation>
+           </xs:annotation>
+          </xs:element>
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
   <xs:complexType name="SubstanceDefinition.Property">
     <xs:annotation>
       <xs:documentation xml:lang="en">The detailed description of a substance, typically at a level beyond what is used for prescribing.</xs:documentation>
@@ -61353,7 +61337,7 @@ Deceased patients may also be marked as inactive for the same reasons, but may b
           </xs:element>
           <xs:element name="technique" minOccurs="0" maxOccurs="unbounded" type="CodeableConcept">
             <xs:annotation>
-              <xs:documentation xml:lang="en">The method used to elucidate the structure or characterization of the drug substance. Examples: X-ray, HPLC, NMR, Peptide mapping, Ligand binding assay.</xs:documentation>
+              <xs:documentation xml:lang="en">The method used to elucidate the structure of the drug substance. Examples: X-ray, NMR, Peptide mapping, Ligand binding assay.</xs:documentation>
            </xs:annotation>
           </xs:element>
           <xs:element name="sourceDocument" minOccurs="0" maxOccurs="unbounded" type="Reference">
@@ -61363,7 +61347,7 @@ Deceased patients may also be marked as inactive for the same reasons, but may b
           </xs:element>
           <xs:element name="representation" type="SubstanceDefinition.Representation" minOccurs="0" maxOccurs="unbounded">
             <xs:annotation>
-              <xs:documentation xml:lang="en">A depiction of the structure or characterization of the substance.</xs:documentation>
+              <xs:documentation xml:lang="en">A depiction of the structure of the substance.</xs:documentation>
            </xs:annotation>
           </xs:element>
         </xs:sequence>
@@ -61384,7 +61368,7 @@ Deceased patients may also be marked as inactive for the same reasons, but may b
           </xs:element>
           <xs:element name="representation" minOccurs="0" maxOccurs="1" type="string">
             <xs:annotation>
-              <xs:documentation xml:lang="en">The structural representation or characterization as a text string in a standard format.</xs:documentation>
+              <xs:documentation xml:lang="en">The structural representation as a text string in a standard format.</xs:documentation>
            </xs:annotation>
           </xs:element>
           <xs:element name="format" minOccurs="0" maxOccurs="1" type="CodeableConcept">
@@ -61394,7 +61378,7 @@ Deceased patients may also be marked as inactive for the same reasons, but may b
           </xs:element>
           <xs:element name="document" minOccurs="0" maxOccurs="1" type="Reference">
             <xs:annotation>
-              <xs:documentation xml:lang="en">An attached file with the structural representation or characterization e.g. a molecular structure graphic of the substance, a JCAMP or AnIML file.</xs:documentation>
+              <xs:documentation xml:lang="en">An attached file with the structural representation e.g. a molecular structure graphic of the substance, a JCAMP or AnIML file.</xs:documentation>
            </xs:annotation>
           </xs:element>
         </xs:sequence>
