@@ -41,6 +41,13 @@
         <name value="Common Languages in Australia" />
         <description value="The Common Languages in Australia value set includes languages that are commonly encountered in Australia, including a comprehensive set of Australian Indigenous languages." />
       </resource>
+      <resource>
+        <reference>
+          <reference value="ValueSet/date-accuracy-indicator-1" />
+        </reference>
+        <name value="Date Accuracy Indicator" />
+        <description value="The Date Accuracy Indicator value set includes values that indicate the accuracy of components of a reported date." />
+      </resource>
 
     <!-- CodeSystem definitions-->
       <resource>
@@ -49,6 +56,13 @@
         </reference>
         <name value="Australian Indigenous Status" />
         <description value="The Australian Indigenous Status code system defines concepts to support the representation of a person's Indigenous status. That is, whether a person identifies as being of Aboriginal or Torres Strait Islander origin, as represented by a code. The concepts defined in this code system are equivalent to those defined in the METeOR value domains for Person Indigenous status code N for http://meteor.aihw.gov.au/content/index.phtml/itemId/602545, http://meteor.aihw.gov.au/content/index.phtml/itemId/270885, and http://meteor.aihw.gov.au/content/index.phtml/itemId/291036."/>
+      </resource>
+      <resource>
+        <reference>
+          <reference value="CodeSystem/date-accuracy-indicator-1" />
+        </reference>
+        <name value="Date Accuracy Indicator" />
+        <description value="The Date Accuracy Indicator code system defines concepts that indicate the accuracy of components of a reported date. The concepts defined in this code system are equivalent to those defined in the METeOR value domains for Date—accuracy indicator, code AAA (http://meteor.aihw.gov.au/content/index.phtml/itemId/294429)." />
       </resource>
       
     <page>
@@ -141,6 +155,14 @@
     <parameter>
       <code value="special-url" />
       <value value="https://healthterminologies.gov.au/fhir/ValueSet/common-languages-australia-2" />
+    </parameter>
+    <parameter>
+      <code value="special-url" />
+      <value value="https://healthterminologies.gov.au/fhir/ValueSet/date-accuracy-indicator-1" />
+    </parameter>
+    <parameter>
+      <code value="special-url" />
+      <value value="https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1" />
     </parameter>
   </definition>
 </ImplementationGuide>
