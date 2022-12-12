@@ -145,6 +145,10 @@
       <value value="input/resources/CodeSystem/" />
     </parameter>
     <parameter>
+      <code value="apply-version" />
+      <value value="false" />
+    </parameter>
+    <parameter>
       <code value="special-url" />
       <value value="https://healthterminologies.gov.au/fhir/CodeSystem/australian-indigenous-status-1"/>
     </parameter>
