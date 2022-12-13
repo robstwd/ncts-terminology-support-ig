@@ -1,0 +1,65 @@
+{
+  // See https://go.microsoft.com/fwlink/?LinkId=733558
+  // for the documentation about the tasks.json format
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Run FHIR IG Publisher build",
+      "type": "shell",
+      "command": "java -jar ~/Documents/PC_stuff/software/FHIR/publisher/publisher-1.2.22.jar -ig ig.ini",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    },
+    {
+      "label": "Validate FHIR resource type against R4",
+      "type": "shell",
+      "command": "java -jar ~/Documents/PC_stuff/software/FHIR/validator/validator_cli.jar -version 4.0.1 -sct au input/${input:resourceType}-*xml",
+      "group": "test"
+    },
+    {
+      "label": "Validate all AU Base examples against R4",
+      "type": "shell",
+      "command": "java -jar ~/Documents/PC_stuff/software/FHIR/validator/validator_cli.jar -version 4.0.1 -sct au input/examples/*.xml",
+      "group": "test"
+    },
+    {
+      "label": "Validate the open FHIR resource against R4",
+      "type": "shell",
+      "command": "java -jar ~/Documents/PC_stuff/software/FHIR/validator/validator_cli.jar -version 4.0.1 -sct au input/resources/${fileBasename}",
+      "group": "test",
+      "problemMatcher": {
+        "owner": "demo",
+        "pattern": [{
+          "regexp": "^  (Error) @ (.+): (.+)$",
+          "file": 1,
+          "line": 2,
+          "message": 3
+        }
+      ]
+      }
+    },
+    {
+      "label": "Validate the open FHIR example against R4",
+      "type": "shell",
+      "command": "java -jar ~/Documents/PC_stuff/software/FHIR/validator/validator_cli.jar -version 4.0.1 -sct au input/examples/${fileBasename}",
+      "group": "test"
+    }
+  ],
+  "inputs": [
+    {
+      "type": "pickString",
+      "id": "resourceType",
+      "description": "What FHIR resource type do you want to validate?",
+      "options": [
+        "resources/valueset",
+        "resources/codesystem",
+        "resources/structuredefinition",
+        "resources/au"
+      ],
+      "default": "resources/au"
+    }
+  ]
+
+}
