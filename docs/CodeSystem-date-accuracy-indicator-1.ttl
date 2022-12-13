@@ -1,0 +1,207 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://github.com/robswtd/fhir/ig/CodeSystem/date-accuracy-indicator-1> a fhir:CodeSystem;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "date-accuracy-indicator-1"]; # 
+  fhir:Resource.meta [
+     fhir:Meta.versionId [ fhir:value "1" ];
+     fhir:Meta.lastUpdated [ fhir:value "2022-11-24T05:55:33.697+00:00"^^xsd:dateTime ];
+     fhir:Meta.profile [
+       fhir:value "http://hl7.org/fhir/StructureDefinition/shareablecodesystem";
+       fhir:index 0;
+       fhir:link <http://hl7.org/fhir/StructureDefinition/shareablecodesystem>
+     ]
+  ]; # 
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n            <h2>Date Accuracy Indicator</h2>\n            <tt>https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1</tt>\n            <p>The Date Accuracy Indicator code system defines concepts that indicate the accuracy of components of a reported date. The concepts defined in this code system are equivalent to those defined in the METeOR value domains for Date—accuracy indicator, code AAA (http://meteor.aihw.gov.au/content/index.phtml/itemId/294429).</p>\n        </div>"
+  ]; # 
+  fhir:CodeSystem.url [ fhir:value "https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1"]; # 
+  fhir:CodeSystem.identifier [
+     fhir:index 0;
+     fhir:Identifier.system [ fhir:value "urn:ietf:rfc:3986" ];
+     fhir:Identifier.value [ fhir:value "urn:oid:1.2.36.1.2001.1004.200.10014" ]
+  ]; # 
+  fhir:CodeSystem.version [ fhir:value "1.0.3"]; # 
+  fhir:CodeSystem.name [ fhir:value "DateAccuracyIndicator"]; # 
+  fhir:CodeSystem.title [ fhir:value "Date Accuracy Indicator"]; # 
+  fhir:CodeSystem.status [ fhir:value "active"]; # 
+  fhir:CodeSystem.experimental [ fhir:value "false"^^xsd:boolean]; # 
+  fhir:CodeSystem.date [ fhir:value "2020-05-31"^^xsd:date]; # 
+  fhir:CodeSystem.publisher [ fhir:value "Rob Eastwood (himself)"]; # 
+  fhir:CodeSystem.contact [
+     fhir:index 0;
+     fhir:ContactDetail.telecom [
+       fhir:index 0;
+       fhir:ContactPoint.system [ fhir:value "url" ];
+       fhir:ContactPoint.value [ fhir:value "https://github.com/robstwd" ]
+     ]
+  ]; # 
+  fhir:CodeSystem.description [ fhir:value "The Date Accuracy Indicator code system defines concepts that indicate the accuracy of components of a reported date. The concepts defined in this code system are equivalent to those defined in the METeOR value domains for Date—accuracy indicator, code AAA (http://meteor.aihw.gov.au/content/index.phtml/itemId/294429)."]; # 
+  fhir:CodeSystem.jurisdiction [
+     fhir:index 0;
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "urn:iso:std:iso:3166" ];
+       fhir:Coding.code [ fhir:value "AU" ]
+     ]
+  ]; # 
+  fhir:CodeSystem.copyright [ fhir:value "Copyright © 2018 Australian Digital Health Agency - All rights reserved. Except for the material identified below, this content is licensed under a Creative Commons Attribution 4.0 International License. See https://creativecommons.org/licenses/by/4.0/. \n\nThis resource includes material that is based on Australian Institute of Health and Welfare material. \n\nAll copies of this resource must include this copyright statement and all information contained in this statement."]; # 
+  fhir:CodeSystem.caseSensitive [ fhir:value "false"^^xsd:boolean]; # 
+  fhir:CodeSystem.valueSet [
+     fhir:value "https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1/vs";
+     fhir:link <https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1/vs>
+  ]; # 
+  fhir:CodeSystem.compositional [ fhir:value "false"^^xsd:boolean]; # 
+  fhir:CodeSystem.versionNeeded [ fhir:value "false"^^xsd:boolean]; # 
+  fhir:CodeSystem.content [ fhir:value "complete"]; # 
+  fhir:CodeSystem.count [ fhir:value "27"^^xsd:nonNegativeInteger]; # 
+  fhir:CodeSystem.concept [
+     fhir:index 0;
+     fhir:CodeSystem.concept.code [ fhir:value "AAA" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Day, month and year are accurate" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "Day, month and year are accurate" ]
+  ], [
+     fhir:index 1;
+     fhir:CodeSystem.concept.code [ fhir:value "AAE" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Day and month are accurate, year is estimated" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "Day and month are accurate, year is estimated" ]
+  ], [
+     fhir:index 2;
+     fhir:CodeSystem.concept.code [ fhir:value "AAU" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Day and month are accurate, year is unknown" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "Day and month are accurate, year is unknown" ]
+  ], [
+     fhir:index 3;
+     fhir:CodeSystem.concept.code [ fhir:value "AEA" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Day is accurate, month is estimated, year is accurate" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "Day is accurate, month is estimated, year is accurate" ]
+  ], [
+     fhir:index 4;
+     fhir:CodeSystem.concept.code [ fhir:value "AEE" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Day is accurate, month and year are estimated" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "Day is accurate, month and year are estimated" ]
+  ], [
+     fhir:index 5;
+     fhir:CodeSystem.concept.code [ fhir:value "AEU" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Day is accurate, month is estimated, year is unknown" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "Day is accurate, month is estimated, year is unknown" ]
+  ], [
+     fhir:index 6;
+     fhir:CodeSystem.concept.code [ fhir:value "AUA" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Day is accurate, month is unknown, year is accurate" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "Day is accurate, month is unknown, year is accurate" ]
+  ], [
+     fhir:index 7;
+     fhir:CodeSystem.concept.code [ fhir:value "AUE" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Day is accurate, month is unknown, year is estimated" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "Day is accurate, month is unknown, year is estimated" ]
+  ], [
+     fhir:index 8;
+     fhir:CodeSystem.concept.code [ fhir:value "AUU" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Day is accurate, month and year are unknown" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "Day is accurate, month and year are unknown" ]
+  ], [
+     fhir:index 9;
+     fhir:CodeSystem.concept.code [ fhir:value "EAA" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Day is estimated, month and year are accurate" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "Day is estimated, month and year are accurate" ]
+  ], [
+     fhir:index 10;
+     fhir:CodeSystem.concept.code [ fhir:value "EAE" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Day is estimated, month is accurate, year is estimated" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "Day is estimated, month is accurate, year is estimated" ]
+  ], [
+     fhir:index 11;
+     fhir:CodeSystem.concept.code [ fhir:value "EAU" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Day is estimated, month is accurate, year is unknown" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "Day is estimated, month is accurate, year is unknown" ]
+  ], [
+     fhir:index 12;
+     fhir:CodeSystem.concept.code [ fhir:value "EEA" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Day and month are estimated, year is accurate" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "Day and month are estimated, year is accurate" ]
+  ], [
+     fhir:index 13;
+     fhir:CodeSystem.concept.code [ fhir:value "EEE" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Day, month and year are estimated" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "Day, month and year are estimated" ]
+  ], [
+     fhir:index 14;
+     fhir:CodeSystem.concept.code [ fhir:value "EEU" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Day and month are estimated, year is unknown" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "Day and month are estimated, year is unknown" ]
+  ], [
+     fhir:index 15;
+     fhir:CodeSystem.concept.code [ fhir:value "EUA" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Day is estimated, month is unknown, year is accurate" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "Day is estimated, month is unknown, year is accurate" ]
+  ], [
+     fhir:index 16;
+     fhir:CodeSystem.concept.code [ fhir:value "EUE" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Day is estimated, month is unknown, year is estimated" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "Day is estimated, month is unknown, year is estimated" ]
+  ], [
+     fhir:index 17;
+     fhir:CodeSystem.concept.code [ fhir:value "EUU" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Day is estimated, month and year are unknown" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "Day is estimated, month and year are unknown" ]
+  ], [
+     fhir:index 18;
+     fhir:CodeSystem.concept.code [ fhir:value "UAA" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Day is unknown, month and year are accurate" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "Day is unknown, month and year are accurate" ]
+  ], [
+     fhir:index 19;
+     fhir:CodeSystem.concept.code [ fhir:value "UAE" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Day is unknown, month is accurate, year is estimated" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "Day is unknown, month is accurate, year is estimated" ]
+  ], [
+     fhir:index 20;
+     fhir:CodeSystem.concept.code [ fhir:value "UAU" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Day is unknown, month is accurate, year is unknown" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "Day is unknown, month is accurate, year is unknown" ]
+  ], [
+     fhir:index 21;
+     fhir:CodeSystem.concept.code [ fhir:value "UEA" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Day is unknown, month is estimated, year is accurate" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "Day is unknown, month is estimated, year is accurate" ]
+  ], [
+     fhir:index 22;
+     fhir:CodeSystem.concept.code [ fhir:value "UEE" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Day is unknown, month and year are estimated" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "Day is unknown, month and year are estimated" ]
+  ], [
+     fhir:index 23;
+     fhir:CodeSystem.concept.code [ fhir:value "UEU" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Day is unknown, month is estimated, year is unknown" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "Day is unknown, month is estimated, year is unknown" ]
+  ], [
+     fhir:index 24;
+     fhir:CodeSystem.concept.code [ fhir:value "UUA" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Day and month are unknown, year is accurate" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "Day and month are unknown, year is accurate" ]
+  ], [
+     fhir:index 25;
+     fhir:CodeSystem.concept.code [ fhir:value "UUE" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Day and month are unknown, year is estimated" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "Day and month are unknown, year is estimated" ]
+  ], [
+     fhir:index 26;
+     fhir:CodeSystem.concept.code [ fhir:value "UUU" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Day, month and year are unknown" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "Day, month and year are unknown" ]
+  ] . # 
+
+# - ontology header ------------------------------------------------------------
+
+<https://github.com/robswtd/fhir/ig/CodeSystem/date-accuracy-indicator-1.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

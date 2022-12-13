@@ -1,0 +1,180 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "date-accuracy-indicator-1",
+  "meta" : {
+    "versionId" : "1",
+    "lastUpdated" : "2022-11-24T05:55:33.697+00:00",
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
+  },
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n            <h2>Date Accuracy Indicator</h2>\n            <tt>https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1</tt>\n            <p>The Date Accuracy Indicator code system defines concepts that indicate the accuracy of components of a reported date. The concepts defined in this code system are equivalent to those defined in the METeOR value domains for Date—accuracy indicator, code AAA (http://meteor.aihw.gov.au/content/index.phtml/itemId/294429).</p>\n        </div>"
+  },
+  "url" : "https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1",
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.2.36.1.2001.1004.200.10014"
+  }],
+  "version" : "1.0.3",
+  "name" : "DateAccuracyIndicator",
+  "title" : "Date Accuracy Indicator",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2020-05-31",
+  "publisher" : "Rob Eastwood (himself)",
+  "contact" : [{
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://github.com/robstwd"
+    }]
+  }],
+  "description" : "The Date Accuracy Indicator code system defines concepts that indicate the accuracy of components of a reported date. The concepts defined in this code system are equivalent to those defined in the METeOR value domains for Date—accuracy indicator, code AAA (http://meteor.aihw.gov.au/content/index.phtml/itemId/294429).",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "AU"
+    }]
+  }],
+  "copyright" : "Copyright © 2018 Australian Digital Health Agency - All rights reserved. Except for the material identified below, this content is licensed under a Creative Commons Attribution 4.0 International License. See https://creativecommons.org/licenses/by/4.0/. \n\nThis resource includes material that is based on Australian Institute of Health and Welfare material. \n\nAll copies of this resource must include this copyright statement and all information contained in this statement.",
+  "caseSensitive" : false,
+  "valueSet" : "https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1/vs",
+  "compositional" : false,
+  "versionNeeded" : false,
+  "content" : "complete",
+  "count" : 27,
+  "concept" : [{
+    "code" : "AAA",
+    "display" : "Day, month and year are accurate",
+    "definition" : "Day, month and year are accurate"
+  },
+  {
+    "code" : "AAE",
+    "display" : "Day and month are accurate, year is estimated",
+    "definition" : "Day and month are accurate, year is estimated"
+  },
+  {
+    "code" : "AAU",
+    "display" : "Day and month are accurate, year is unknown",
+    "definition" : "Day and month are accurate, year is unknown"
+  },
+  {
+    "code" : "AEA",
+    "display" : "Day is accurate, month is estimated, year is accurate",
+    "definition" : "Day is accurate, month is estimated, year is accurate"
+  },
+  {
+    "code" : "AEE",
+    "display" : "Day is accurate, month and year are estimated",
+    "definition" : "Day is accurate, month and year are estimated"
+  },
+  {
+    "code" : "AEU",
+    "display" : "Day is accurate, month is estimated, year is unknown",
+    "definition" : "Day is accurate, month is estimated, year is unknown"
+  },
+  {
+    "code" : "AUA",
+    "display" : "Day is accurate, month is unknown, year is accurate",
+    "definition" : "Day is accurate, month is unknown, year is accurate"
+  },
+  {
+    "code" : "AUE",
+    "display" : "Day is accurate, month is unknown, year is estimated",
+    "definition" : "Day is accurate, month is unknown, year is estimated"
+  },
+  {
+    "code" : "AUU",
+    "display" : "Day is accurate, month and year are unknown",
+    "definition" : "Day is accurate, month and year are unknown"
+  },
+  {
+    "code" : "EAA",
+    "display" : "Day is estimated, month and year are accurate",
+    "definition" : "Day is estimated, month and year are accurate"
+  },
+  {
+    "code" : "EAE",
+    "display" : "Day is estimated, month is accurate, year is estimated",
+    "definition" : "Day is estimated, month is accurate, year is estimated"
+  },
+  {
+    "code" : "EAU",
+    "display" : "Day is estimated, month is accurate, year is unknown",
+    "definition" : "Day is estimated, month is accurate, year is unknown"
+  },
+  {
+    "code" : "EEA",
+    "display" : "Day and month are estimated, year is accurate",
+    "definition" : "Day and month are estimated, year is accurate"
+  },
+  {
+    "code" : "EEE",
+    "display" : "Day, month and year are estimated",
+    "definition" : "Day, month and year are estimated"
+  },
+  {
+    "code" : "EEU",
+    "display" : "Day and month are estimated, year is unknown",
+    "definition" : "Day and month are estimated, year is unknown"
+  },
+  {
+    "code" : "EUA",
+    "display" : "Day is estimated, month is unknown, year is accurate",
+    "definition" : "Day is estimated, month is unknown, year is accurate"
+  },
+  {
+    "code" : "EUE",
+    "display" : "Day is estimated, month is unknown, year is estimated",
+    "definition" : "Day is estimated, month is unknown, year is estimated"
+  },
+  {
+    "code" : "EUU",
+    "display" : "Day is estimated, month and year are unknown",
+    "definition" : "Day is estimated, month and year are unknown"
+  },
+  {
+    "code" : "UAA",
+    "display" : "Day is unknown, month and year are accurate",
+    "definition" : "Day is unknown, month and year are accurate"
+  },
+  {
+    "code" : "UAE",
+    "display" : "Day is unknown, month is accurate, year is estimated",
+    "definition" : "Day is unknown, month is accurate, year is estimated"
+  },
+  {
+    "code" : "UAU",
+    "display" : "Day is unknown, month is accurate, year is unknown",
+    "definition" : "Day is unknown, month is accurate, year is unknown"
+  },
+  {
+    "code" : "UEA",
+    "display" : "Day is unknown, month is estimated, year is accurate",
+    "definition" : "Day is unknown, month is estimated, year is accurate"
+  },
+  {
+    "code" : "UEE",
+    "display" : "Day is unknown, month and year are estimated",
+    "definition" : "Day is unknown, month and year are estimated"
+  },
+  {
+    "code" : "UEU",
+    "display" : "Day is unknown, month is estimated, year is unknown",
+    "definition" : "Day is unknown, month is estimated, year is unknown"
+  },
+  {
+    "code" : "UUA",
+    "display" : "Day and month are unknown, year is accurate",
+    "definition" : "Day and month are unknown, year is accurate"
+  },
+  {
+    "code" : "UUE",
+    "display" : "Day and month are unknown, year is estimated",
+    "definition" : "Day and month are unknown, year is estimated"
+  },
+  {
+    "code" : "UUU",
+    "display" : "Day, month and year are unknown",
+    "definition" : "Day, month and year are unknown"
+  }]
+}

@@ -1,0 +1,2037 @@
+{
+  "resourceType" : "Bundle",
+  "id" : "5ac6cf4b-1091-488c-b8c7-843c753d4013",
+  "meta" : {
+    "lastUpdated" : "2022-12-13T20:43:27.997+00:00"
+  },
+  "type" : "collection",
+  "entry" : [{
+    "fullUrl" : "https://healthterminologies.gov.au/fhir/ValueSet/date-accuracy-indicator-1",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "id" : "date-accuracy-indicator-1",
+      "meta" : {
+        "versionId" : "1",
+        "lastUpdated" : "2022-11-24T05:55:58.556+00:00",
+        "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
+      },
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 27 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-date-accuracy-indicator-1.html\">Date Accuracy Indicator v1.0.3 (CodeSystem)</a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---healthterminologies.gov.au-fhir-CodeSystem-date-accuracy-indicator-1-AAA\"> </a>  <a href=\"CodeSystem-date-accuracy-indicator-1.html#date-accuracy-indicator-1-AAA\">AAA</a></td><td>https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1</td><td>Day, month and year are accurate</td><td><div><p>Day, month and year are accurate</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---healthterminologies.gov.au-fhir-CodeSystem-date-accuracy-indicator-1-AAE\"> </a>  <a href=\"CodeSystem-date-accuracy-indicator-1.html#date-accuracy-indicator-1-AAE\">AAE</a></td><td>https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1</td><td>Day and month are accurate, year is estimated</td><td><div><p>Day and month are accurate, year is estimated</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---healthterminologies.gov.au-fhir-CodeSystem-date-accuracy-indicator-1-AAU\"> </a>  <a href=\"CodeSystem-date-accuracy-indicator-1.html#date-accuracy-indicator-1-AAU\">AAU</a></td><td>https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1</td><td>Day and month are accurate, year is unknown</td><td><div><p>Day and month are accurate, year is unknown</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---healthterminologies.gov.au-fhir-CodeSystem-date-accuracy-indicator-1-AEA\"> </a>  <a href=\"CodeSystem-date-accuracy-indicator-1.html#date-accuracy-indicator-1-AEA\">AEA</a></td><td>https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1</td><td>Day is accurate, month is estimated, year is accurate</td><td><div><p>Day is accurate, month is estimated, year is accurate</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---healthterminologies.gov.au-fhir-CodeSystem-date-accuracy-indicator-1-AEE\"> </a>  <a href=\"CodeSystem-date-accuracy-indicator-1.html#date-accuracy-indicator-1-AEE\">AEE</a></td><td>https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1</td><td>Day is accurate, month and year are estimated</td><td><div><p>Day is accurate, month and year are estimated</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---healthterminologies.gov.au-fhir-CodeSystem-date-accuracy-indicator-1-AEU\"> </a>  <a href=\"CodeSystem-date-accuracy-indicator-1.html#date-accuracy-indicator-1-AEU\">AEU</a></td><td>https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1</td><td>Day is accurate, month is estimated, year is unknown</td><td><div><p>Day is accurate, month is estimated, year is unknown</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---healthterminologies.gov.au-fhir-CodeSystem-date-accuracy-indicator-1-AUA\"> </a>  <a href=\"CodeSystem-date-accuracy-indicator-1.html#date-accuracy-indicator-1-AUA\">AUA</a></td><td>https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1</td><td>Day is accurate, month is unknown, year is accurate</td><td><div><p>Day is accurate, month is unknown, year is accurate</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---healthterminologies.gov.au-fhir-CodeSystem-date-accuracy-indicator-1-AUE\"> </a>  <a href=\"CodeSystem-date-accuracy-indicator-1.html#date-accuracy-indicator-1-AUE\">AUE</a></td><td>https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1</td><td>Day is accurate, month is unknown, year is estimated</td><td><div><p>Day is accurate, month is unknown, year is estimated</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---healthterminologies.gov.au-fhir-CodeSystem-date-accuracy-indicator-1-AUU\"> </a>  <a href=\"CodeSystem-date-accuracy-indicator-1.html#date-accuracy-indicator-1-AUU\">AUU</a></td><td>https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1</td><td>Day is accurate, month and year are unknown</td><td><div><p>Day is accurate, month and year are unknown</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---healthterminologies.gov.au-fhir-CodeSystem-date-accuracy-indicator-1-EAA\"> </a>  <a href=\"CodeSystem-date-accuracy-indicator-1.html#date-accuracy-indicator-1-EAA\">EAA</a></td><td>https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1</td><td>Day is estimated, month and year are accurate</td><td><div><p>Day is estimated, month and year are accurate</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---healthterminologies.gov.au-fhir-CodeSystem-date-accuracy-indicator-1-EAE\"> </a>  <a href=\"CodeSystem-date-accuracy-indicator-1.html#date-accuracy-indicator-1-EAE\">EAE</a></td><td>https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1</td><td>Day is estimated, month is accurate, year is estimated</td><td><div><p>Day is estimated, month is accurate, year is estimated</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---healthterminologies.gov.au-fhir-CodeSystem-date-accuracy-indicator-1-EAU\"> </a>  <a href=\"CodeSystem-date-accuracy-indicator-1.html#date-accuracy-indicator-1-EAU\">EAU</a></td><td>https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1</td><td>Day is estimated, month is accurate, year is unknown</td><td><div><p>Day is estimated, month is accurate, year is unknown</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---healthterminologies.gov.au-fhir-CodeSystem-date-accuracy-indicator-1-EEA\"> </a>  <a href=\"CodeSystem-date-accuracy-indicator-1.html#date-accuracy-indicator-1-EEA\">EEA</a></td><td>https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1</td><td>Day and month are estimated, year is accurate</td><td><div><p>Day and month are estimated, year is accurate</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---healthterminologies.gov.au-fhir-CodeSystem-date-accuracy-indicator-1-EEE\"> </a>  <a href=\"CodeSystem-date-accuracy-indicator-1.html#date-accuracy-indicator-1-EEE\">EEE</a></td><td>https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1</td><td>Day, month and year are estimated</td><td><div><p>Day, month and year are estimated</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---healthterminologies.gov.au-fhir-CodeSystem-date-accuracy-indicator-1-EEU\"> </a>  <a href=\"CodeSystem-date-accuracy-indicator-1.html#date-accuracy-indicator-1-EEU\">EEU</a></td><td>https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1</td><td>Day and month are estimated, year is unknown</td><td><div><p>Day and month are estimated, year is unknown</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---healthterminologies.gov.au-fhir-CodeSystem-date-accuracy-indicator-1-EUA\"> </a>  <a href=\"CodeSystem-date-accuracy-indicator-1.html#date-accuracy-indicator-1-EUA\">EUA</a></td><td>https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1</td><td>Day is estimated, month is unknown, year is accurate</td><td><div><p>Day is estimated, month is unknown, year is accurate</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---healthterminologies.gov.au-fhir-CodeSystem-date-accuracy-indicator-1-EUE\"> </a>  <a href=\"CodeSystem-date-accuracy-indicator-1.html#date-accuracy-indicator-1-EUE\">EUE</a></td><td>https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1</td><td>Day is estimated, month is unknown, year is estimated</td><td><div><p>Day is estimated, month is unknown, year is estimated</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---healthterminologies.gov.au-fhir-CodeSystem-date-accuracy-indicator-1-EUU\"> </a>  <a href=\"CodeSystem-date-accuracy-indicator-1.html#date-accuracy-indicator-1-EUU\">EUU</a></td><td>https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1</td><td>Day is estimated, month and year are unknown</td><td><div><p>Day is estimated, month and year are unknown</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---healthterminologies.gov.au-fhir-CodeSystem-date-accuracy-indicator-1-UAA\"> </a>  <a href=\"CodeSystem-date-accuracy-indicator-1.html#date-accuracy-indicator-1-UAA\">UAA</a></td><td>https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1</td><td>Day is unknown, month and year are accurate</td><td><div><p>Day is unknown, month and year are accurate</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---healthterminologies.gov.au-fhir-CodeSystem-date-accuracy-indicator-1-UAE\"> </a>  <a href=\"CodeSystem-date-accuracy-indicator-1.html#date-accuracy-indicator-1-UAE\">UAE</a></td><td>https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1</td><td>Day is unknown, month is accurate, year is estimated</td><td><div><p>Day is unknown, month is accurate, year is estimated</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---healthterminologies.gov.au-fhir-CodeSystem-date-accuracy-indicator-1-UAU\"> </a>  <a href=\"CodeSystem-date-accuracy-indicator-1.html#date-accuracy-indicator-1-UAU\">UAU</a></td><td>https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1</td><td>Day is unknown, month is accurate, year is unknown</td><td><div><p>Day is unknown, month is accurate, year is unknown</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---healthterminologies.gov.au-fhir-CodeSystem-date-accuracy-indicator-1-UEA\"> </a>  <a href=\"CodeSystem-date-accuracy-indicator-1.html#date-accuracy-indicator-1-UEA\">UEA</a></td><td>https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1</td><td>Day is unknown, month is estimated, year is accurate</td><td><div><p>Day is unknown, month is estimated, year is accurate</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---healthterminologies.gov.au-fhir-CodeSystem-date-accuracy-indicator-1-UEE\"> </a>  <a href=\"CodeSystem-date-accuracy-indicator-1.html#date-accuracy-indicator-1-UEE\">UEE</a></td><td>https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1</td><td>Day is unknown, month and year are estimated</td><td><div><p>Day is unknown, month and year are estimated</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---healthterminologies.gov.au-fhir-CodeSystem-date-accuracy-indicator-1-UEU\"> </a>  <a href=\"CodeSystem-date-accuracy-indicator-1.html#date-accuracy-indicator-1-UEU\">UEU</a></td><td>https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1</td><td>Day is unknown, month is estimated, year is unknown</td><td><div><p>Day is unknown, month is estimated, year is unknown</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---healthterminologies.gov.au-fhir-CodeSystem-date-accuracy-indicator-1-UUA\"> </a>  <a href=\"CodeSystem-date-accuracy-indicator-1.html#date-accuracy-indicator-1-UUA\">UUA</a></td><td>https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1</td><td>Day and month are unknown, year is accurate</td><td><div><p>Day and month are unknown, year is accurate</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---healthterminologies.gov.au-fhir-CodeSystem-date-accuracy-indicator-1-UUE\"> </a>  <a href=\"CodeSystem-date-accuracy-indicator-1.html#date-accuracy-indicator-1-UUE\">UUE</a></td><td>https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1</td><td>Day and month are unknown, year is estimated</td><td><div><p>Day and month are unknown, year is estimated</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---healthterminologies.gov.au-fhir-CodeSystem-date-accuracy-indicator-1-UUU\"> </a>  <a href=\"CodeSystem-date-accuracy-indicator-1.html#date-accuracy-indicator-1-UUU\">UUU</a></td><td>https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1</td><td>Day, month and year are unknown</td><td><div><p>Day, month and year are unknown</p>\n</div></td></tr></table></div>"
+      },
+      "url" : "https://healthterminologies.gov.au/fhir/ValueSet/date-accuracy-indicator-1",
+      "identifier" : [{
+        "system" : "urn:ietf:rfc:3986",
+        "value" : "urn:oid:1.2.36.1.2001.1004.201.10004"
+      }],
+      "version" : "1.0.2",
+      "name" : "DateAccuracyIndicator",
+      "title" : "Date Accuracy Indicator",
+      "status" : "active",
+      "experimental" : false,
+      "date" : "2020-05-31",
+      "publisher" : "Rob Eastwood (himself)",
+      "contact" : [{
+        "telecom" : [{
+          "system" : "url",
+          "value" : "https://github.com/robstwd"
+        }]
+      }],
+      "description" : "The Date Accuracy Indicator value set includes values that indicate the accuracy of components of a reported date.",
+      "jurisdiction" : [{
+        "coding" : [{
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "AU"
+        }]
+      }],
+      "copyright" : "Copyright © 2018 Australian Digital Health Agency - All rights reserved. Except for the material identified below, this content is licensed under a Creative Commons Attribution 4.0 International License. See https://creativecommons.org/licenses/by/4.0/. \n\nThis resource includes material that is based on Australian Institute of Health and Welfare material. \n\nAll copies of this resource must include this copyright statement and all information contained in this statement.",
+      "expansion" : {
+        "identifier" : "urn:uuid:6a0f9ed1-1dbd-46d3-872a-f64ac471c454",
+        "timestamp" : "2022-12-13T20:43:35+00:00",
+        "total" : 27,
+        "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "version",
+          "valueUri" : "https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1|1.0.3"
+        }],
+        "contains" : [{
+          "system" : "https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1",
+          "code" : "AAA",
+          "display" : "Day, month and year are accurate"
+        },
+        {
+          "system" : "https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1",
+          "code" : "AAE",
+          "display" : "Day and month are accurate, year is estimated"
+        },
+        {
+          "system" : "https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1",
+          "code" : "AAU",
+          "display" : "Day and month are accurate, year is unknown"
+        },
+        {
+          "system" : "https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1",
+          "code" : "AEA",
+          "display" : "Day is accurate, month is estimated, year is accurate"
+        },
+        {
+          "system" : "https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1",
+          "code" : "AEE",
+          "display" : "Day is accurate, month and year are estimated"
+        },
+        {
+          "system" : "https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1",
+          "code" : "AEU",
+          "display" : "Day is accurate, month is estimated, year is unknown"
+        },
+        {
+          "system" : "https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1",
+          "code" : "AUA",
+          "display" : "Day is accurate, month is unknown, year is accurate"
+        },
+        {
+          "system" : "https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1",
+          "code" : "AUE",
+          "display" : "Day is accurate, month is unknown, year is estimated"
+        },
+        {
+          "system" : "https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1",
+          "code" : "AUU",
+          "display" : "Day is accurate, month and year are unknown"
+        },
+        {
+          "system" : "https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1",
+          "code" : "EAA",
+          "display" : "Day is estimated, month and year are accurate"
+        },
+        {
+          "system" : "https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1",
+          "code" : "EAE",
+          "display" : "Day is estimated, month is accurate, year is estimated"
+        },
+        {
+          "system" : "https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1",
+          "code" : "EAU",
+          "display" : "Day is estimated, month is accurate, year is unknown"
+        },
+        {
+          "system" : "https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1",
+          "code" : "EEA",
+          "display" : "Day and month are estimated, year is accurate"
+        },
+        {
+          "system" : "https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1",
+          "code" : "EEE",
+          "display" : "Day, month and year are estimated"
+        },
+        {
+          "system" : "https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1",
+          "code" : "EEU",
+          "display" : "Day and month are estimated, year is unknown"
+        },
+        {
+          "system" : "https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1",
+          "code" : "EUA",
+          "display" : "Day is estimated, month is unknown, year is accurate"
+        },
+        {
+          "system" : "https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1",
+          "code" : "EUE",
+          "display" : "Day is estimated, month is unknown, year is estimated"
+        },
+        {
+          "system" : "https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1",
+          "code" : "EUU",
+          "display" : "Day is estimated, month and year are unknown"
+        },
+        {
+          "system" : "https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1",
+          "code" : "UAA",
+          "display" : "Day is unknown, month and year are accurate"
+        },
+        {
+          "system" : "https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1",
+          "code" : "UAE",
+          "display" : "Day is unknown, month is accurate, year is estimated"
+        },
+        {
+          "system" : "https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1",
+          "code" : "UAU",
+          "display" : "Day is unknown, month is accurate, year is unknown"
+        },
+        {
+          "system" : "https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1",
+          "code" : "UEA",
+          "display" : "Day is unknown, month is estimated, year is accurate"
+        },
+        {
+          "system" : "https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1",
+          "code" : "UEE",
+          "display" : "Day is unknown, month and year are estimated"
+        },
+        {
+          "system" : "https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1",
+          "code" : "UEU",
+          "display" : "Day is unknown, month is estimated, year is unknown"
+        },
+        {
+          "system" : "https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1",
+          "code" : "UUA",
+          "display" : "Day and month are unknown, year is accurate"
+        },
+        {
+          "system" : "https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1",
+          "code" : "UUE",
+          "display" : "Day and month are unknown, year is estimated"
+        },
+        {
+          "system" : "https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1",
+          "code" : "UUU",
+          "display" : "Day, month and year are unknown"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "https://healthterminologies.gov.au/fhir/ValueSet/australian-indigenous-status-1",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "id" : "australian-indigenous-status-1",
+      "meta" : {
+        "versionId" : "1",
+        "lastUpdated" : "2022-11-24T05:55:56.660+00:00",
+        "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
+      },
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 5 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-australian-indigenous-status-1.html\">Australian Indigenous Status v1.0.3 (CodeSystem)</a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---healthterminologies.gov.au-fhir-CodeSystem-australian-indigenous-status-1-1\"> </a>  <a href=\"CodeSystem-australian-indigenous-status-1.html#australian-indigenous-status-1-1\">1</a></td><td>https://healthterminologies.gov.au/fhir/CodeSystem/australian-indigenous-status-1</td><td>Aboriginal but not Torres Strait Islander origin</td><td><div><p>Aboriginal but not Torres Strait Islander origin</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---healthterminologies.gov.au-fhir-CodeSystem-australian-indigenous-status-1-2\"> </a>  <a href=\"CodeSystem-australian-indigenous-status-1.html#australian-indigenous-status-1-2\">2</a></td><td>https://healthterminologies.gov.au/fhir/CodeSystem/australian-indigenous-status-1</td><td>Torres Strait Islander but not Aboriginal origin</td><td><div><p>Torres Strait Islander but not Aboriginal origin</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---healthterminologies.gov.au-fhir-CodeSystem-australian-indigenous-status-1-3\"> </a>  <a href=\"CodeSystem-australian-indigenous-status-1.html#australian-indigenous-status-1-3\">3</a></td><td>https://healthterminologies.gov.au/fhir/CodeSystem/australian-indigenous-status-1</td><td>Both Aboriginal and Torres Strait Islander origin</td><td><div><p>Both Aboriginal and Torres Strait Islander origin</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---healthterminologies.gov.au-fhir-CodeSystem-australian-indigenous-status-1-4\"> </a>  <a href=\"CodeSystem-australian-indigenous-status-1.html#australian-indigenous-status-1-4\">4</a></td><td>https://healthterminologies.gov.au/fhir/CodeSystem/australian-indigenous-status-1</td><td>Neither Aboriginal nor Torres Strait Islander origin</td><td><div><p>Neither Aboriginal nor Torres Strait Islander origin</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---healthterminologies.gov.au-fhir-CodeSystem-australian-indigenous-status-1-9\"> </a>  <a href=\"CodeSystem-australian-indigenous-status-1.html#australian-indigenous-status-1-9\">9</a></td><td>https://healthterminologies.gov.au/fhir/CodeSystem/australian-indigenous-status-1</td><td>Not stated/inadequately described</td><td><div><p>Not stated/inadequately described</p>\n</div></td></tr></table></div>"
+      },
+      "url" : "https://healthterminologies.gov.au/fhir/ValueSet/australian-indigenous-status-1",
+      "identifier" : [{
+        "system" : "urn:ietf:rfc:3986",
+        "value" : "urn:oid:1.2.36.1.2001.1004.201.10001"
+      }],
+      "version" : "1.0.2",
+      "name" : "AustralianIndigenousStatus",
+      "title" : "Australian Indigenous Status",
+      "status" : "active",
+      "experimental" : false,
+      "date" : "2020-05-31",
+      "publisher" : "Rob Eastwood (himself)",
+      "contact" : [{
+        "telecom" : [{
+          "system" : "url",
+          "value" : "https://github.com/robstwd"
+        }]
+      }],
+      "description" : "The Australian Indigenous Status value set includes values to support the representation of a person's Indigenous status. That is, whether a person identifies as being of Aboriginal or Torres Strait Islander origin. The values are those concepts defined in the Australian Indigenous Status code system (https://healthterminologies.gov.au/fhir/CodeSystem/australian-indigenous-status-1).",
+      "jurisdiction" : [{
+        "coding" : [{
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "AU"
+        }]
+      }],
+      "copyright" : "Copyright © 2018 Australian Digital Health Agency – All rights reserved. Except for the material identified below, this content is licensed under a Creative Commons Attribution 4.0 International License. See https://creativecommons.org/licenses/by/4.0/. \n\nThis resource includes material that is based on Australian Institute of Health and Welfare material. \n\nAll copies of this resource must include this copyright statement and all information contained in this statement.",
+      "expansion" : {
+        "identifier" : "urn:uuid:0f1a2fce-b9fe-4386-aebf-0c7320ea1dd7",
+        "timestamp" : "2022-12-13T20:43:35+00:00",
+        "total" : 5,
+        "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "version",
+          "valueUri" : "https://healthterminologies.gov.au/fhir/CodeSystem/australian-indigenous-status-1|1.0.3"
+        }],
+        "contains" : [{
+          "system" : "https://healthterminologies.gov.au/fhir/CodeSystem/australian-indigenous-status-1",
+          "code" : "1",
+          "display" : "Aboriginal but not Torres Strait Islander origin"
+        },
+        {
+          "system" : "https://healthterminologies.gov.au/fhir/CodeSystem/australian-indigenous-status-1",
+          "code" : "2",
+          "display" : "Torres Strait Islander but not Aboriginal origin"
+        },
+        {
+          "system" : "https://healthterminologies.gov.au/fhir/CodeSystem/australian-indigenous-status-1",
+          "code" : "3",
+          "display" : "Both Aboriginal and Torres Strait Islander origin"
+        },
+        {
+          "system" : "https://healthterminologies.gov.au/fhir/CodeSystem/australian-indigenous-status-1",
+          "code" : "4",
+          "display" : "Neither Aboriginal nor Torres Strait Islander origin"
+        },
+        {
+          "system" : "https://healthterminologies.gov.au/fhir/CodeSystem/australian-indigenous-status-1",
+          "code" : "9",
+          "display" : "Not stated/inadequately described"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "https://healthterminologies.gov.au/fhir/ValueSet/common-languages-australia-2",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "id" : "common-languages-australia-2",
+      "meta" : {
+        "versionId" : "1",
+        "lastUpdated" : "2022-11-24T05:55:57.985+00:00",
+        "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
+      },
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 340 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"http://hl7.org/fhir/R4/valueset-languages.html\">Common Languages v4.0.1 (ValueSet)</a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-ace\"> </a>  ace</td><td>urn:ietf:bcp:47</td><td>Achinese</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-ach\"> </a>  ach</td><td>urn:ietf:bcp:47</td><td>Acholi</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-aa\"> </a>  aa</td><td>urn:ietf:bcp:47</td><td>Afar</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-ak\"> </a>  ak</td><td>urn:ietf:bcp:47</td><td>Akan</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-sq\"> </a>  sq</td><td>urn:ietf:bcp:47</td><td>Albanian</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-am\"> </a>  am</td><td>urn:ietf:bcp:47</td><td>Amharic</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-anu\"> </a>  anu</td><td>urn:ietf:bcp:47</td><td>Anuak</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-asf\"> </a>  asf</td><td>urn:ietf:bcp:47</td><td>Auslan</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-gwm\"> </a>  gwm</td><td>urn:ietf:bcp:47</td><td>Awngthim</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-rki\"> </a>  rki</td><td>urn:ietf:bcp:47</td><td>Rakhine</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-hy\"> </a>  hy</td><td>urn:ietf:bcp:47</td><td>Armenian</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-aii\"> </a>  aii</td><td>urn:ietf:bcp:47</td><td>Assyrian Neo-Aramaic</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-bfa\"> </a>  bfa</td><td>urn:ietf:bcp:47</td><td>Bari</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-bsq\"> </a>  bsq</td><td>urn:ietf:bcp:47</td><td>Bassa</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-be\"> </a>  be</td><td>urn:ietf:bcp:47</td><td>Belarusian</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-bs\"> </a>  bs</td><td>urn:ietf:bcp:47</td><td>Bosnian</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-bg\"> </a>  bg</td><td>urn:ietf:bcp:47</td><td>Bulgarian</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-yue\"> </a>  yue</td><td>urn:ietf:bcp:47</td><td>Cantonese</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-ceb\"> </a>  ceb</td><td>urn:ietf:bcp:47</td><td>Cebuano</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-cld\"> </a>  cld</td><td>urn:ietf:bcp:47</td><td>Chaldean Neo-Aramaic</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-prs\"> </a>  prs</td><td>urn:ietf:bcp:47</td><td>Dari</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-dwu\"> </a>  dwu</td><td>urn:ietf:bcp:47</td><td>Dhuwal</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-din\"> </a>  din</td><td>urn:ietf:bcp:47</td><td>Dinka</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-et\"> </a>  et</td><td>urn:ietf:bcp:47</td><td>Estonian</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-ee\"> </a>  ee</td><td>urn:ietf:bcp:47</td><td>Ewe</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-cfm\"> </a>  cfm</td><td>urn:ietf:bcp:47</td><td>Falam Chin</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-fa\"> </a>  fa</td><td>urn:ietf:bcp:47</td><td>Persian</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-hif\"> </a>  hif</td><td>urn:ietf:bcp:47</td><td>Fiji Hindi</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-fj\"> </a>  fj</td><td>urn:ietf:bcp:47</td><td>Fijian</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-fil\"> </a>  fil</td><td>urn:ietf:bcp:47</td><td>Filipino</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-fuv\"> </a>  fuv</td><td>urn:ietf:bcp:47</td><td>Nigerian Fulfulde</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-ff\"> </a>  ff</td><td>urn:ietf:bcp:47</td><td>Fullah</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-nan\"> </a>  nan</td><td>urn:ietf:bcp:47</td><td>Min Nan Chinese</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-zh-min\"> </a>  zh-min</td><td>urn:ietf:bcp:47</td><td>Fuzhou</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-gaa\"> </a>  gaa</td><td>urn:ietf:bcp:47</td><td>Ga</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-lg\"> </a>  lg</td><td>urn:ietf:bcp:47</td><td>Ganda</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-ki\"> </a>  ki</td><td>urn:ietf:bcp:47</td><td>Gikuyu</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-hac\"> </a>  hac</td><td>urn:ietf:bcp:47</td><td>Gurani</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-gu\"> </a>  gu</td><td>urn:ietf:bcp:47</td><td>Gujarati</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-cnh\"> </a>  cnh</td><td>urn:ietf:bcp:47</td><td>Hakha Chin</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-hak\"> </a>  hak</td><td>urn:ietf:bcp:47</td><td>Hakka Chinese</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-har\"> </a>  har</td><td>urn:ietf:bcp:47</td><td>Harari</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-mey\"> </a>  mey</td><td>urn:ietf:bcp:47</td><td>Hassaniyya</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-haz\"> </a>  haz</td><td>urn:ietf:bcp:47</td><td>Hazaragi</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-he\"> </a>  he</td><td>urn:ietf:bcp:47</td><td>Hebrew</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-ho\"> </a>  ho</td><td>urn:ietf:bcp:47</td><td>Hiri Motu</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-hmn\"> </a>  hmn</td><td>urn:ietf:bcp:47</td><td>Hmong</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-hu\"> </a>  hu</td><td>urn:ietf:bcp:47</td><td>Hungarian</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-id\"> </a>  id</td><td>urn:ietf:bcp:47</td><td>Indonesian</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-jv\"> </a>  jv</td><td>urn:ietf:bcp:47</td><td>Javanese</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-kac\"> </a>  kac</td><td>urn:ietf:bcp:47</td><td>Jingpho</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-pga\"> </a>  pga</td><td>urn:ietf:bcp:47</td><td>Sudanese Creole Arabic</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-keo\"> </a>  keo</td><td>urn:ietf:bcp:47</td><td>Kakwa</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-kn\"> </a>  kn</td><td>urn:ietf:bcp:47</td><td>Kannada</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-eky\"> </a>  eky</td><td>urn:ietf:bcp:47</td><td>Eastern Kayah</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-kyu\"> </a>  kyu</td><td>urn:ietf:bcp:47</td><td>Western Kayah</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-kk\"> </a>  kk</td><td>urn:ietf:bcp:47</td><td>Kazakh</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-km\"> </a>  km</td><td>urn:ietf:bcp:47</td><td>Khmer</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-cnk\"> </a>  cnk</td><td>urn:ietf:bcp:47</td><td>Khumi Chin</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-rw\"> </a>  rw</td><td>urn:ietf:bcp:47</td><td>Kinyarwanda</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-rn\"> </a>  rn</td><td>urn:ietf:bcp:47</td><td>Rundi</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-kqs\"> </a>  kqs</td><td>urn:ietf:bcp:47</td><td>Northern Kissi</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-mku\"> </a>  mku</td><td>urn:ietf:bcp:47</td><td>Konyanka Maninka</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-kri\"> </a>  kri</td><td>urn:ietf:bcp:47</td><td>Krio</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-kun\"> </a>  kun</td><td>urn:ietf:bcp:47</td><td>Kunama</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-kmr\"> </a>  kmr</td><td>urn:ietf:bcp:47</td><td>Northern Kurdish</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-lo\"> </a>  lo</td><td>urn:ietf:bcp:47</td><td>Lao</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-lir\"> </a>  lir</td><td>urn:ietf:bcp:47</td><td>Liberian English</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-ln\"> </a>  ln</td><td>urn:ietf:bcp:47</td><td>Lingala</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-mk\"> </a>  mk</td><td>urn:ietf:bcp:47</td><td>Macedonian</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-mhi\"> </a>  mhi</td><td>urn:ietf:bcp:47</td><td>Ma'di</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-zlm\"> </a>  zlm</td><td>urn:ietf:bcp:47</td><td>Malay</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-ml\"> </a>  ml</td><td>urn:ietf:bcp:47</td><td>Malayalam</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-mt\"> </a>  mt</td><td>urn:ietf:bcp:47</td><td>Maltese</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-cmn\"> </a>  cmn</td><td>urn:ietf:bcp:47</td><td>Mandarin</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-mrh\"> </a>  mrh</td><td>urn:ietf:bcp:47</td><td>Mara Chin</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-hlt\"> </a>  hlt</td><td>urn:ietf:bcp:47</td><td>Matu Chin</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-mfe\"> </a>  mfe</td><td>urn:ietf:bcp:47</td><td>Morisyen</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-men\"> </a>  men</td><td>urn:ietf:bcp:47</td><td>Mende (Sierra Leone)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-lus\"> </a>  lus</td><td>urn:ietf:bcp:47</td><td>Lushai</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-mo\"> </a>  mo</td><td>urn:ietf:bcp:47</td><td>Moldavian</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-mnw\"> </a>  mnw</td><td>urn:ietf:bcp:47</td><td>Mon</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-mn\"> </a>  mn</td><td>urn:ietf:bcp:47</td><td>Mongolian</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-unr\"> </a>  unr</td><td>urn:ietf:bcp:47</td><td>Mundari</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-my\"> </a>  my</td><td>urn:ietf:bcp:47</td><td>Burmese</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-ne\"> </a>  ne</td><td>urn:ietf:bcp:47</td><td>Nepali</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-azj\"> </a>  azj</td><td>urn:ietf:bcp:47</td><td>North Azerbaijani</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-nus\"> </a>  nus</td><td>urn:ietf:bcp:47</td><td>Nuer</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-om\"> </a>  om</td><td>urn:ietf:bcp:47</td><td>Oromo</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-ps\"> </a>  ps</td><td>urn:ietf:bcp:47</td><td>Pashto</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-fuc\"> </a>  fuc</td><td>urn:ietf:bcp:47</td><td>Pulaar</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-kjp\"> </a>  kjp</td><td>urn:ietf:bcp:47</td><td>Pwo Eastern Karen</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-rhg\"> </a>  rhg</td><td>urn:ietf:bcp:47</td><td>Rohingya</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-ro\"> </a>  ro</td><td>urn:ietf:bcp:47</td><td>Romanian</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-spy\"> </a>  spy</td><td>urn:ietf:bcp:47</td><td>Sabaot</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-ssy\"> </a>  ssy</td><td>urn:ietf:bcp:47</td><td>Saho</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-sm\"> </a>  sm</td><td>urn:ietf:bcp:47</td><td>Samoan</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-ksw\"> </a>  ksw</td><td>urn:ietf:bcp:47</td><td>S'gaw Karen</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-shn\"> </a>  shn</td><td>urn:ietf:bcp:47</td><td>Shan</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-wuu\"> </a>  wuu</td><td>urn:ietf:bcp:47</td><td>Wu Chinese</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-sid\"> </a>  sid</td><td>urn:ietf:bcp:47</td><td>Sidamo</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-sd\"> </a>  sd</td><td>urn:ietf:bcp:47</td><td>Sindhi</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-si\"> </a>  si</td><td>urn:ietf:bcp:47</td><td>Sinhalese</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-csy\"> </a>  csy</td><td>urn:ietf:bcp:47</td><td>Siyin Chin</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-sk\"> </a>  sk</td><td>urn:ietf:bcp:47</td><td>Slovak</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-sl\"> </a>  sl</td><td>urn:ietf:bcp:47</td><td>Slovenian</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-so\"> </a>  so</td><td>urn:ietf:bcp:47</td><td>Somali</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-ckb\"> </a>  ckb</td><td>urn:ietf:bcp:47</td><td>Central Kurdish</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-azb\"> </a>  azb</td><td>urn:ietf:bcp:47</td><td>South Azerbaijani</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-sdh\"> </a>  sdh</td><td>urn:ietf:bcp:47</td><td>Southern Kurdish</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-apd\"> </a>  apd</td><td>urn:ietf:bcp:47</td><td>Sudanese Arabic</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-sus\"> </a>  sus</td><td>urn:ietf:bcp:47</td><td>Susu</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-swh\"> </a>  swh</td><td>urn:ietf:bcp:47</td><td>Swahili</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-abh\"> </a>  abh</td><td>urn:ietf:bcp:47</td><td>Tajiki Arabic</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-ta\"> </a>  ta</td><td>urn:ietf:bcp:47</td><td>Tamil</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-tt\"> </a>  tt</td><td>urn:ietf:bcp:47</td><td>Tartar</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-ctd\"> </a>  ctd</td><td>urn:ietf:bcp:47</td><td>Tedim Chin</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-tet\"> </a>  tet</td><td>urn:ietf:bcp:47</td><td>Tetum</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-th\"> </a>  th</td><td>urn:ietf:bcp:47</td><td>Thai</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-tem\"> </a>  tem</td><td>urn:ietf:bcp:47</td><td>Time</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-bo\"> </a>  bo</td><td>urn:ietf:bcp:47</td><td>Tibetan</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-tig\"> </a>  tig</td><td>urn:ietf:bcp:47</td><td>Tigre</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-ti\"> </a>  ti</td><td>urn:ietf:bcp:47</td><td>Tigrinya</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-tpi\"> </a>  tpi</td><td>urn:ietf:bcp:47</td><td>Tok Pisin</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-to\"> </a>  to</td><td>urn:ietf:bcp:47</td><td>Tonga</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-tr\"> </a>  tr</td><td>urn:ietf:bcp:47</td><td>Turkish</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-tk\"> </a>  tk</td><td>urn:ietf:bcp:47</td><td>Turkmen</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-uk\"> </a>  uk</td><td>urn:ietf:bcp:47</td><td>Ukrainian</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-ur\"> </a>  ur</td><td>urn:ietf:bcp:47</td><td>Urdu</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-ug\"> </a>  ug</td><td>urn:ietf:bcp:47</td><td>Uyghur</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-uz\"> </a>  uz</td><td>urn:ietf:bcp:47</td><td>Uzbek</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-vi\"> </a>  vi</td><td>urn:ietf:bcp:47</td><td>Vietnamese</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-wo\"> </a>  wo</td><td>urn:ietf:bcp:47</td><td>Wolof</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-zom\"> </a>  zom</td><td>urn:ietf:bcp:47</td><td>Zou</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-czt\"> </a>  czt</td><td>urn:ietf:bcp:47</td><td>Zotung Chin</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-aoi\"> </a>  aoi</td><td>urn:ietf:bcp:47</td><td>Anindilyakwa</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-mph\"> </a>  mph</td><td>urn:ietf:bcp:47</td><td>Maung</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-nuy\"> </a>  nuy</td><td>urn:ietf:bcp:47</td><td>Nunggubuyu</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-rmb\"> </a>  rmb</td><td>urn:ietf:bcp:47</td><td>Rembarrnga</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-tiw\"> </a>  tiw</td><td>urn:ietf:bcp:47</td><td>Tiwi</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-alh\"> </a>  alh</td><td>urn:ietf:bcp:47</td><td>Alawa</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-ngk\"> </a>  ngk</td><td>urn:ietf:bcp:47</td><td>Dalabon</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-nji\"> </a>  nji</td><td>urn:ietf:bcp:47</td><td>Gudanji</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-ibd\"> </a>  ibd</td><td>urn:ietf:bcp:47</td><td>Iwaidja</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-djn\"> </a>  djn</td><td>urn:ietf:bcp:47</td><td>Jawoyn</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-jig\"> </a>  jig</td><td>urn:ietf:bcp:47</td><td>Jingulu</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-wlg\"> </a>  wlg</td><td>urn:ietf:bcp:47</td><td>Kunbarlang</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-lrg\"> </a>  lrg</td><td>urn:ietf:bcp:47</td><td>Laragia</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-mbp\"> </a>  mbp</td><td>urn:ietf:bcp:47</td><td>Malak Malak</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-mpc\"> </a>  mpc</td><td>urn:ietf:bcp:47</td><td>Mangarayi</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-zmt\"> </a>  zmt</td><td>urn:ietf:bcp:47</td><td>Maringarr</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-mec\"> </a>  mec</td><td>urn:ietf:bcp:47</td><td>Marra</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-mfr\"> </a>  mfr</td><td>urn:ietf:bcp:47</td><td>Marrithiyel</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-zml\"> </a>  zml</td><td>urn:ietf:bcp:47</td><td>Matngala</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-mwf\"> </a>  mwf</td><td>urn:ietf:bcp:47</td><td>Murrinh-Patha</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-nck\"> </a>  nck</td><td>urn:ietf:bcp:47</td><td>Nakara</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-djj\"> </a>  djj</td><td>urn:ietf:bcp:47</td><td>Djeebbana</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-nig\"> </a>  nig</td><td>urn:ietf:bcp:47</td><td>Ngalakgan</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-djd\"> </a>  djd</td><td>urn:ietf:bcp:47</td><td>Ngaliwurru</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-nug\"> </a>  nug</td><td>urn:ietf:bcp:47</td><td>Nungali</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-wmb\"> </a>  wmb</td><td>urn:ietf:bcp:47</td><td>Wambaya</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-wrr\"> </a>  wrr</td><td>urn:ietf:bcp:47</td><td>Wardaman</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-amg\"> </a>  amg</td><td>urn:ietf:bcp:47</td><td>Amurdak</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-wrk\"> </a>  wrk</td><td>urn:ietf:bcp:47</td><td>Garrwa</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-woa\"> </a>  woa</td><td>urn:ietf:bcp:47</td><td>Kuwema</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-zmm\"> </a>  zmm</td><td>urn:ietf:bcp:47</td><td>Marramaninyshi</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-nid\"> </a>  nid</td><td>urn:ietf:bcp:47</td><td>Ngandi</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-wny\"> </a>  wny</td><td>urn:ietf:bcp:47</td><td>Waanyi</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-waq\"> </a>  waq</td><td>urn:ietf:bcp:47</td><td>Wagiman</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-jao\"> </a>  jao</td><td>urn:ietf:bcp:47</td><td>Yanyuwa</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-zmd\"> </a>  zmd</td><td>urn:ietf:bcp:47</td><td>Maridan</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-bvr\"> </a>  bvr</td><td>urn:ietf:bcp:47</td><td>Burarra</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-gge\"> </a>  gge</td><td>urn:ietf:bcp:47</td><td>Gurr-goni</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-djr\"> </a>  djr</td><td>urn:ietf:bcp:47</td><td>Djambarrpuyngu</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-gnn\"> </a>  gnn</td><td>urn:ietf:bcp:47</td><td>Gumatj</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-guf\"> </a>  guf</td><td>urn:ietf:bcp:47</td><td>Gupapuyngu</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-djb\"> </a>  djb</td><td>urn:ietf:bcp:47</td><td>Djinba</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-rit\"> </a>  rit</td><td>urn:ietf:bcp:47</td><td>Ritharrngu</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-jay\"> </a>  jay</td><td>urn:ietf:bcp:47</td><td>Yan-nhangu</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-dwy\"> </a>  dwy</td><td>urn:ietf:bcp:47</td><td>Dhuwaya</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-dhg\"> </a>  dhg</td><td>urn:ietf:bcp:47</td><td>Djangu</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-gvn\"> </a>  gvn</td><td>urn:ietf:bcp:47</td><td>Kuku-Yalanji</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-kky\"> </a>  kky</td><td>urn:ietf:bcp:47</td><td>Guugu Yimidhirr</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-kuy\"> </a>  kuy</td><td>urn:ietf:bcp:47</td><td>Kuuku-Ya'u</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-wim\"> </a>  wim</td><td>urn:ietf:bcp:47</td><td>Wik-Mungkan</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-dbl\"> </a>  dbl</td><td>urn:ietf:bcp:47</td><td>Dyirbal</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-kkp\"> </a>  kkp</td><td>urn:ietf:bcp:47</td><td>Koko-Bera</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-thd\"> </a>  thd</td><td>urn:ietf:bcp:47</td><td>Kuuk Thayorre</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-lby\"> </a>  lby</td><td>urn:ietf:bcp:47</td><td>Lamalama</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-yii\"> </a>  yii</td><td>urn:ietf:bcp:47</td><td>Yidiny</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-wig\"> </a>  wig</td><td>urn:ietf:bcp:47</td><td>Wik Ngathan</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-aid\"> </a>  aid</td><td>urn:ietf:bcp:47</td><td>Alngith</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-xmh\"> </a>  xmh</td><td>urn:ietf:bcp:47</td><td>Kugu-Muminh</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-umg\"> </a>  umg</td><td>urn:ietf:bcp:47</td><td>Morrobalama</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-awg\"> </a>  awg</td><td>urn:ietf:bcp:47</td><td>Anguthimri</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-dyy\"> </a>  dyy</td><td>urn:ietf:bcp:47</td><td>Dyaabugay</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-mwp\"> </a>  mwp</td><td>urn:ietf:bcp:47</td><td>Kalaw Lagaw Ya</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-ulk\"> </a>  ulk</td><td>urn:ietf:bcp:47</td><td>Meriam Mir</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-tcs\"> </a>  tcs</td><td>urn:ietf:bcp:47</td><td>Yumplatok</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-gjr\"> </a>  gjr</td><td>urn:ietf:bcp:47</td><td>Gurindji Kriol</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-ddj\"> </a>  ddj</td><td>urn:ietf:bcp:47</td><td>Jaru</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-dmw\"> </a>  dmw</td><td>urn:ietf:bcp:47</td><td>Mudburra</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-rxd\"> </a>  rxd</td><td>urn:ietf:bcp:47</td><td>Ngardi</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-nbj\"> </a>  nbj</td><td>urn:ietf:bcp:47</td><td>Ngarinyman</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-wmt\"> </a>  wmt</td><td>urn:ietf:bcp:47</td><td>Walmajarri</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-wrl\"> </a>  wrl</td><td>urn:ietf:bcp:47</td><td>Warlmanpa</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-wbp\"> </a>  wbp</td><td>urn:ietf:bcp:47</td><td>Warlpiri</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-wrm\"> </a>  wrm</td><td>urn:ietf:bcp:47</td><td>Warumungu</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-aly\"> </a>  aly</td><td>urn:ietf:bcp:47</td><td>Alyawarr</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-gbb\"> </a>  gbb</td><td>urn:ietf:bcp:47</td><td>Kaytetye</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-adg\"> </a>  adg</td><td>urn:ietf:bcp:47</td><td>Andegerebinha</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-amx\"> </a>  amx</td><td>urn:ietf:bcp:47</td><td>Anmatyerr</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-aer\"> </a>  aer</td><td>urn:ietf:bcp:47</td><td>Eastern Arrernte</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-are\"> </a>  are</td><td>urn:ietf:bcp:47</td><td>Western Arrarnta</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-ant\"> </a>  ant</td><td>urn:ietf:bcp:47</td><td>Antikarinya</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-ktd\"> </a>  ktd</td><td>urn:ietf:bcp:47</td><td>Kukatha</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-kux\"> </a>  kux</td><td>urn:ietf:bcp:47</td><td>Kukatja</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-piu\"> </a>  piu</td><td>urn:ietf:bcp:47</td><td>Pintupi-Luritja</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-mpj\"> </a>  mpj</td><td>urn:ietf:bcp:47</td><td>Martu Wangka</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-ntj\"> </a>  ntj</td><td>urn:ietf:bcp:47</td><td>Ngaanyatjarra</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-pjt\"> </a>  pjt</td><td>urn:ietf:bcp:47</td><td>Pitjantjatjara</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-pti\"> </a>  pti</td><td>urn:ietf:bcp:47</td><td>Wangkatha</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-wbt\"> </a>  wbt</td><td>urn:ietf:bcp:47</td><td>Warnman</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-kdd\"> </a>  kdd</td><td>urn:ietf:bcp:47</td><td>Yankunytjatjara</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-bcj\"> </a>  bcj</td><td>urn:ietf:bcp:47</td><td>Bardi</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-bck\"> </a>  bck</td><td>urn:ietf:bcp:47</td><td>Bunuba</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-gni\"> </a>  gni</td><td>urn:ietf:bcp:47</td><td>Gooniyandi</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-rsm\"> </a>  rsm</td><td>urn:ietf:bcp:47</td><td>Miriwoong</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-ung\"> </a>  ung</td><td>urn:ietf:bcp:47</td><td>Ngarinyin</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-nyh\"> </a>  nyh</td><td>urn:ietf:bcp:47</td><td>Nyikina</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-wro\"> </a>  wro</td><td>urn:ietf:bcp:47</td><td>Worrorra</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-wub\"> </a>  wub</td><td>urn:ietf:bcp:47</td><td>Wunambal</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-ywr\"> </a>  ywr</td><td>urn:ietf:bcp:47</td><td>Yawuru</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-gma\"> </a>  gma</td><td>urn:ietf:bcp:47</td><td>Gambera</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-djw\"> </a>  djw</td><td>urn:ietf:bcp:47</td><td>Djawi</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-gia\"> </a>  gia</td><td>urn:ietf:bcp:47</td><td>Kija</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-adt\"> </a>  adt</td><td>urn:ietf:bcp:47</td><td>Adnymathanha</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-ard\"> </a>  ard</td><td>urn:ietf:bcp:47</td><td>Arabana</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-bdy\"> </a>  bdy</td><td>urn:ietf:bcp:47</td><td>Bandjalang</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-pnw\"> </a>  pnw</td><td>urn:ietf:bcp:47</td><td>Banyjima</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-xby\"> </a>  xby</td><td>urn:ietf:bcp:47</td><td>Batyala</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-bym\"> </a>  bym</td><td>urn:ietf:bcp:47</td><td>Bidjara</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-dyn\"> </a>  dyn</td><td>urn:ietf:bcp:47</td><td>Dhanggatti</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-dif\"> </a>  dif</td><td>urn:ietf:bcp:47</td><td>Diyari</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-kld\"> </a>  kld</td><td>urn:ietf:bcp:47</td><td>Gamilaraay</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-rxw\"> </a>  rxw</td><td>urn:ietf:bcp:47</td><td>Karuwali</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-gih\"> </a>  gih</td><td>urn:ietf:bcp:47</td><td>Githabul</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-kgs\"> </a>  kgs</td><td>urn:ietf:bcp:47</td><td>Kumbainggar</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-nak\"> </a>  nak</td><td>urn:ietf:bcp:47</td><td>Nakanai</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-gbd\"> </a>  gbd</td><td>urn:ietf:bcp:47</td><td>Karajarri</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-vka\"> </a>  vka</td><td>urn:ietf:bcp:47</td><td>Kariyarra</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-zku\"> </a>  zku</td><td>urn:ietf:bcp:47</td><td>Kaurna</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-gyd\"> </a>  gyd</td><td>urn:ietf:bcp:47</td><td>Kayardild</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-rop\"> </a>  rop</td><td>urn:ietf:bcp:47</td><td>Kriol</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-lbz\"> </a>  lbz</td><td>urn:ietf:bcp:47</td><td>Lardil</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-mem\"> </a>  mem</td><td>urn:ietf:bcp:47</td><td>Mangala</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-zmu\"> </a>  zmu</td><td>urn:ietf:bcp:47</td><td>Muruwari</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-nnr\"> </a>  nnr</td><td>urn:ietf:bcp:47</td><td>Narungga</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-nrl\"> </a>  nrl</td><td>urn:ietf:bcp:47</td><td>Ngarluma</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-nay\"> </a>  nay</td><td>urn:ietf:bcp:47</td><td>Ngarrindjeri</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-nly\"> </a>  nly</td><td>urn:ietf:bcp:47</td><td>Nyamal</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-nna\"> </a>  nna</td><td>urn:ietf:bcp:47</td><td>Nyangumarta</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-nys\"> </a>  nys</td><td>urn:ietf:bcp:47</td><td>Nyungar</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-drl\"> </a>  drl</td><td>urn:ietf:bcp:47</td><td>Paakantyi</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-xny\"> </a>  xny</td><td>urn:ietf:bcp:47</td><td>Nyiyaparli</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-wbv\"> </a>  wbv</td><td>urn:ietf:bcp:47</td><td>Wajarri</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-wrh\"> </a>  wrh</td><td>urn:ietf:bcp:47</td><td>Wiradjuri</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-yij\"> </a>  yij</td><td>urn:ietf:bcp:47</td><td>Yindjibarndi</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-ywg\"> </a>  ywg</td><td>urn:ietf:bcp:47</td><td>Yinhawangka</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-xyy\"> </a>  xyy</td><td>urn:ietf:bcp:47</td><td>Yorta Yorta</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-bia\"> </a>  bia</td><td>urn:ietf:bcp:47</td><td>Badimaya</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-rbp\"> </a>  rbp</td><td>urn:ietf:bcp:47</td><td>Barababaraba</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-dda\"> </a>  dda</td><td>urn:ietf:bcp:47</td><td>Dadi Dadi</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-tbh\"> </a>  tbh</td><td>urn:ietf:bcp:47</td><td>Dharawal</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-tjw\"> </a>  tjw</td><td>urn:ietf:bcp:47</td><td>Djabwurrung</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-wrg\"> </a>  wrg</td><td>urn:ietf:bcp:47</td><td>Warungu</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-llj\"> </a>  llj</td><td>urn:ietf:bcp:47</td><td>Ladji Ladji</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-xrg\"> </a>  xrg</td><td>urn:ietf:bcp:47</td><td>Minang</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-nju\"> </a>  nju</td><td>urn:ietf:bcp:47</td><td>Ngatjumaya</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-wrb\"> </a>  wrb</td><td>urn:ietf:bcp:47</td><td>Waluwarra</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-wgg\"> </a>  wgg</td><td>urn:ietf:bcp:47</td><td>Wangkangurru</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-wgy\"> </a>  wgy</td><td>urn:ietf:bcp:47</td><td>Wargamay</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-weg\"> </a>  weg</td><td>urn:ietf:bcp:47</td><td>Wergaia</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-yub\"> </a>  yub</td><td>urn:ietf:bcp:47</td><td>Yugambal</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-ar\"> </a>  ar</td><td>urn:ietf:bcp:47</td><td>Arabisk</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-bn\"> </a>  bn</td><td>urn:ietf:bcp:47</td><td>Bengali</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-cs\"> </a>  cs</td><td>urn:ietf:bcp:47</td><td>Czech</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-da\"> </a>  da</td><td>urn:ietf:bcp:47</td><td>Danish</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-de\"> </a>  de</td><td>urn:ietf:bcp:47</td><td>German</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-de-AT\"> </a>  de-AT</td><td>urn:ietf:bcp:47</td><td>German (Austria)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-de-CH\"> </a>  de-CH</td><td>urn:ietf:bcp:47</td><td>German (Switzerland)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-de-DE\"> </a>  de-DE</td><td>urn:ietf:bcp:47</td><td>German (Germany)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-el\"> </a>  el</td><td>urn:ietf:bcp:47</td><td>Greek</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-en\"> </a>  en</td><td>urn:ietf:bcp:47</td><td>English</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-en-AU\"> </a>  en-AU</td><td>urn:ietf:bcp:47</td><td>English (Australia)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-en-CA\"> </a>  en-CA</td><td>urn:ietf:bcp:47</td><td>English (Canada)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-en-GB\"> </a>  en-GB</td><td>urn:ietf:bcp:47</td><td>English (Great Britain)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-en-IN\"> </a>  en-IN</td><td>urn:ietf:bcp:47</td><td>English (India)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-en-NZ\"> </a>  en-NZ</td><td>urn:ietf:bcp:47</td><td>English (New Zeland)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-en-SG\"> </a>  en-SG</td><td>urn:ietf:bcp:47</td><td>English (Singapore)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-en-US\"> </a>  en-US</td><td>urn:ietf:bcp:47</td><td>English (United States)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-es\"> </a>  es</td><td>urn:ietf:bcp:47</td><td>Spanish</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-es-AR\"> </a>  es-AR</td><td>urn:ietf:bcp:47</td><td>Spanish (Argentina)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-es-ES\"> </a>  es-ES</td><td>urn:ietf:bcp:47</td><td>Spanish (Spain)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-es-UY\"> </a>  es-UY</td><td>urn:ietf:bcp:47</td><td>Spanish (Uruguay)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-fi\"> </a>  fi</td><td>urn:ietf:bcp:47</td><td>Finnish</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-fr\"> </a>  fr</td><td>urn:ietf:bcp:47</td><td>French</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-fr-BE\"> </a>  fr-BE</td><td>urn:ietf:bcp:47</td><td>French (Belgium)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-fr-CH\"> </a>  fr-CH</td><td>urn:ietf:bcp:47</td><td>French (Switzerland)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-fr-FR\"> </a>  fr-FR</td><td>urn:ietf:bcp:47</td><td>French (France)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-fy\"> </a>  fy</td><td>urn:ietf:bcp:47</td><td>Frysian</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-fy-NL\"> </a>  fy-NL</td><td>urn:ietf:bcp:47</td><td>Frysian (Netherlands)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-hi\"> </a>  hi</td><td>urn:ietf:bcp:47</td><td>Hindi</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-hr\"> </a>  hr</td><td>urn:ietf:bcp:47</td><td>Croatian</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-it\"> </a>  it</td><td>urn:ietf:bcp:47</td><td>Italian</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-it-CH\"> </a>  it-CH</td><td>urn:ietf:bcp:47</td><td>Italian (Switzerland)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-it-IT\"> </a>  it-IT</td><td>urn:ietf:bcp:47</td><td>Italian (Italy)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-ja\"> </a>  ja</td><td>urn:ietf:bcp:47</td><td>Japanese</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-ko\"> </a>  ko</td><td>urn:ietf:bcp:47</td><td>Korean</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-nl\"> </a>  nl</td><td>urn:ietf:bcp:47</td><td>Dutch</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-nl-BE\"> </a>  nl-BE</td><td>urn:ietf:bcp:47</td><td>Dutch (Belgium)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-nl-NL\"> </a>  nl-NL</td><td>urn:ietf:bcp:47</td><td>Dutch (Netherlands)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-no\"> </a>  no</td><td>urn:ietf:bcp:47</td><td>Norwegian</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-no-NO\"> </a>  no-NO</td><td>urn:ietf:bcp:47</td><td>Norwegian (Norway)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-pa\"> </a>  pa</td><td>urn:ietf:bcp:47</td><td>Punjabi</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-pl\"> </a>  pl</td><td>urn:ietf:bcp:47</td><td>Polskie</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-pt\"> </a>  pt</td><td>urn:ietf:bcp:47</td><td>Portuguese</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-pt-BR\"> </a>  pt-BR</td><td>urn:ietf:bcp:47</td><td>Portuguese (Brazil)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-ru\"> </a>  ru</td><td>urn:ietf:bcp:47</td><td>Russian</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-ru-RU\"> </a>  ru-RU</td><td>urn:ietf:bcp:47</td><td>Russian (Russia)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-sr\"> </a>  sr</td><td>urn:ietf:bcp:47</td><td>Serbian</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-sr-RS\"> </a>  sr-RS</td><td>urn:ietf:bcp:47</td><td>Serbian (Serbia)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-sv\"> </a>  sv</td><td>urn:ietf:bcp:47</td><td>Swedish</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-sv-SE\"> </a>  sv-SE</td><td>urn:ietf:bcp:47</td><td>Swedish (Sweden)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-te\"> </a>  te</td><td>urn:ietf:bcp:47</td><td>Telegu</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-zh\"> </a>  zh</td><td>urn:ietf:bcp:47</td><td>Chinese</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-zh-CN\"> </a>  zh-CN</td><td>urn:ietf:bcp:47</td><td>Chinese (China)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-zh-HK\"> </a>  zh-HK</td><td>urn:ietf:bcp:47</td><td>Chinese (Hong Kong)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-zh-SG\"> </a>  zh-SG</td><td>urn:ietf:bcp:47</td><td>Chinese (Singapore)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-bcp-47-zh-TW\"> </a>  zh-TW</td><td>urn:ietf:bcp:47</td><td>Chinese (Taiwan)</td></tr></table></div>"
+      },
+      "url" : "https://healthterminologies.gov.au/fhir/ValueSet/common-languages-australia-2",
+      "identifier" : [{
+        "system" : "urn:ietf:rfc:3986",
+        "value" : "urn:oid:1.2.36.1.2001.1004.201.10069"
+      }],
+      "version" : "2.2.1",
+      "name" : "CommonLanguagesInAustralia",
+      "title" : "Common Languages in Australia",
+      "status" : "active",
+      "experimental" : false,
+      "date" : "2020-05-31",
+      "publisher" : "Rob Eastwood (himself)",
+      "contact" : [{
+        "telecom" : [{
+          "system" : "url",
+          "value" : "https://github.com/robstwd"
+        }]
+      }],
+      "description" : "The Common Languages in Australia value set includes languages that are commonly encountered in Australia, including a comprehensive set of Australian Indigenous languages.",
+      "jurisdiction" : [{
+        "coding" : [{
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "AU"
+        }]
+      }],
+      "copyright" : "Copyright © 2019 Australian Digital Health Agency - All rights reserved. Except for the material identified below, this content is licensed under a Creative Commons Attribution 4.0 International License. See https://creativecommons.org/licenses/by/4.0/. \n\nThis resource also includes all or a portion of material that is HL7 FHIR Copyright © 2011+ HL7 licensed under Creative Commons 'No Rights Reserved' (CC0)  \n\n\tCopyright (c) 2008 IETF Trust and the persons identified as the document authors (https://tools.ietf.org/html/bcp47). All rights reserved.  \n\nAll copies of this resource must include this copyright statement and all information contained in this statement.",
+      "expansion" : {
+        "identifier" : "urn:uuid:028786b4-24ff-4a30-a9d6-c8151f7da095",
+        "timestamp" : "2022-12-13T20:43:35+00:00",
+        "total" : 340,
+        "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "limitedExpansion",
+          "valueBoolean" : true
+        },
+        {
+          "name" : "version",
+          "valueUri" : "http://hl7.org/fhir/ValueSet/languages|4.0.1"
+        }],
+        "contains" : [{
+          "system" : "urn:ietf:bcp:47",
+          "code" : "ace",
+          "display" : "Achinese"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "ach",
+          "display" : "Acholi"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "aa",
+          "display" : "Afar"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "ak",
+          "display" : "Akan"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "sq",
+          "display" : "Albanian"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "am",
+          "display" : "Amharic"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "anu",
+          "display" : "Anuak"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "asf",
+          "display" : "Auslan"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "gwm",
+          "display" : "Awngthim"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "rki",
+          "display" : "Rakhine"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "hy",
+          "display" : "Armenian"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "aii",
+          "display" : "Assyrian Neo-Aramaic"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "bfa",
+          "display" : "Bari"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "bsq",
+          "display" : "Bassa"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "be",
+          "display" : "Belarusian"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "bs",
+          "display" : "Bosnian"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "bg",
+          "display" : "Bulgarian"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "yue",
+          "display" : "Cantonese"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "ceb",
+          "display" : "Cebuano"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "cld",
+          "display" : "Chaldean Neo-Aramaic"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "prs",
+          "display" : "Dari"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "dwu",
+          "display" : "Dhuwal"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "din",
+          "display" : "Dinka"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "et",
+          "display" : "Estonian"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "ee",
+          "display" : "Ewe"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "cfm",
+          "display" : "Falam Chin"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "fa",
+          "display" : "Persian"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "hif",
+          "display" : "Fiji Hindi"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "fj",
+          "display" : "Fijian"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "fil",
+          "display" : "Filipino"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "fuv",
+          "display" : "Nigerian Fulfulde"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "ff",
+          "display" : "Fullah"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "nan",
+          "display" : "Min Nan Chinese"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "zh-min",
+          "display" : "Fuzhou"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "gaa",
+          "display" : "Ga"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "lg",
+          "display" : "Ganda"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "ki",
+          "display" : "Gikuyu"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "hac",
+          "display" : "Gurani"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "gu",
+          "display" : "Gujarati"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "cnh",
+          "display" : "Hakha Chin"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "hak",
+          "display" : "Hakka Chinese"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "har",
+          "display" : "Harari"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "mey",
+          "display" : "Hassaniyya"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "haz",
+          "display" : "Hazaragi"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "he",
+          "display" : "Hebrew"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "ho",
+          "display" : "Hiri Motu"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "hmn",
+          "display" : "Hmong"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "hu",
+          "display" : "Hungarian"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "id",
+          "display" : "Indonesian"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "jv",
+          "display" : "Javanese"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "kac",
+          "display" : "Jingpho"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "pga",
+          "display" : "Sudanese Creole Arabic"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "keo",
+          "display" : "Kakwa"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "kn",
+          "display" : "Kannada"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "eky",
+          "display" : "Eastern Kayah"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "kyu",
+          "display" : "Western Kayah"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "kk",
+          "display" : "Kazakh"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "km",
+          "display" : "Khmer"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "cnk",
+          "display" : "Khumi Chin"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "rw",
+          "display" : "Kinyarwanda"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "rn",
+          "display" : "Rundi"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "kqs",
+          "display" : "Northern Kissi"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "mku",
+          "display" : "Konyanka Maninka"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "kri",
+          "display" : "Krio"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "kun",
+          "display" : "Kunama"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "kmr",
+          "display" : "Northern Kurdish"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "lo",
+          "display" : "Lao"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "lir",
+          "display" : "Liberian English"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "ln",
+          "display" : "Lingala"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "mk",
+          "display" : "Macedonian"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "mhi",
+          "display" : "Ma'di"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "zlm",
+          "display" : "Malay"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "ml",
+          "display" : "Malayalam"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "mt",
+          "display" : "Maltese"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "cmn",
+          "display" : "Mandarin"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "mrh",
+          "display" : "Mara Chin"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "hlt",
+          "display" : "Matu Chin"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "mfe",
+          "display" : "Morisyen"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "men",
+          "display" : "Mende (Sierra Leone)"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "lus",
+          "display" : "Lushai"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "mo",
+          "display" : "Moldavian"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "mnw",
+          "display" : "Mon"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "mn",
+          "display" : "Mongolian"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "unr",
+          "display" : "Mundari"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "my",
+          "display" : "Burmese"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "ne",
+          "display" : "Nepali"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "azj",
+          "display" : "North Azerbaijani"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "nus",
+          "display" : "Nuer"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "om",
+          "display" : "Oromo"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "ps",
+          "display" : "Pashto"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "fuc",
+          "display" : "Pulaar"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "kjp",
+          "display" : "Pwo Eastern Karen"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "rhg",
+          "display" : "Rohingya"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "ro",
+          "display" : "Romanian"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "spy",
+          "display" : "Sabaot"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "ssy",
+          "display" : "Saho"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "sm",
+          "display" : "Samoan"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "ksw",
+          "display" : "S'gaw Karen"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "shn",
+          "display" : "Shan"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "wuu",
+          "display" : "Wu Chinese"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "sid",
+          "display" : "Sidamo"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "sd",
+          "display" : "Sindhi"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "si",
+          "display" : "Sinhalese"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "csy",
+          "display" : "Siyin Chin"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "sk",
+          "display" : "Slovak"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "sl",
+          "display" : "Slovenian"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "so",
+          "display" : "Somali"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "ckb",
+          "display" : "Central Kurdish"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "azb",
+          "display" : "South Azerbaijani"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "sdh",
+          "display" : "Southern Kurdish"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "apd",
+          "display" : "Sudanese Arabic"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "sus",
+          "display" : "Susu"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "swh",
+          "display" : "Swahili"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "abh",
+          "display" : "Tajiki Arabic"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "ta",
+          "display" : "Tamil"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "tt",
+          "display" : "Tartar"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "ctd",
+          "display" : "Tedim Chin"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "tet",
+          "display" : "Tetum"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "th",
+          "display" : "Thai"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "tem",
+          "display" : "Time"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "bo",
+          "display" : "Tibetan"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "tig",
+          "display" : "Tigre"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "ti",
+          "display" : "Tigrinya"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "tpi",
+          "display" : "Tok Pisin"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "to",
+          "display" : "Tonga"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "tr",
+          "display" : "Turkish"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "tk",
+          "display" : "Turkmen"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "uk",
+          "display" : "Ukrainian"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "ur",
+          "display" : "Urdu"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "ug",
+          "display" : "Uyghur"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "uz",
+          "display" : "Uzbek"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "vi",
+          "display" : "Vietnamese"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "wo",
+          "display" : "Wolof"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "zom",
+          "display" : "Zou"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "czt",
+          "display" : "Zotung Chin"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "aoi",
+          "display" : "Anindilyakwa"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "mph",
+          "display" : "Maung"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "nuy",
+          "display" : "Nunggubuyu"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "rmb",
+          "display" : "Rembarrnga"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "tiw",
+          "display" : "Tiwi"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "alh",
+          "display" : "Alawa"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "ngk",
+          "display" : "Dalabon"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "nji",
+          "display" : "Gudanji"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "ibd",
+          "display" : "Iwaidja"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "djn",
+          "display" : "Jawoyn"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "jig",
+          "display" : "Jingulu"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "wlg",
+          "display" : "Kunbarlang"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "lrg",
+          "display" : "Laragia"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "mbp",
+          "display" : "Malak Malak"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "mpc",
+          "display" : "Mangarayi"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "zmt",
+          "display" : "Maringarr"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "mec",
+          "display" : "Marra"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "mfr",
+          "display" : "Marrithiyel"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "zml",
+          "display" : "Matngala"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "mwf",
+          "display" : "Murrinh-Patha"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "nck",
+          "display" : "Nakara"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "djj",
+          "display" : "Djeebbana"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "nig",
+          "display" : "Ngalakgan"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "djd",
+          "display" : "Ngaliwurru"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "nug",
+          "display" : "Nungali"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "wmb",
+          "display" : "Wambaya"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "wrr",
+          "display" : "Wardaman"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "amg",
+          "display" : "Amurdak"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "wrk",
+          "display" : "Garrwa"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "woa",
+          "display" : "Kuwema"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "zmm",
+          "display" : "Marramaninyshi"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "nid",
+          "display" : "Ngandi"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "wny",
+          "display" : "Waanyi"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "waq",
+          "display" : "Wagiman"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "jao",
+          "display" : "Yanyuwa"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "zmd",
+          "display" : "Maridan"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "bvr",
+          "display" : "Burarra"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "gge",
+          "display" : "Gurr-goni"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "djr",
+          "display" : "Djambarrpuyngu"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "gnn",
+          "display" : "Gumatj"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "guf",
+          "display" : "Gupapuyngu"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "djb",
+          "display" : "Djinba"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "rit",
+          "display" : "Ritharrngu"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "jay",
+          "display" : "Yan-nhangu"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "dwy",
+          "display" : "Dhuwaya"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "dhg",
+          "display" : "Djangu"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "gvn",
+          "display" : "Kuku-Yalanji"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "kky",
+          "display" : "Guugu Yimidhirr"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "kuy",
+          "display" : "Kuuku-Ya'u"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "wim",
+          "display" : "Wik-Mungkan"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "dbl",
+          "display" : "Dyirbal"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "kkp",
+          "display" : "Koko-Bera"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "thd",
+          "display" : "Kuuk Thayorre"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "lby",
+          "display" : "Lamalama"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "yii",
+          "display" : "Yidiny"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "wig",
+          "display" : "Wik Ngathan"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "aid",
+          "display" : "Alngith"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "xmh",
+          "display" : "Kugu-Muminh"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "umg",
+          "display" : "Morrobalama"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "awg",
+          "display" : "Anguthimri"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "dyy",
+          "display" : "Dyaabugay"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "mwp",
+          "display" : "Kalaw Lagaw Ya"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "ulk",
+          "display" : "Meriam Mir"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "tcs",
+          "display" : "Yumplatok"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "gjr",
+          "display" : "Gurindji Kriol"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "ddj",
+          "display" : "Jaru"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "dmw",
+          "display" : "Mudburra"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "rxd",
+          "display" : "Ngardi"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "nbj",
+          "display" : "Ngarinyman"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "wmt",
+          "display" : "Walmajarri"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "wrl",
+          "display" : "Warlmanpa"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "wbp",
+          "display" : "Warlpiri"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "wrm",
+          "display" : "Warumungu"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "aly",
+          "display" : "Alyawarr"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "gbb",
+          "display" : "Kaytetye"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "adg",
+          "display" : "Andegerebinha"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "amx",
+          "display" : "Anmatyerr"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "aer",
+          "display" : "Eastern Arrernte"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "are",
+          "display" : "Western Arrarnta"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "ant",
+          "display" : "Antikarinya"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "ktd",
+          "display" : "Kukatha"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "kux",
+          "display" : "Kukatja"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "piu",
+          "display" : "Pintupi-Luritja"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "mpj",
+          "display" : "Martu Wangka"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "ntj",
+          "display" : "Ngaanyatjarra"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "pjt",
+          "display" : "Pitjantjatjara"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "pti",
+          "display" : "Wangkatha"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "wbt",
+          "display" : "Warnman"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "kdd",
+          "display" : "Yankunytjatjara"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "bcj",
+          "display" : "Bardi"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "bck",
+          "display" : "Bunuba"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "gni",
+          "display" : "Gooniyandi"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "rsm",
+          "display" : "Miriwoong"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "ung",
+          "display" : "Ngarinyin"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "nyh",
+          "display" : "Nyikina"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "wro",
+          "display" : "Worrorra"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "wub",
+          "display" : "Wunambal"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "ywr",
+          "display" : "Yawuru"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "gma",
+          "display" : "Gambera"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "djw",
+          "display" : "Djawi"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "gia",
+          "display" : "Kija"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "adt",
+          "display" : "Adnymathanha"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "ard",
+          "display" : "Arabana"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "bdy",
+          "display" : "Bandjalang"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "pnw",
+          "display" : "Banyjima"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "xby",
+          "display" : "Batyala"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "bym",
+          "display" : "Bidjara"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "dyn",
+          "display" : "Dhanggatti"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "dif",
+          "display" : "Diyari"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "kld",
+          "display" : "Gamilaraay"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "rxw",
+          "display" : "Karuwali"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "gih",
+          "display" : "Githabul"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "kgs",
+          "display" : "Kumbainggar"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "nak",
+          "display" : "Nakanai"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "gbd",
+          "display" : "Karajarri"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "vka",
+          "display" : "Kariyarra"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "zku",
+          "display" : "Kaurna"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "gyd",
+          "display" : "Kayardild"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "rop",
+          "display" : "Kriol"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "lbz",
+          "display" : "Lardil"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "mem",
+          "display" : "Mangala"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "zmu",
+          "display" : "Muruwari"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "nnr",
+          "display" : "Narungga"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "nrl",
+          "display" : "Ngarluma"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "nay",
+          "display" : "Ngarrindjeri"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "nly",
+          "display" : "Nyamal"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "nna",
+          "display" : "Nyangumarta"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "nys",
+          "display" : "Nyungar"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "drl",
+          "display" : "Paakantyi"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "xny",
+          "display" : "Nyiyaparli"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "wbv",
+          "display" : "Wajarri"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "wrh",
+          "display" : "Wiradjuri"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "yij",
+          "display" : "Yindjibarndi"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "ywg",
+          "display" : "Yinhawangka"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "xyy",
+          "display" : "Yorta Yorta"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "bia",
+          "display" : "Badimaya"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "rbp",
+          "display" : "Barababaraba"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "dda",
+          "display" : "Dadi Dadi"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "tbh",
+          "display" : "Dharawal"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "tjw",
+          "display" : "Djabwurrung"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "wrg",
+          "display" : "Warungu"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "llj",
+          "display" : "Ladji Ladji"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "xrg",
+          "display" : "Minang"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "nju",
+          "display" : "Ngatjumaya"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "wrb",
+          "display" : "Waluwarra"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "wgg",
+          "display" : "Wangkangurru"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "wgy",
+          "display" : "Wargamay"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "weg",
+          "display" : "Wergaia"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "yub",
+          "display" : "Yugambal"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "ar",
+          "display" : "Arabisk"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "bn",
+          "display" : "Bengali"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "cs",
+          "display" : "Czech"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "da",
+          "display" : "Danish"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "de",
+          "display" : "German"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "de-AT",
+          "display" : "German (Austria)"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "de-CH",
+          "display" : "German (Switzerland)"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "de-DE",
+          "display" : "German (Germany)"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "el",
+          "display" : "Greek"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "en",
+          "display" : "English"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "en-AU",
+          "display" : "English (Australia)"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "en-CA",
+          "display" : "English (Canada)"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "en-GB",
+          "display" : "English (Great Britain)"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "en-IN",
+          "display" : "English (India)"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "en-NZ",
+          "display" : "English (New Zeland)"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "en-SG",
+          "display" : "English (Singapore)"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "en-US",
+          "display" : "English (United States)"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "es",
+          "display" : "Spanish"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "es-AR",
+          "display" : "Spanish (Argentina)"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "es-ES",
+          "display" : "Spanish (Spain)"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "es-UY",
+          "display" : "Spanish (Uruguay)"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "fi",
+          "display" : "Finnish"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "fr",
+          "display" : "French"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "fr-BE",
+          "display" : "French (Belgium)"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "fr-CH",
+          "display" : "French (Switzerland)"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "fr-FR",
+          "display" : "French (France)"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "fy",
+          "display" : "Frysian"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "fy-NL",
+          "display" : "Frysian (Netherlands)"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "hi",
+          "display" : "Hindi"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "hr",
+          "display" : "Croatian"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "it",
+          "display" : "Italian"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "it-CH",
+          "display" : "Italian (Switzerland)"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "it-IT",
+          "display" : "Italian (Italy)"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "ja",
+          "display" : "Japanese"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "ko",
+          "display" : "Korean"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "nl",
+          "display" : "Dutch"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "nl-BE",
+          "display" : "Dutch (Belgium)"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "nl-NL",
+          "display" : "Dutch (Netherlands)"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "no",
+          "display" : "Norwegian"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "no-NO",
+          "display" : "Norwegian (Norway)"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "pa",
+          "display" : "Punjabi"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "pl",
+          "display" : "Polskie"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "pt",
+          "display" : "Portuguese"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "pt-BR",
+          "display" : "Portuguese (Brazil)"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "ru",
+          "display" : "Russian"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "ru-RU",
+          "display" : "Russian (Russia)"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "sr",
+          "display" : "Serbian"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "sr-RS",
+          "display" : "Serbian (Serbia)"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "sv",
+          "display" : "Swedish"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "sv-SE",
+          "display" : "Swedish (Sweden)"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "te",
+          "display" : "Telegu"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "zh",
+          "display" : "Chinese"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "zh-CN",
+          "display" : "Chinese (China)"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "zh-HK",
+          "display" : "Chinese (Hong Kong)"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "zh-SG",
+          "display" : "Chinese (Singapore)"
+        },
+        {
+          "system" : "urn:ietf:bcp:47",
+          "code" : "zh-TW",
+          "display" : "Chinese (Taiwan)"
+        }]
+      }
+    }
+  }]
+}

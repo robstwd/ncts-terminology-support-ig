@@ -1,0 +1,1212 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://github.com/robswtd/fhir/ig/ValueSet/common-languages-australia-2> a fhir:ValueSet;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "common-languages-australia-2"]; # 
+  fhir:Resource.meta [
+     fhir:Meta.versionId [ fhir:value "1" ];
+     fhir:Meta.lastUpdated [ fhir:value "2022-11-24T05:55:57.985+00:00"^^xsd:dateTime ];
+     fhir:Meta.profile [
+       fhir:value "http://hl7.org/fhir/StructureDefinition/shareablevalueset";
+       fhir:index 0;
+       fhir:link <http://hl7.org/fhir/StructureDefinition/shareablevalueset>
+     ]
+  ]; # 
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n            <h2>Common Languages in Australia</h2>\n            <tt>https://healthterminologies.gov.au/fhir/ValueSet/common-languages-australia-2</tt>\n            <p>The Common Languages in Australia value set includes languages that are commonly encountered in Australia, including a comprehensive set of Australian Indigenous languages.</p>\n        </div>"
+  ]; # 
+  fhir:ValueSet.url [ fhir:value "https://healthterminologies.gov.au/fhir/ValueSet/common-languages-australia-2"]; # 
+  fhir:ValueSet.identifier [
+     fhir:index 0;
+     fhir:Identifier.system [ fhir:value "urn:ietf:rfc:3986" ];
+     fhir:Identifier.value [ fhir:value "urn:oid:1.2.36.1.2001.1004.201.10069" ]
+  ]; # 
+  fhir:ValueSet.version [ fhir:value "2.2.1"]; # 
+  fhir:ValueSet.name [ fhir:value "CommonLanguagesInAustralia"]; # 
+  fhir:ValueSet.title [ fhir:value "Common Languages in Australia"]; # 
+  fhir:ValueSet.status [ fhir:value "active"]; # 
+  fhir:ValueSet.experimental [ fhir:value "false"^^xsd:boolean]; # 
+  fhir:ValueSet.date [ fhir:value "2020-05-31"^^xsd:date]; # 
+  fhir:ValueSet.publisher [ fhir:value "Rob Eastwood (himself)"]; # 
+  fhir:ValueSet.contact [
+     fhir:index 0;
+     fhir:ContactDetail.telecom [
+       fhir:index 0;
+       fhir:ContactPoint.system [ fhir:value "url" ];
+       fhir:ContactPoint.value [ fhir:value "https://github.com/robstwd" ]
+     ]
+  ]; # 
+  fhir:ValueSet.description [ fhir:value "The Common Languages in Australia value set includes languages that are commonly encountered in Australia, including a comprehensive set of Australian Indigenous languages."]; # 
+  fhir:ValueSet.jurisdiction [
+     fhir:index 0;
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "urn:iso:std:iso:3166" ];
+       fhir:Coding.code [ fhir:value "AU" ]
+     ]
+  ]; # 
+  fhir:ValueSet.copyright [ fhir:value "Copyright © 2019 Australian Digital Health Agency - All rights reserved. Except for the material identified below, this content is licensed under a Creative Commons Attribution 4.0 International License. See https://creativecommons.org/licenses/by/4.0/. \n\nThis resource also includes all or a portion of material that is HL7 FHIR Copyright © 2011+ HL7 licensed under Creative Commons 'No Rights Reserved' (CC0)  \n\n	Copyright (c) 2008 IETF Trust and the persons identified as the document authors (https://tools.ietf.org/html/bcp47). All rights reserved.  \n\nAll copies of this resource must include this copyright statement and all information contained in this statement."]; # 
+  fhir:ValueSet.compose [
+     fhir:ValueSet.compose.include [
+       fhir:index 0;
+       fhir:ValueSet.compose.include.system [ fhir:value "urn:ietf:bcp:47" ];
+       fhir:ValueSet.compose.include.concept [
+         fhir:index 0;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "ace" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Achinese" ]
+       ], [
+         fhir:index 1;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "ach" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Acholi" ]
+       ], [
+         fhir:index 2;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "aa" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Afar" ]
+       ], [
+         fhir:index 3;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "ak" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Akan" ]
+       ], [
+         fhir:index 4;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "sq" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Albanian" ]
+       ], [
+         fhir:index 5;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "am" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Amharic" ]
+       ], [
+         fhir:index 6;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "anu" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Anuak" ]
+       ], [
+         fhir:index 7;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "asf" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Auslan" ]
+       ], [
+         fhir:index 8;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "gwm" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Awngthim" ]
+       ], [
+         fhir:index 9;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "rki" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Rakhine" ]
+       ], [
+         fhir:index 10;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "hy" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Armenian" ]
+       ], [
+         fhir:index 11;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "aii" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Assyrian Neo-Aramaic" ]
+       ], [
+         fhir:index 12;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "bfa" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Bari" ]
+       ], [
+         fhir:index 13;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "bsq" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Bassa" ]
+       ], [
+         fhir:index 14;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "be" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Belarusian" ]
+       ], [
+         fhir:index 15;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "bs" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Bosnian" ]
+       ], [
+         fhir:index 16;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "bg" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Bulgarian" ]
+       ], [
+         fhir:index 17;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "yue" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Cantonese" ]
+       ], [
+         fhir:index 18;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "ceb" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Cebuano" ]
+       ], [
+         fhir:index 19;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "cld" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Chaldean Neo-Aramaic" ]
+       ], [
+         fhir:index 20;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "prs" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Dari" ]
+       ], [
+         fhir:index 21;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "dwu" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Dhuwal" ]
+       ], [
+         fhir:index 22;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "din" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Dinka" ]
+       ], [
+         fhir:index 23;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "et" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Estonian" ]
+       ], [
+         fhir:index 24;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "ee" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Ewe" ]
+       ], [
+         fhir:index 25;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "cfm" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Falam Chin" ]
+       ], [
+         fhir:index 26;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "fa" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Persian" ]
+       ], [
+         fhir:index 27;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "hif" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Fiji Hindi" ]
+       ], [
+         fhir:index 28;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "fj" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Fijian" ]
+       ], [
+         fhir:index 29;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "fil" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Filipino" ]
+       ], [
+         fhir:index 30;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "fuv" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Nigerian Fulfulde" ]
+       ], [
+         fhir:index 31;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "ff" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Fullah" ]
+       ], [
+         fhir:index 32;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "nan" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Min Nan Chinese" ]
+       ], [
+         fhir:index 33;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "zh-min" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Fuzhou" ]
+       ], [
+         fhir:index 34;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "gaa" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Ga" ]
+       ], [
+         fhir:index 35;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "lg" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Ganda" ]
+       ], [
+         fhir:index 36;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "ki" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Gikuyu" ]
+       ], [
+         fhir:index 37;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "hac" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Gurani" ]
+       ], [
+         fhir:index 38;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "gu" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Gujarati" ]
+       ], [
+         fhir:index 39;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "cnh" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Hakha Chin" ]
+       ], [
+         fhir:index 40;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "hak" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Hakka Chinese" ]
+       ], [
+         fhir:index 41;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "har" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Harari" ]
+       ], [
+         fhir:index 42;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "mey" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Hassaniyya" ]
+       ], [
+         fhir:index 43;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "haz" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Hazaragi" ]
+       ], [
+         fhir:index 44;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "he" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Hebrew" ]
+       ], [
+         fhir:index 45;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "ho" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Hiri Motu" ]
+       ], [
+         fhir:index 46;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "hmn" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Hmong" ]
+       ], [
+         fhir:index 47;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "hu" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Hungarian" ]
+       ], [
+         fhir:index 48;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "id" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Indonesian" ]
+       ], [
+         fhir:index 49;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "jv" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Javanese" ]
+       ], [
+         fhir:index 50;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "kac" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Jingpho" ]
+       ], [
+         fhir:index 51;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "pga" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Sudanese Creole Arabic" ]
+       ], [
+         fhir:index 52;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "keo" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Kakwa" ]
+       ], [
+         fhir:index 53;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "kn" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Kannada" ]
+       ], [
+         fhir:index 54;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "eky" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Eastern Kayah" ]
+       ], [
+         fhir:index 55;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "kyu" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Western Kayah" ]
+       ], [
+         fhir:index 56;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "kk" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Kazakh" ]
+       ], [
+         fhir:index 57;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "km" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Khmer" ]
+       ], [
+         fhir:index 58;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "cnk" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Khumi Chin" ]
+       ], [
+         fhir:index 59;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "rw" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Kinyarwanda" ]
+       ], [
+         fhir:index 60;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "rn" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Rundi" ]
+       ], [
+         fhir:index 61;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "kqs" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Northern Kissi" ]
+       ], [
+         fhir:index 62;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "mku" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Konyanka Maninka" ]
+       ], [
+         fhir:index 63;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "kri" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Krio" ]
+       ], [
+         fhir:index 64;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "kun" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Kunama" ]
+       ], [
+         fhir:index 65;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "kmr" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Northern Kurdish" ]
+       ], [
+         fhir:index 66;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "lo" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Lao" ]
+       ], [
+         fhir:index 67;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "lir" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Liberian English" ]
+       ], [
+         fhir:index 68;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "ln" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Lingala" ]
+       ], [
+         fhir:index 69;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "mk" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Macedonian" ]
+       ], [
+         fhir:index 70;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "mhi" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Ma'di" ]
+       ], [
+         fhir:index 71;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "zlm" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Malay" ]
+       ], [
+         fhir:index 72;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "ml" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Malayalam" ]
+       ], [
+         fhir:index 73;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "mt" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Maltese" ]
+       ], [
+         fhir:index 74;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "cmn" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Mandarin" ]
+       ], [
+         fhir:index 75;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "mrh" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Mara Chin" ]
+       ], [
+         fhir:index 76;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "hlt" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Matu Chin" ]
+       ], [
+         fhir:index 77;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "mfe" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Morisyen" ]
+       ], [
+         fhir:index 78;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "men" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Mende (Sierra Leone)" ]
+       ], [
+         fhir:index 79;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "lus" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Lushai" ]
+       ], [
+         fhir:index 80;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "mo" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Moldavian" ]
+       ], [
+         fhir:index 81;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "mnw" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Mon" ]
+       ], [
+         fhir:index 82;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "mn" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Mongolian" ]
+       ], [
+         fhir:index 83;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "unr" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Mundari" ]
+       ], [
+         fhir:index 84;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "my" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Burmese" ]
+       ], [
+         fhir:index 85;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "ne" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Nepali" ]
+       ], [
+         fhir:index 86;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "azj" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "North Azerbaijani" ]
+       ], [
+         fhir:index 87;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "nus" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Nuer" ]
+       ], [
+         fhir:index 88;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "om" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Oromo" ]
+       ], [
+         fhir:index 89;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "ps" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pashto" ]
+       ], [
+         fhir:index 90;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "fuc" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pulaar" ]
+       ], [
+         fhir:index 91;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "kjp" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pwo Eastern Karen" ]
+       ], [
+         fhir:index 92;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "rhg" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Rohingya" ]
+       ], [
+         fhir:index 93;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "ro" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Romanian" ]
+       ], [
+         fhir:index 94;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "spy" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Sabaot" ]
+       ], [
+         fhir:index 95;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "ssy" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Saho" ]
+       ], [
+         fhir:index 96;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "sm" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Samoan" ]
+       ], [
+         fhir:index 97;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "ksw" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "S'gaw Karen" ]
+       ], [
+         fhir:index 98;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "shn" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Shan" ]
+       ], [
+         fhir:index 99;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "wuu" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Wu Chinese" ]
+       ], [
+         fhir:index 100;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "sid" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Sidamo" ]
+       ], [
+         fhir:index 101;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "sd" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Sindhi" ]
+       ], [
+         fhir:index 102;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "si" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Sinhalese" ]
+       ], [
+         fhir:index 103;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "csy" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Siyin Chin" ]
+       ], [
+         fhir:index 104;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "sk" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Slovak" ]
+       ], [
+         fhir:index 105;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "sl" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Slovenian" ]
+       ], [
+         fhir:index 106;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "so" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Somali" ]
+       ], [
+         fhir:index 107;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "ckb" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Central Kurdish" ]
+       ], [
+         fhir:index 108;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "azb" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "South Azerbaijani" ]
+       ], [
+         fhir:index 109;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "sdh" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Southern Kurdish" ]
+       ], [
+         fhir:index 110;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "apd" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Sudanese Arabic" ]
+       ], [
+         fhir:index 111;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "sus" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Susu" ]
+       ], [
+         fhir:index 112;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "swh" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Swahili" ]
+       ], [
+         fhir:index 113;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "abh" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Tajiki Arabic" ]
+       ], [
+         fhir:index 114;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "ta" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Tamil" ]
+       ], [
+         fhir:index 115;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "tt" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Tartar" ]
+       ], [
+         fhir:index 116;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "ctd" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Tedim Chin" ]
+       ], [
+         fhir:index 117;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "tet" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Tetum" ]
+       ], [
+         fhir:index 118;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "th" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Thai" ]
+       ], [
+         fhir:index 119;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "tem" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Time" ]
+       ], [
+         fhir:index 120;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "bo" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Tibetan" ]
+       ], [
+         fhir:index 121;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "tig" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Tigre" ]
+       ], [
+         fhir:index 122;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "ti" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Tigrinya" ]
+       ], [
+         fhir:index 123;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "tpi" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Tok Pisin" ]
+       ], [
+         fhir:index 124;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "to" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Tonga" ]
+       ], [
+         fhir:index 125;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "tr" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Turkish" ]
+       ], [
+         fhir:index 126;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "tk" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Turkmen" ]
+       ], [
+         fhir:index 127;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "uk" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Ukrainian" ]
+       ], [
+         fhir:index 128;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "ur" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Urdu" ]
+       ], [
+         fhir:index 129;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "ug" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Uyghur" ]
+       ], [
+         fhir:index 130;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "uz" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Uzbek" ]
+       ], [
+         fhir:index 131;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "vi" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Vietnamese" ]
+       ], [
+         fhir:index 132;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "wo" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Wolof" ]
+       ], [
+         fhir:index 133;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "zom" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Zou" ]
+       ], [
+         fhir:index 134;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "czt" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Zotung Chin" ]
+       ], [
+         fhir:index 135;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "aoi" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Anindilyakwa" ]
+       ], [
+         fhir:index 136;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "mph" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Maung" ]
+       ], [
+         fhir:index 137;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "nuy" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Nunggubuyu" ]
+       ], [
+         fhir:index 138;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "rmb" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Rembarrnga" ]
+       ], [
+         fhir:index 139;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "tiw" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Tiwi" ]
+       ], [
+         fhir:index 140;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "alh" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Alawa" ]
+       ], [
+         fhir:index 141;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "ngk" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Dalabon" ]
+       ], [
+         fhir:index 142;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "nji" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Gudanji" ]
+       ], [
+         fhir:index 143;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "ibd" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Iwaidja" ]
+       ], [
+         fhir:index 144;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "djn" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Jawoyn" ]
+       ], [
+         fhir:index 145;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "jig" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Jingulu" ]
+       ], [
+         fhir:index 146;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "wlg" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Kunbarlang" ]
+       ], [
+         fhir:index 147;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "lrg" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Laragia" ]
+       ], [
+         fhir:index 148;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "mbp" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Malak Malak" ]
+       ], [
+         fhir:index 149;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "mpc" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Mangarayi" ]
+       ], [
+         fhir:index 150;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "zmt" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Maringarr" ]
+       ], [
+         fhir:index 151;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "mec" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Marra" ]
+       ], [
+         fhir:index 152;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "mfr" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Marrithiyel" ]
+       ], [
+         fhir:index 153;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "zml" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Matngala" ]
+       ], [
+         fhir:index 154;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "mwf" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Murrinh-Patha" ]
+       ], [
+         fhir:index 155;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "nck" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Nakara" ]
+       ], [
+         fhir:index 156;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "djj" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Djeebbana" ]
+       ], [
+         fhir:index 157;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "nig" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Ngalakgan" ]
+       ], [
+         fhir:index 158;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "djd" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Ngaliwurru" ]
+       ], [
+         fhir:index 159;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "nug" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Nungali" ]
+       ], [
+         fhir:index 160;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "wmb" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Wambaya" ]
+       ], [
+         fhir:index 161;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "wrr" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Wardaman" ]
+       ], [
+         fhir:index 162;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "amg" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Amurdak" ]
+       ], [
+         fhir:index 163;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "wrk" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Garrwa" ]
+       ], [
+         fhir:index 164;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "woa" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Kuwema" ]
+       ], [
+         fhir:index 165;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "zmm" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Marramaninyshi" ]
+       ], [
+         fhir:index 166;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "nid" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Ngandi" ]
+       ], [
+         fhir:index 167;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "wny" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Waanyi" ]
+       ], [
+         fhir:index 168;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "waq" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Wagiman" ]
+       ], [
+         fhir:index 169;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "jao" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Yanyuwa" ]
+       ], [
+         fhir:index 170;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "zmd" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Maridan" ]
+       ], [
+         fhir:index 171;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "bvr" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Burarra" ]
+       ], [
+         fhir:index 172;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "gge" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Gurr-goni" ]
+       ], [
+         fhir:index 173;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "djr" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Djambarrpuyngu" ]
+       ], [
+         fhir:index 174;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "gnn" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Gumatj" ]
+       ], [
+         fhir:index 175;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "guf" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Gupapuyngu" ]
+       ], [
+         fhir:index 176;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "djb" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Djinba" ]
+       ], [
+         fhir:index 177;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "rit" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Ritharrngu" ]
+       ], [
+         fhir:index 178;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "jay" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Yan-nhangu" ]
+       ], [
+         fhir:index 179;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "dwy" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Dhuwaya" ]
+       ], [
+         fhir:index 180;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "dhg" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Djangu" ]
+       ], [
+         fhir:index 181;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "gvn" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Kuku-Yalanji" ]
+       ], [
+         fhir:index 182;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "kky" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Guugu Yimidhirr" ]
+       ], [
+         fhir:index 183;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "kuy" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Kuuku-Ya'u" ]
+       ], [
+         fhir:index 184;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "wim" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Wik-Mungkan" ]
+       ], [
+         fhir:index 185;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "dbl" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Dyirbal" ]
+       ], [
+         fhir:index 186;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "kkp" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Koko-Bera" ]
+       ], [
+         fhir:index 187;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "thd" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Kuuk Thayorre" ]
+       ], [
+         fhir:index 188;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "lby" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Lamalama" ]
+       ], [
+         fhir:index 189;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "yii" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Yidiny" ]
+       ], [
+         fhir:index 190;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "wig" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Wik Ngathan" ]
+       ], [
+         fhir:index 191;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "aid" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Alngith" ]
+       ], [
+         fhir:index 192;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "xmh" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Kugu-Muminh" ]
+       ], [
+         fhir:index 193;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "umg" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Morrobalama" ]
+       ], [
+         fhir:index 194;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "awg" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Anguthimri" ]
+       ], [
+         fhir:index 195;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "dyy" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Dyaabugay" ]
+       ], [
+         fhir:index 196;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "mwp" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Kalaw Lagaw Ya" ]
+       ], [
+         fhir:index 197;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "ulk" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Meriam Mir" ]
+       ], [
+         fhir:index 198;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "tcs" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Yumplatok" ]
+       ], [
+         fhir:index 199;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "gjr" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Gurindji Kriol" ]
+       ], [
+         fhir:index 200;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "ddj" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Jaru" ]
+       ], [
+         fhir:index 201;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "dmw" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Mudburra" ]
+       ], [
+         fhir:index 202;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "rxd" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Ngardi" ]
+       ], [
+         fhir:index 203;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "nbj" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Ngarinyman" ]
+       ], [
+         fhir:index 204;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "wmt" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Walmajarri" ]
+       ], [
+         fhir:index 205;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "wrl" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Warlmanpa" ]
+       ], [
+         fhir:index 206;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "wbp" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Warlpiri" ]
+       ], [
+         fhir:index 207;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "wrm" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Warumungu" ]
+       ], [
+         fhir:index 208;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "aly" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Alyawarr" ]
+       ], [
+         fhir:index 209;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "gbb" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Kaytetye" ]
+       ], [
+         fhir:index 210;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "adg" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Andegerebinha" ]
+       ], [
+         fhir:index 211;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "amx" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Anmatyerr" ]
+       ], [
+         fhir:index 212;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "aer" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Eastern Arrernte" ]
+       ], [
+         fhir:index 213;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "are" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Western Arrarnta" ]
+       ], [
+         fhir:index 214;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "ant" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Antikarinya" ]
+       ], [
+         fhir:index 215;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "ktd" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Kukatha" ]
+       ], [
+         fhir:index 216;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "kux" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Kukatja" ]
+       ], [
+         fhir:index 217;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "piu" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pintupi-Luritja" ]
+       ], [
+         fhir:index 218;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "mpj" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Martu Wangka" ]
+       ], [
+         fhir:index 219;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "ntj" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Ngaanyatjarra" ]
+       ], [
+         fhir:index 220;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "pjt" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pitjantjatjara" ]
+       ], [
+         fhir:index 221;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "pti" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Wangkatha" ]
+       ], [
+         fhir:index 222;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "wbt" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Warnman" ]
+       ], [
+         fhir:index 223;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "kdd" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Yankunytjatjara" ]
+       ], [
+         fhir:index 224;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "bcj" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Bardi" ]
+       ], [
+         fhir:index 225;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "bck" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Bunuba" ]
+       ], [
+         fhir:index 226;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "gni" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Gooniyandi" ]
+       ], [
+         fhir:index 227;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "rsm" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Miriwoong" ]
+       ], [
+         fhir:index 228;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "ung" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Ngarinyin" ]
+       ], [
+         fhir:index 229;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "nyh" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Nyikina" ]
+       ], [
+         fhir:index 230;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "wro" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Worrorra" ]
+       ], [
+         fhir:index 231;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "wub" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Wunambal" ]
+       ], [
+         fhir:index 232;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "ywr" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Yawuru" ]
+       ], [
+         fhir:index 233;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "gma" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Gambera" ]
+       ], [
+         fhir:index 234;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "djw" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Djawi" ]
+       ], [
+         fhir:index 235;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "gia" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Kija" ]
+       ], [
+         fhir:index 236;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "adt" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Adnymathanha" ]
+       ], [
+         fhir:index 237;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "ard" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Arabana" ]
+       ], [
+         fhir:index 238;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "bdy" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Bandjalang" ]
+       ], [
+         fhir:index 239;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "pnw" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Banyjima" ]
+       ], [
+         fhir:index 240;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "xby" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Batyala" ]
+       ], [
+         fhir:index 241;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "bym" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Bidjara" ]
+       ], [
+         fhir:index 242;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "dyn" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Dhanggatti" ]
+       ], [
+         fhir:index 243;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "dif" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Diyari" ]
+       ], [
+         fhir:index 244;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "kld" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Gamilaraay" ]
+       ], [
+         fhir:index 245;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "rxw" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Karuwali" ]
+       ], [
+         fhir:index 246;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "gih" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Githabul" ]
+       ], [
+         fhir:index 247;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "kgs" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Kumbainggar" ]
+       ], [
+         fhir:index 248;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "nak" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Nakanai" ]
+       ], [
+         fhir:index 249;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "gbd" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Karajarri" ]
+       ], [
+         fhir:index 250;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "vka" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Kariyarra" ]
+       ], [
+         fhir:index 251;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "zku" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Kaurna" ]
+       ], [
+         fhir:index 252;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "gyd" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Kayardild" ]
+       ], [
+         fhir:index 253;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "rop" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Kriol" ]
+       ], [
+         fhir:index 254;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "lbz" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Lardil" ]
+       ], [
+         fhir:index 255;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "mem" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Mangala" ]
+       ], [
+         fhir:index 256;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "zmu" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Muruwari" ]
+       ], [
+         fhir:index 257;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "nnr" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Narungga" ]
+       ], [
+         fhir:index 258;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "nrl" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Ngarluma" ]
+       ], [
+         fhir:index 259;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "nay" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Ngarrindjeri" ]
+       ], [
+         fhir:index 260;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "nly" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Nyamal" ]
+       ], [
+         fhir:index 261;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "nna" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Nyangumarta" ]
+       ], [
+         fhir:index 262;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "nys" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Nyungar" ]
+       ], [
+         fhir:index 263;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "drl" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Paakantyi" ]
+       ], [
+         fhir:index 264;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "xny" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Nyiyaparli" ]
+       ], [
+         fhir:index 265;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "wbv" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Wajarri" ]
+       ], [
+         fhir:index 266;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "wrh" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Wiradjuri" ]
+       ], [
+         fhir:index 267;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "yij" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Yindjibarndi" ]
+       ], [
+         fhir:index 268;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "ywg" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Yinhawangka" ]
+       ], [
+         fhir:index 269;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "xyy" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Yorta Yorta" ]
+       ], [
+         fhir:index 270;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "bia" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Badimaya" ]
+       ], [
+         fhir:index 271;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "rbp" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Barababaraba" ]
+       ], [
+         fhir:index 272;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "dda" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Dadi Dadi" ]
+       ], [
+         fhir:index 273;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "tbh" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Dharawal" ]
+       ], [
+         fhir:index 274;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "tjw" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Djabwurrung" ]
+       ], [
+         fhir:index 275;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "wrg" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Warungu" ]
+       ], [
+         fhir:index 276;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "llj" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Ladji Ladji" ]
+       ], [
+         fhir:index 277;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "xrg" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Minang" ]
+       ], [
+         fhir:index 278;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "nju" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Ngatjumaya" ]
+       ], [
+         fhir:index 279;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "wrb" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Waluwarra" ]
+       ], [
+         fhir:index 280;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "wgg" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Wangkangurru" ]
+       ], [
+         fhir:index 281;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "wgy" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Wargamay" ]
+       ], [
+         fhir:index 282;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "weg" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Wergaia" ]
+       ], [
+         fhir:index 283;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "yub" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Yugambal" ]
+       ]
+     ], [
+       fhir:index 1;
+       fhir:ValueSet.compose.include.valueSet [
+         fhir:value "http://hl7.org/fhir/ValueSet/languages";
+         fhir:index 0;
+         fhir:link <http://hl7.org/fhir/ValueSet/languages>
+       ]
+     ]
+  ] . # 
+
+# - ontology header ------------------------------------------------------------
+
+<https://github.com/robswtd/fhir/ig/ValueSet/common-languages-australia-2.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

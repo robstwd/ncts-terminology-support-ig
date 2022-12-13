@@ -1,0 +1,1183 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "common-languages-australia-2",
+  "meta" : {
+    "versionId" : "1",
+    "lastUpdated" : "2022-11-24T05:55:57.985+00:00",
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
+  },
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n            <h2>Common Languages in Australia</h2>\n            <tt>https://healthterminologies.gov.au/fhir/ValueSet/common-languages-australia-2</tt>\n            <p>The Common Languages in Australia value set includes languages that are commonly encountered in Australia, including a comprehensive set of Australian Indigenous languages.</p>\n        </div>"
+  },
+  "url" : "https://healthterminologies.gov.au/fhir/ValueSet/common-languages-australia-2",
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.2.36.1.2001.1004.201.10069"
+  }],
+  "version" : "2.2.1",
+  "name" : "CommonLanguagesInAustralia",
+  "title" : "Common Languages in Australia",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2020-05-31",
+  "publisher" : "Rob Eastwood (himself)",
+  "contact" : [{
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://github.com/robstwd"
+    }]
+  }],
+  "description" : "The Common Languages in Australia value set includes languages that are commonly encountered in Australia, including a comprehensive set of Australian Indigenous languages.",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "AU"
+    }]
+  }],
+  "copyright" : "Copyright © 2019 Australian Digital Health Agency - All rights reserved. Except for the material identified below, this content is licensed under a Creative Commons Attribution 4.0 International License. See https://creativecommons.org/licenses/by/4.0/. \n\nThis resource also includes all or a portion of material that is HL7 FHIR Copyright © 2011+ HL7 licensed under Creative Commons 'No Rights Reserved' (CC0)  \n\n\tCopyright (c) 2008 IETF Trust and the persons identified as the document authors (https://tools.ietf.org/html/bcp47). All rights reserved.  \n\nAll copies of this resource must include this copyright statement and all information contained in this statement.",
+  "compose" : {
+    "include" : [{
+      "system" : "urn:ietf:bcp:47",
+      "concept" : [{
+        "code" : "ace",
+        "display" : "Achinese"
+      },
+      {
+        "code" : "ach",
+        "display" : "Acholi"
+      },
+      {
+        "code" : "aa",
+        "display" : "Afar"
+      },
+      {
+        "code" : "ak",
+        "display" : "Akan"
+      },
+      {
+        "code" : "sq",
+        "display" : "Albanian"
+      },
+      {
+        "code" : "am",
+        "display" : "Amharic"
+      },
+      {
+        "code" : "anu",
+        "display" : "Anuak"
+      },
+      {
+        "code" : "asf",
+        "display" : "Auslan"
+      },
+      {
+        "code" : "gwm",
+        "display" : "Awngthim"
+      },
+      {
+        "code" : "rki",
+        "display" : "Rakhine"
+      },
+      {
+        "code" : "hy",
+        "display" : "Armenian"
+      },
+      {
+        "code" : "aii",
+        "display" : "Assyrian Neo-Aramaic"
+      },
+      {
+        "code" : "bfa",
+        "display" : "Bari"
+      },
+      {
+        "code" : "bsq",
+        "display" : "Bassa"
+      },
+      {
+        "code" : "be",
+        "display" : "Belarusian"
+      },
+      {
+        "code" : "bs",
+        "display" : "Bosnian"
+      },
+      {
+        "code" : "bg",
+        "display" : "Bulgarian"
+      },
+      {
+        "code" : "yue",
+        "display" : "Cantonese"
+      },
+      {
+        "code" : "ceb",
+        "display" : "Cebuano"
+      },
+      {
+        "code" : "cld",
+        "display" : "Chaldean Neo-Aramaic"
+      },
+      {
+        "code" : "prs",
+        "display" : "Dari"
+      },
+      {
+        "code" : "dwu",
+        "display" : "Dhuwal"
+      },
+      {
+        "code" : "din",
+        "display" : "Dinka"
+      },
+      {
+        "code" : "et",
+        "display" : "Estonian"
+      },
+      {
+        "code" : "ee",
+        "display" : "Ewe"
+      },
+      {
+        "code" : "cfm",
+        "display" : "Falam Chin"
+      },
+      {
+        "code" : "fa",
+        "display" : "Persian"
+      },
+      {
+        "code" : "hif",
+        "display" : "Fiji Hindi"
+      },
+      {
+        "code" : "fj",
+        "display" : "Fijian"
+      },
+      {
+        "code" : "fil",
+        "display" : "Filipino"
+      },
+      {
+        "code" : "fuv",
+        "display" : "Nigerian Fulfulde"
+      },
+      {
+        "code" : "ff",
+        "display" : "Fullah"
+      },
+      {
+        "code" : "nan",
+        "display" : "Min Nan Chinese"
+      },
+      {
+        "code" : "zh-min",
+        "display" : "Fuzhou"
+      },
+      {
+        "code" : "gaa",
+        "display" : "Ga"
+      },
+      {
+        "code" : "lg",
+        "display" : "Ganda"
+      },
+      {
+        "code" : "ki",
+        "display" : "Gikuyu"
+      },
+      {
+        "code" : "hac",
+        "display" : "Gurani"
+      },
+      {
+        "code" : "gu",
+        "display" : "Gujarati"
+      },
+      {
+        "code" : "cnh",
+        "display" : "Hakha Chin"
+      },
+      {
+        "code" : "hak",
+        "display" : "Hakka Chinese"
+      },
+      {
+        "code" : "har",
+        "display" : "Harari"
+      },
+      {
+        "code" : "mey",
+        "display" : "Hassaniyya"
+      },
+      {
+        "code" : "haz",
+        "display" : "Hazaragi"
+      },
+      {
+        "code" : "he",
+        "display" : "Hebrew"
+      },
+      {
+        "code" : "ho",
+        "display" : "Hiri Motu"
+      },
+      {
+        "code" : "hmn",
+        "display" : "Hmong"
+      },
+      {
+        "code" : "hu",
+        "display" : "Hungarian"
+      },
+      {
+        "code" : "id",
+        "display" : "Indonesian"
+      },
+      {
+        "code" : "jv",
+        "display" : "Javanese"
+      },
+      {
+        "code" : "kac",
+        "display" : "Jingpho"
+      },
+      {
+        "code" : "pga",
+        "display" : "Sudanese Creole Arabic"
+      },
+      {
+        "code" : "keo",
+        "display" : "Kakwa"
+      },
+      {
+        "code" : "kn",
+        "display" : "Kannada"
+      },
+      {
+        "code" : "eky",
+        "display" : "Eastern Kayah"
+      },
+      {
+        "code" : "kyu",
+        "display" : "Western Kayah"
+      },
+      {
+        "code" : "kk",
+        "display" : "Kazakh"
+      },
+      {
+        "code" : "km",
+        "display" : "Khmer"
+      },
+      {
+        "code" : "cnk",
+        "display" : "Khumi Chin"
+      },
+      {
+        "code" : "rw",
+        "display" : "Kinyarwanda"
+      },
+      {
+        "code" : "rn",
+        "display" : "Rundi"
+      },
+      {
+        "code" : "kqs",
+        "display" : "Northern Kissi"
+      },
+      {
+        "code" : "mku",
+        "display" : "Konyanka Maninka"
+      },
+      {
+        "code" : "kri",
+        "display" : "Krio"
+      },
+      {
+        "code" : "kun",
+        "display" : "Kunama"
+      },
+      {
+        "code" : "kmr",
+        "display" : "Northern Kurdish"
+      },
+      {
+        "code" : "lo",
+        "display" : "Lao"
+      },
+      {
+        "code" : "lir",
+        "display" : "Liberian English"
+      },
+      {
+        "code" : "ln",
+        "display" : "Lingala"
+      },
+      {
+        "code" : "mk",
+        "display" : "Macedonian"
+      },
+      {
+        "code" : "mhi",
+        "display" : "Ma'di"
+      },
+      {
+        "code" : "zlm",
+        "display" : "Malay"
+      },
+      {
+        "code" : "ml",
+        "display" : "Malayalam"
+      },
+      {
+        "code" : "mt",
+        "display" : "Maltese"
+      },
+      {
+        "code" : "cmn",
+        "display" : "Mandarin"
+      },
+      {
+        "code" : "mrh",
+        "display" : "Mara Chin"
+      },
+      {
+        "code" : "hlt",
+        "display" : "Matu Chin"
+      },
+      {
+        "code" : "mfe",
+        "display" : "Morisyen"
+      },
+      {
+        "code" : "men",
+        "display" : "Mende (Sierra Leone)"
+      },
+      {
+        "code" : "lus",
+        "display" : "Lushai"
+      },
+      {
+        "code" : "mo",
+        "display" : "Moldavian"
+      },
+      {
+        "code" : "mnw",
+        "display" : "Mon"
+      },
+      {
+        "code" : "mn",
+        "display" : "Mongolian"
+      },
+      {
+        "code" : "unr",
+        "display" : "Mundari"
+      },
+      {
+        "code" : "my",
+        "display" : "Burmese"
+      },
+      {
+        "code" : "ne",
+        "display" : "Nepali"
+      },
+      {
+        "code" : "azj",
+        "display" : "North Azerbaijani"
+      },
+      {
+        "code" : "nus",
+        "display" : "Nuer"
+      },
+      {
+        "code" : "om",
+        "display" : "Oromo"
+      },
+      {
+        "code" : "ps",
+        "display" : "Pashto"
+      },
+      {
+        "code" : "fuc",
+        "display" : "Pulaar"
+      },
+      {
+        "code" : "kjp",
+        "display" : "Pwo Eastern Karen"
+      },
+      {
+        "code" : "rhg",
+        "display" : "Rohingya"
+      },
+      {
+        "code" : "ro",
+        "display" : "Romanian"
+      },
+      {
+        "code" : "spy",
+        "display" : "Sabaot"
+      },
+      {
+        "code" : "ssy",
+        "display" : "Saho"
+      },
+      {
+        "code" : "sm",
+        "display" : "Samoan"
+      },
+      {
+        "code" : "ksw",
+        "display" : "S'gaw Karen"
+      },
+      {
+        "code" : "shn",
+        "display" : "Shan"
+      },
+      {
+        "code" : "wuu",
+        "display" : "Wu Chinese"
+      },
+      {
+        "code" : "sid",
+        "display" : "Sidamo"
+      },
+      {
+        "code" : "sd",
+        "display" : "Sindhi"
+      },
+      {
+        "code" : "si",
+        "display" : "Sinhalese"
+      },
+      {
+        "code" : "csy",
+        "display" : "Siyin Chin"
+      },
+      {
+        "code" : "sk",
+        "display" : "Slovak"
+      },
+      {
+        "code" : "sl",
+        "display" : "Slovenian"
+      },
+      {
+        "code" : "so",
+        "display" : "Somali"
+      },
+      {
+        "code" : "ckb",
+        "display" : "Central Kurdish"
+      },
+      {
+        "code" : "azb",
+        "display" : "South Azerbaijani"
+      },
+      {
+        "code" : "sdh",
+        "display" : "Southern Kurdish"
+      },
+      {
+        "code" : "apd",
+        "display" : "Sudanese Arabic"
+      },
+      {
+        "code" : "sus",
+        "display" : "Susu"
+      },
+      {
+        "code" : "swh",
+        "display" : "Swahili"
+      },
+      {
+        "code" : "abh",
+        "display" : "Tajiki Arabic"
+      },
+      {
+        "code" : "ta",
+        "display" : "Tamil"
+      },
+      {
+        "code" : "tt",
+        "display" : "Tartar"
+      },
+      {
+        "code" : "ctd",
+        "display" : "Tedim Chin"
+      },
+      {
+        "code" : "tet",
+        "display" : "Tetum"
+      },
+      {
+        "code" : "th",
+        "display" : "Thai"
+      },
+      {
+        "code" : "tem",
+        "display" : "Time"
+      },
+      {
+        "code" : "bo",
+        "display" : "Tibetan"
+      },
+      {
+        "code" : "tig",
+        "display" : "Tigre"
+      },
+      {
+        "code" : "ti",
+        "display" : "Tigrinya"
+      },
+      {
+        "code" : "tpi",
+        "display" : "Tok Pisin"
+      },
+      {
+        "code" : "to",
+        "display" : "Tonga"
+      },
+      {
+        "code" : "tr",
+        "display" : "Turkish"
+      },
+      {
+        "code" : "tk",
+        "display" : "Turkmen"
+      },
+      {
+        "code" : "uk",
+        "display" : "Ukrainian"
+      },
+      {
+        "code" : "ur",
+        "display" : "Urdu"
+      },
+      {
+        "code" : "ug",
+        "display" : "Uyghur"
+      },
+      {
+        "code" : "uz",
+        "display" : "Uzbek"
+      },
+      {
+        "code" : "vi",
+        "display" : "Vietnamese"
+      },
+      {
+        "code" : "wo",
+        "display" : "Wolof"
+      },
+      {
+        "code" : "zom",
+        "display" : "Zou"
+      },
+      {
+        "code" : "czt",
+        "display" : "Zotung Chin"
+      },
+      {
+        "code" : "aoi",
+        "display" : "Anindilyakwa"
+      },
+      {
+        "code" : "mph",
+        "display" : "Maung"
+      },
+      {
+        "code" : "nuy",
+        "display" : "Nunggubuyu"
+      },
+      {
+        "code" : "rmb",
+        "display" : "Rembarrnga"
+      },
+      {
+        "code" : "tiw",
+        "display" : "Tiwi"
+      },
+      {
+        "code" : "alh",
+        "display" : "Alawa"
+      },
+      {
+        "code" : "ngk",
+        "display" : "Dalabon"
+      },
+      {
+        "code" : "nji",
+        "display" : "Gudanji"
+      },
+      {
+        "code" : "ibd",
+        "display" : "Iwaidja"
+      },
+      {
+        "code" : "djn",
+        "display" : "Jawoyn"
+      },
+      {
+        "code" : "jig",
+        "display" : "Jingulu"
+      },
+      {
+        "code" : "wlg",
+        "display" : "Kunbarlang"
+      },
+      {
+        "code" : "lrg",
+        "display" : "Laragia"
+      },
+      {
+        "code" : "mbp",
+        "display" : "Malak Malak"
+      },
+      {
+        "code" : "mpc",
+        "display" : "Mangarayi"
+      },
+      {
+        "code" : "zmt",
+        "display" : "Maringarr"
+      },
+      {
+        "code" : "mec",
+        "display" : "Marra"
+      },
+      {
+        "code" : "mfr",
+        "display" : "Marrithiyel"
+      },
+      {
+        "code" : "zml",
+        "display" : "Matngala"
+      },
+      {
+        "code" : "mwf",
+        "display" : "Murrinh-Patha"
+      },
+      {
+        "code" : "nck",
+        "display" : "Nakara"
+      },
+      {
+        "code" : "djj",
+        "display" : "Djeebbana"
+      },
+      {
+        "code" : "nig",
+        "display" : "Ngalakgan"
+      },
+      {
+        "code" : "djd",
+        "display" : "Ngaliwurru"
+      },
+      {
+        "code" : "nug",
+        "display" : "Nungali"
+      },
+      {
+        "code" : "wmb",
+        "display" : "Wambaya"
+      },
+      {
+        "code" : "wrr",
+        "display" : "Wardaman"
+      },
+      {
+        "code" : "amg",
+        "display" : "Amurdak"
+      },
+      {
+        "code" : "wrk",
+        "display" : "Garrwa"
+      },
+      {
+        "code" : "woa",
+        "display" : "Kuwema"
+      },
+      {
+        "code" : "zmm",
+        "display" : "Marramaninyshi"
+      },
+      {
+        "code" : "nid",
+        "display" : "Ngandi"
+      },
+      {
+        "code" : "wny",
+        "display" : "Waanyi"
+      },
+      {
+        "code" : "waq",
+        "display" : "Wagiman"
+      },
+      {
+        "code" : "jao",
+        "display" : "Yanyuwa"
+      },
+      {
+        "code" : "zmd",
+        "display" : "Maridan"
+      },
+      {
+        "code" : "bvr",
+        "display" : "Burarra"
+      },
+      {
+        "code" : "gge",
+        "display" : "Gurr-goni"
+      },
+      {
+        "code" : "djr",
+        "display" : "Djambarrpuyngu"
+      },
+      {
+        "code" : "gnn",
+        "display" : "Gumatj"
+      },
+      {
+        "code" : "guf",
+        "display" : "Gupapuyngu"
+      },
+      {
+        "code" : "djb",
+        "display" : "Djinba"
+      },
+      {
+        "code" : "rit",
+        "display" : "Ritharrngu"
+      },
+      {
+        "code" : "jay",
+        "display" : "Yan-nhangu"
+      },
+      {
+        "code" : "dwy",
+        "display" : "Dhuwaya"
+      },
+      {
+        "code" : "dhg",
+        "display" : "Djangu"
+      },
+      {
+        "code" : "gvn",
+        "display" : "Kuku-Yalanji"
+      },
+      {
+        "code" : "kky",
+        "display" : "Guugu Yimidhirr"
+      },
+      {
+        "code" : "kuy",
+        "display" : "Kuuku-Ya'u"
+      },
+      {
+        "code" : "wim",
+        "display" : "Wik-Mungkan"
+      },
+      {
+        "code" : "dbl",
+        "display" : "Dyirbal"
+      },
+      {
+        "code" : "kkp",
+        "display" : "Koko-Bera"
+      },
+      {
+        "code" : "thd",
+        "display" : "Kuuk Thayorre"
+      },
+      {
+        "code" : "lby",
+        "display" : "Lamalama"
+      },
+      {
+        "code" : "yii",
+        "display" : "Yidiny"
+      },
+      {
+        "code" : "wig",
+        "display" : "Wik Ngathan"
+      },
+      {
+        "code" : "aid",
+        "display" : "Alngith"
+      },
+      {
+        "code" : "xmh",
+        "display" : "Kugu-Muminh"
+      },
+      {
+        "code" : "umg",
+        "display" : "Morrobalama"
+      },
+      {
+        "code" : "awg",
+        "display" : "Anguthimri"
+      },
+      {
+        "code" : "dyy",
+        "display" : "Dyaabugay"
+      },
+      {
+        "code" : "mwp",
+        "display" : "Kalaw Lagaw Ya"
+      },
+      {
+        "code" : "ulk",
+        "display" : "Meriam Mir"
+      },
+      {
+        "code" : "tcs",
+        "display" : "Yumplatok"
+      },
+      {
+        "code" : "gjr",
+        "display" : "Gurindji Kriol"
+      },
+      {
+        "code" : "ddj",
+        "display" : "Jaru"
+      },
+      {
+        "code" : "dmw",
+        "display" : "Mudburra"
+      },
+      {
+        "code" : "rxd",
+        "display" : "Ngardi"
+      },
+      {
+        "code" : "nbj",
+        "display" : "Ngarinyman"
+      },
+      {
+        "code" : "wmt",
+        "display" : "Walmajarri"
+      },
+      {
+        "code" : "wrl",
+        "display" : "Warlmanpa"
+      },
+      {
+        "code" : "wbp",
+        "display" : "Warlpiri"
+      },
+      {
+        "code" : "wrm",
+        "display" : "Warumungu"
+      },
+      {
+        "code" : "aly",
+        "display" : "Alyawarr"
+      },
+      {
+        "code" : "gbb",
+        "display" : "Kaytetye"
+      },
+      {
+        "code" : "adg",
+        "display" : "Andegerebinha"
+      },
+      {
+        "code" : "amx",
+        "display" : "Anmatyerr"
+      },
+      {
+        "code" : "aer",
+        "display" : "Eastern Arrernte"
+      },
+      {
+        "code" : "are",
+        "display" : "Western Arrarnta"
+      },
+      {
+        "code" : "ant",
+        "display" : "Antikarinya"
+      },
+      {
+        "code" : "ktd",
+        "display" : "Kukatha"
+      },
+      {
+        "code" : "kux",
+        "display" : "Kukatja"
+      },
+      {
+        "code" : "piu",
+        "display" : "Pintupi-Luritja"
+      },
+      {
+        "code" : "mpj",
+        "display" : "Martu Wangka"
+      },
+      {
+        "code" : "ntj",
+        "display" : "Ngaanyatjarra"
+      },
+      {
+        "code" : "pjt",
+        "display" : "Pitjantjatjara"
+      },
+      {
+        "code" : "pti",
+        "display" : "Wangkatha"
+      },
+      {
+        "code" : "wbt",
+        "display" : "Warnman"
+      },
+      {
+        "code" : "kdd",
+        "display" : "Yankunytjatjara"
+      },
+      {
+        "code" : "bcj",
+        "display" : "Bardi"
+      },
+      {
+        "code" : "bck",
+        "display" : "Bunuba"
+      },
+      {
+        "code" : "gni",
+        "display" : "Gooniyandi"
+      },
+      {
+        "code" : "rsm",
+        "display" : "Miriwoong"
+      },
+      {
+        "code" : "ung",
+        "display" : "Ngarinyin"
+      },
+      {
+        "code" : "nyh",
+        "display" : "Nyikina"
+      },
+      {
+        "code" : "wro",
+        "display" : "Worrorra"
+      },
+      {
+        "code" : "wub",
+        "display" : "Wunambal"
+      },
+      {
+        "code" : "ywr",
+        "display" : "Yawuru"
+      },
+      {
+        "code" : "gma",
+        "display" : "Gambera"
+      },
+      {
+        "code" : "djw",
+        "display" : "Djawi"
+      },
+      {
+        "code" : "gia",
+        "display" : "Kija"
+      },
+      {
+        "code" : "adt",
+        "display" : "Adnymathanha"
+      },
+      {
+        "code" : "ard",
+        "display" : "Arabana"
+      },
+      {
+        "code" : "bdy",
+        "display" : "Bandjalang"
+      },
+      {
+        "code" : "pnw",
+        "display" : "Banyjima"
+      },
+      {
+        "code" : "xby",
+        "display" : "Batyala"
+      },
+      {
+        "code" : "bym",
+        "display" : "Bidjara"
+      },
+      {
+        "code" : "dyn",
+        "display" : "Dhanggatti"
+      },
+      {
+        "code" : "dif",
+        "display" : "Diyari"
+      },
+      {
+        "code" : "kld",
+        "display" : "Gamilaraay"
+      },
+      {
+        "code" : "rxw",
+        "display" : "Karuwali"
+      },
+      {
+        "code" : "gih",
+        "display" : "Githabul"
+      },
+      {
+        "code" : "kgs",
+        "display" : "Kumbainggar"
+      },
+      {
+        "code" : "nak",
+        "display" : "Nakanai"
+      },
+      {
+        "code" : "gbd",
+        "display" : "Karajarri"
+      },
+      {
+        "code" : "vka",
+        "display" : "Kariyarra"
+      },
+      {
+        "code" : "zku",
+        "display" : "Kaurna"
+      },
+      {
+        "code" : "gyd",
+        "display" : "Kayardild"
+      },
+      {
+        "code" : "rop",
+        "display" : "Kriol"
+      },
+      {
+        "code" : "lbz",
+        "display" : "Lardil"
+      },
+      {
+        "code" : "mem",
+        "display" : "Mangala"
+      },
+      {
+        "code" : "zmu",
+        "display" : "Muruwari"
+      },
+      {
+        "code" : "nnr",
+        "display" : "Narungga"
+      },
+      {
+        "code" : "nrl",
+        "display" : "Ngarluma"
+      },
+      {
+        "code" : "nay",
+        "display" : "Ngarrindjeri"
+      },
+      {
+        "code" : "nly",
+        "display" : "Nyamal"
+      },
+      {
+        "code" : "nna",
+        "display" : "Nyangumarta"
+      },
+      {
+        "code" : "nys",
+        "display" : "Nyungar"
+      },
+      {
+        "code" : "drl",
+        "display" : "Paakantyi"
+      },
+      {
+        "code" : "xny",
+        "display" : "Nyiyaparli"
+      },
+      {
+        "code" : "wbv",
+        "display" : "Wajarri"
+      },
+      {
+        "code" : "wrh",
+        "display" : "Wiradjuri"
+      },
+      {
+        "code" : "yij",
+        "display" : "Yindjibarndi"
+      },
+      {
+        "code" : "ywg",
+        "display" : "Yinhawangka"
+      },
+      {
+        "code" : "xyy",
+        "display" : "Yorta Yorta"
+      },
+      {
+        "code" : "bia",
+        "display" : "Badimaya"
+      },
+      {
+        "code" : "rbp",
+        "display" : "Barababaraba"
+      },
+      {
+        "code" : "dda",
+        "display" : "Dadi Dadi"
+      },
+      {
+        "code" : "tbh",
+        "display" : "Dharawal"
+      },
+      {
+        "code" : "tjw",
+        "display" : "Djabwurrung"
+      },
+      {
+        "code" : "wrg",
+        "display" : "Warungu"
+      },
+      {
+        "code" : "llj",
+        "display" : "Ladji Ladji"
+      },
+      {
+        "code" : "xrg",
+        "display" : "Minang"
+      },
+      {
+        "code" : "nju",
+        "display" : "Ngatjumaya"
+      },
+      {
+        "code" : "wrb",
+        "display" : "Waluwarra"
+      },
+      {
+        "code" : "wgg",
+        "display" : "Wangkangurru"
+      },
+      {
+        "code" : "wgy",
+        "display" : "Wargamay"
+      },
+      {
+        "code" : "weg",
+        "display" : "Wergaia"
+      },
+      {
+        "code" : "yub",
+        "display" : "Yugambal"
+      }]
+    },
+    {
+      "valueSet" : ["http://hl7.org/fhir/ValueSet/languages"]
+    }]
+  }
+}

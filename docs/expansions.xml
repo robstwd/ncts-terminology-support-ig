@@ -1,0 +1,4929 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Bundle xmlns="http://hl7.org/fhir">
+  <id value="5ac6cf4b-1091-488c-b8c7-843c753d4013"/>
+  <meta>
+    <lastUpdated value="2022-12-13T20:43:27.997+00:00"/>
+  </meta>
+  <type value="collection"/>
+  <entry>
+    <fullUrl value="https://healthterminologies.gov.au/fhir/ValueSet/date-accuracy-indicator-1"/>
+    <resource>
+      <ValueSet>
+        <id value="date-accuracy-indicator-1"/>
+        <meta>
+          <versionId value="1"/>
+          <lastUpdated value="2022-11-24T05:55:58.556+00:00"/>
+          <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
+        </meta>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 27 concepts</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
+              <a href="CodeSystem-date-accuracy-indicator-1.html">Date Accuracy Indicator v1.0.3 (CodeSystem)</a>
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---healthterminologies.gov.au-fhir-CodeSystem-date-accuracy-indicator-1-AAA"> </a>  
+                  <a href="CodeSystem-date-accuracy-indicator-1.html#date-accuracy-indicator-1-AAA">AAA</a>
+                </td>
+                <td>https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1</td>
+                <td>Day, month and year are accurate</td>
+                <td>
+                  <div>
+                    <p>Day, month and year are accurate</p>
+
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---healthterminologies.gov.au-fhir-CodeSystem-date-accuracy-indicator-1-AAE"> </a>  
+                  <a href="CodeSystem-date-accuracy-indicator-1.html#date-accuracy-indicator-1-AAE">AAE</a>
+                </td>
+                <td>https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1</td>
+                <td>Day and month are accurate, year is estimated</td>
+                <td>
+                  <div>
+                    <p>Day and month are accurate, year is estimated</p>
+
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---healthterminologies.gov.au-fhir-CodeSystem-date-accuracy-indicator-1-AAU"> </a>  
+                  <a href="CodeSystem-date-accuracy-indicator-1.html#date-accuracy-indicator-1-AAU">AAU</a>
+                </td>
+                <td>https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1</td>
+                <td>Day and month are accurate, year is unknown</td>
+                <td>
+                  <div>
+                    <p>Day and month are accurate, year is unknown</p>
+
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---healthterminologies.gov.au-fhir-CodeSystem-date-accuracy-indicator-1-AEA"> </a>  
+                  <a href="CodeSystem-date-accuracy-indicator-1.html#date-accuracy-indicator-1-AEA">AEA</a>
+                </td>
+                <td>https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1</td>
+                <td>Day is accurate, month is estimated, year is accurate</td>
+                <td>
+                  <div>
+                    <p>Day is accurate, month is estimated, year is accurate</p>
+
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---healthterminologies.gov.au-fhir-CodeSystem-date-accuracy-indicator-1-AEE"> </a>  
+                  <a href="CodeSystem-date-accuracy-indicator-1.html#date-accuracy-indicator-1-AEE">AEE</a>
+                </td>
+                <td>https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1</td>
+                <td>Day is accurate, month and year are estimated</td>
+                <td>
+                  <div>
+                    <p>Day is accurate, month and year are estimated</p>
+
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---healthterminologies.gov.au-fhir-CodeSystem-date-accuracy-indicator-1-AEU"> </a>  
+                  <a href="CodeSystem-date-accuracy-indicator-1.html#date-accuracy-indicator-1-AEU">AEU</a>
+                </td>
+                <td>https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1</td>
+                <td>Day is accurate, month is estimated, year is unknown</td>
+                <td>
+                  <div>
+                    <p>Day is accurate, month is estimated, year is unknown</p>
+
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---healthterminologies.gov.au-fhir-CodeSystem-date-accuracy-indicator-1-AUA"> </a>  
+                  <a href="CodeSystem-date-accuracy-indicator-1.html#date-accuracy-indicator-1-AUA">AUA</a>
+                </td>
+                <td>https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1</td>
+                <td>Day is accurate, month is unknown, year is accurate</td>
+                <td>
+                  <div>
+                    <p>Day is accurate, month is unknown, year is accurate</p>
+
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---healthterminologies.gov.au-fhir-CodeSystem-date-accuracy-indicator-1-AUE"> </a>  
+                  <a href="CodeSystem-date-accuracy-indicator-1.html#date-accuracy-indicator-1-AUE">AUE</a>
+                </td>
+                <td>https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1</td>
+                <td>Day is accurate, month is unknown, year is estimated</td>
+                <td>
+                  <div>
+                    <p>Day is accurate, month is unknown, year is estimated</p>
+
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---healthterminologies.gov.au-fhir-CodeSystem-date-accuracy-indicator-1-AUU"> </a>  
+                  <a href="CodeSystem-date-accuracy-indicator-1.html#date-accuracy-indicator-1-AUU">AUU</a>
+                </td>
+                <td>https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1</td>
+                <td>Day is accurate, month and year are unknown</td>
+                <td>
+                  <div>
+                    <p>Day is accurate, month and year are unknown</p>
+
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---healthterminologies.gov.au-fhir-CodeSystem-date-accuracy-indicator-1-EAA"> </a>  
+                  <a href="CodeSystem-date-accuracy-indicator-1.html#date-accuracy-indicator-1-EAA">EAA</a>
+                </td>
+                <td>https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1</td>
+                <td>Day is estimated, month and year are accurate</td>
+                <td>
+                  <div>
+                    <p>Day is estimated, month and year are accurate</p>
+
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---healthterminologies.gov.au-fhir-CodeSystem-date-accuracy-indicator-1-EAE"> </a>  
+                  <a href="CodeSystem-date-accuracy-indicator-1.html#date-accuracy-indicator-1-EAE">EAE</a>
+                </td>
+                <td>https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1</td>
+                <td>Day is estimated, month is accurate, year is estimated</td>
+                <td>
+                  <div>
+                    <p>Day is estimated, month is accurate, year is estimated</p>
+
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---healthterminologies.gov.au-fhir-CodeSystem-date-accuracy-indicator-1-EAU"> </a>  
+                  <a href="CodeSystem-date-accuracy-indicator-1.html#date-accuracy-indicator-1-EAU">EAU</a>
+                </td>
+                <td>https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1</td>
+                <td>Day is estimated, month is accurate, year is unknown</td>
+                <td>
+                  <div>
+                    <p>Day is estimated, month is accurate, year is unknown</p>
+
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---healthterminologies.gov.au-fhir-CodeSystem-date-accuracy-indicator-1-EEA"> </a>  
+                  <a href="CodeSystem-date-accuracy-indicator-1.html#date-accuracy-indicator-1-EEA">EEA</a>
+                </td>
+                <td>https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1</td>
+                <td>Day and month are estimated, year is accurate</td>
+                <td>
+                  <div>
+                    <p>Day and month are estimated, year is accurate</p>
+
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---healthterminologies.gov.au-fhir-CodeSystem-date-accuracy-indicator-1-EEE"> </a>  
+                  <a href="CodeSystem-date-accuracy-indicator-1.html#date-accuracy-indicator-1-EEE">EEE</a>
+                </td>
+                <td>https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1</td>
+                <td>Day, month and year are estimated</td>
+                <td>
+                  <div>
+                    <p>Day, month and year are estimated</p>
+
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---healthterminologies.gov.au-fhir-CodeSystem-date-accuracy-indicator-1-EEU"> </a>  
+                  <a href="CodeSystem-date-accuracy-indicator-1.html#date-accuracy-indicator-1-EEU">EEU</a>
+                </td>
+                <td>https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1</td>
+                <td>Day and month are estimated, year is unknown</td>
+                <td>
+                  <div>
+                    <p>Day and month are estimated, year is unknown</p>
+
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---healthterminologies.gov.au-fhir-CodeSystem-date-accuracy-indicator-1-EUA"> </a>  
+                  <a href="CodeSystem-date-accuracy-indicator-1.html#date-accuracy-indicator-1-EUA">EUA</a>
+                </td>
+                <td>https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1</td>
+                <td>Day is estimated, month is unknown, year is accurate</td>
+                <td>
+                  <div>
+                    <p>Day is estimated, month is unknown, year is accurate</p>
+
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---healthterminologies.gov.au-fhir-CodeSystem-date-accuracy-indicator-1-EUE"> </a>  
+                  <a href="CodeSystem-date-accuracy-indicator-1.html#date-accuracy-indicator-1-EUE">EUE</a>
+                </td>
+                <td>https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1</td>
+                <td>Day is estimated, month is unknown, year is estimated</td>
+                <td>
+                  <div>
+                    <p>Day is estimated, month is unknown, year is estimated</p>
+
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---healthterminologies.gov.au-fhir-CodeSystem-date-accuracy-indicator-1-EUU"> </a>  
+                  <a href="CodeSystem-date-accuracy-indicator-1.html#date-accuracy-indicator-1-EUU">EUU</a>
+                </td>
+                <td>https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1</td>
+                <td>Day is estimated, month and year are unknown</td>
+                <td>
+                  <div>
+                    <p>Day is estimated, month and year are unknown</p>
+
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---healthterminologies.gov.au-fhir-CodeSystem-date-accuracy-indicator-1-UAA"> </a>  
+                  <a href="CodeSystem-date-accuracy-indicator-1.html#date-accuracy-indicator-1-UAA">UAA</a>
+                </td>
+                <td>https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1</td>
+                <td>Day is unknown, month and year are accurate</td>
+                <td>
+                  <div>
+                    <p>Day is unknown, month and year are accurate</p>
+
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---healthterminologies.gov.au-fhir-CodeSystem-date-accuracy-indicator-1-UAE"> </a>  
+                  <a href="CodeSystem-date-accuracy-indicator-1.html#date-accuracy-indicator-1-UAE">UAE</a>
+                </td>
+                <td>https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1</td>
+                <td>Day is unknown, month is accurate, year is estimated</td>
+                <td>
+                  <div>
+                    <p>Day is unknown, month is accurate, year is estimated</p>
+
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---healthterminologies.gov.au-fhir-CodeSystem-date-accuracy-indicator-1-UAU"> </a>  
+                  <a href="CodeSystem-date-accuracy-indicator-1.html#date-accuracy-indicator-1-UAU">UAU</a>
+                </td>
+                <td>https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1</td>
+                <td>Day is unknown, month is accurate, year is unknown</td>
+                <td>
+                  <div>
+                    <p>Day is unknown, month is accurate, year is unknown</p>
+
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---healthterminologies.gov.au-fhir-CodeSystem-date-accuracy-indicator-1-UEA"> </a>  
+                  <a href="CodeSystem-date-accuracy-indicator-1.html#date-accuracy-indicator-1-UEA">UEA</a>
+                </td>
+                <td>https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1</td>
+                <td>Day is unknown, month is estimated, year is accurate</td>
+                <td>
+                  <div>
+                    <p>Day is unknown, month is estimated, year is accurate</p>
+
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---healthterminologies.gov.au-fhir-CodeSystem-date-accuracy-indicator-1-UEE"> </a>  
+                  <a href="CodeSystem-date-accuracy-indicator-1.html#date-accuracy-indicator-1-UEE">UEE</a>
+                </td>
+                <td>https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1</td>
+                <td>Day is unknown, month and year are estimated</td>
+                <td>
+                  <div>
+                    <p>Day is unknown, month and year are estimated</p>
+
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---healthterminologies.gov.au-fhir-CodeSystem-date-accuracy-indicator-1-UEU"> </a>  
+                  <a href="CodeSystem-date-accuracy-indicator-1.html#date-accuracy-indicator-1-UEU">UEU</a>
+                </td>
+                <td>https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1</td>
+                <td>Day is unknown, month is estimated, year is unknown</td>
+                <td>
+                  <div>
+                    <p>Day is unknown, month is estimated, year is unknown</p>
+
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---healthterminologies.gov.au-fhir-CodeSystem-date-accuracy-indicator-1-UUA"> </a>  
+                  <a href="CodeSystem-date-accuracy-indicator-1.html#date-accuracy-indicator-1-UUA">UUA</a>
+                </td>
+                <td>https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1</td>
+                <td>Day and month are unknown, year is accurate</td>
+                <td>
+                  <div>
+                    <p>Day and month are unknown, year is accurate</p>
+
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---healthterminologies.gov.au-fhir-CodeSystem-date-accuracy-indicator-1-UUE"> </a>  
+                  <a href="CodeSystem-date-accuracy-indicator-1.html#date-accuracy-indicator-1-UUE">UUE</a>
+                </td>
+                <td>https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1</td>
+                <td>Day and month are unknown, year is estimated</td>
+                <td>
+                  <div>
+                    <p>Day and month are unknown, year is estimated</p>
+
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---healthterminologies.gov.au-fhir-CodeSystem-date-accuracy-indicator-1-UUU"> </a>  
+                  <a href="CodeSystem-date-accuracy-indicator-1.html#date-accuracy-indicator-1-UUU">UUU</a>
+                </td>
+                <td>https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1</td>
+                <td>Day, month and year are unknown</td>
+                <td>
+                  <div>
+                    <p>Day, month and year are unknown</p>
+
+                  </div>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="https://healthterminologies.gov.au/fhir/ValueSet/date-accuracy-indicator-1"/>
+        <identifier>
+          <system value="urn:ietf:rfc:3986"/>
+          <value value="urn:oid:1.2.36.1.2001.1004.201.10004"/>
+        </identifier>
+        <version value="1.0.2"/>
+        <name value="DateAccuracyIndicator"/>
+        <title value="Date Accuracy Indicator"/>
+        <status value="active"/>
+        <experimental value="false"/>
+        <date value="2020-05-31"/>
+        <publisher value="Rob Eastwood (himself)"/>
+        <contact>
+          <telecom>
+            <system value="url"/>
+            <value value="https://github.com/robstwd"/>
+          </telecom>
+        </contact>
+        <description value="The Date Accuracy Indicator value set includes values that indicate the accuracy of components of a reported date."/>
+        <jurisdiction>
+          <coding>
+            <system value="urn:iso:std:iso:3166"/>
+            <code value="AU"/>
+          </coding>
+        </jurisdiction>
+        <copyright value="Copyright © 2018 Australian Digital Health Agency - All rights reserved. Except for the material identified below, this content is licensed under a Creative Commons Attribution 4.0 International License. See https://creativecommons.org/licenses/by/4.0/. &#xA;&#xA;This resource includes material that is based on Australian Institute of Health and Welfare material. &#xA;&#xA;All copies of this resource must include this copyright statement and all information contained in this statement."/>
+        <expansion>
+          <identifier value="urn:uuid:6a0f9ed1-1dbd-46d3-872a-f64ac471c454"/>
+          <timestamp value="2022-12-13T20:43:35+00:00"/>
+          <total value="27"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1|1.0.3"/>
+          </parameter>
+          <contains>
+            <system value="https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1"/>
+            <code value="AAA"/>
+            <display value="Day, month and year are accurate"/>
+          </contains>
+          <contains>
+            <system value="https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1"/>
+            <code value="AAE"/>
+            <display value="Day and month are accurate, year is estimated"/>
+          </contains>
+          <contains>
+            <system value="https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1"/>
+            <code value="AAU"/>
+            <display value="Day and month are accurate, year is unknown"/>
+          </contains>
+          <contains>
+            <system value="https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1"/>
+            <code value="AEA"/>
+            <display value="Day is accurate, month is estimated, year is accurate"/>
+          </contains>
+          <contains>
+            <system value="https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1"/>
+            <code value="AEE"/>
+            <display value="Day is accurate, month and year are estimated"/>
+          </contains>
+          <contains>
+            <system value="https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1"/>
+            <code value="AEU"/>
+            <display value="Day is accurate, month is estimated, year is unknown"/>
+          </contains>
+          <contains>
+            <system value="https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1"/>
+            <code value="AUA"/>
+            <display value="Day is accurate, month is unknown, year is accurate"/>
+          </contains>
+          <contains>
+            <system value="https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1"/>
+            <code value="AUE"/>
+            <display value="Day is accurate, month is unknown, year is estimated"/>
+          </contains>
+          <contains>
+            <system value="https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1"/>
+            <code value="AUU"/>
+            <display value="Day is accurate, month and year are unknown"/>
+          </contains>
+          <contains>
+            <system value="https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1"/>
+            <code value="EAA"/>
+            <display value="Day is estimated, month and year are accurate"/>
+          </contains>
+          <contains>
+            <system value="https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1"/>
+            <code value="EAE"/>
+            <display value="Day is estimated, month is accurate, year is estimated"/>
+          </contains>
+          <contains>
+            <system value="https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1"/>
+            <code value="EAU"/>
+            <display value="Day is estimated, month is accurate, year is unknown"/>
+          </contains>
+          <contains>
+            <system value="https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1"/>
+            <code value="EEA"/>
+            <display value="Day and month are estimated, year is accurate"/>
+          </contains>
+          <contains>
+            <system value="https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1"/>
+            <code value="EEE"/>
+            <display value="Day, month and year are estimated"/>
+          </contains>
+          <contains>
+            <system value="https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1"/>
+            <code value="EEU"/>
+            <display value="Day and month are estimated, year is unknown"/>
+          </contains>
+          <contains>
+            <system value="https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1"/>
+            <code value="EUA"/>
+            <display value="Day is estimated, month is unknown, year is accurate"/>
+          </contains>
+          <contains>
+            <system value="https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1"/>
+            <code value="EUE"/>
+            <display value="Day is estimated, month is unknown, year is estimated"/>
+          </contains>
+          <contains>
+            <system value="https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1"/>
+            <code value="EUU"/>
+            <display value="Day is estimated, month and year are unknown"/>
+          </contains>
+          <contains>
+            <system value="https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1"/>
+            <code value="UAA"/>
+            <display value="Day is unknown, month and year are accurate"/>
+          </contains>
+          <contains>
+            <system value="https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1"/>
+            <code value="UAE"/>
+            <display value="Day is unknown, month is accurate, year is estimated"/>
+          </contains>
+          <contains>
+            <system value="https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1"/>
+            <code value="UAU"/>
+            <display value="Day is unknown, month is accurate, year is unknown"/>
+          </contains>
+          <contains>
+            <system value="https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1"/>
+            <code value="UEA"/>
+            <display value="Day is unknown, month is estimated, year is accurate"/>
+          </contains>
+          <contains>
+            <system value="https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1"/>
+            <code value="UEE"/>
+            <display value="Day is unknown, month and year are estimated"/>
+          </contains>
+          <contains>
+            <system value="https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1"/>
+            <code value="UEU"/>
+            <display value="Day is unknown, month is estimated, year is unknown"/>
+          </contains>
+          <contains>
+            <system value="https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1"/>
+            <code value="UUA"/>
+            <display value="Day and month are unknown, year is accurate"/>
+          </contains>
+          <contains>
+            <system value="https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1"/>
+            <code value="UUE"/>
+            <display value="Day and month are unknown, year is estimated"/>
+          </contains>
+          <contains>
+            <system value="https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1"/>
+            <code value="UUU"/>
+            <display value="Day, month and year are unknown"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="https://healthterminologies.gov.au/fhir/ValueSet/australian-indigenous-status-1"/>
+    <resource>
+      <ValueSet>
+        <id value="australian-indigenous-status-1"/>
+        <meta>
+          <versionId value="1"/>
+          <lastUpdated value="2022-11-24T05:55:56.660+00:00"/>
+          <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
+        </meta>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 5 concepts</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
+              <a href="CodeSystem-australian-indigenous-status-1.html">Australian Indigenous Status v1.0.3 (CodeSystem)</a>
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---healthterminologies.gov.au-fhir-CodeSystem-australian-indigenous-status-1-1"> </a>  
+                  <a href="CodeSystem-australian-indigenous-status-1.html#australian-indigenous-status-1-1">1</a>
+                </td>
+                <td>https://healthterminologies.gov.au/fhir/CodeSystem/australian-indigenous-status-1</td>
+                <td>Aboriginal but not Torres Strait Islander origin</td>
+                <td>
+                  <div>
+                    <p>Aboriginal but not Torres Strait Islander origin</p>
+
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---healthterminologies.gov.au-fhir-CodeSystem-australian-indigenous-status-1-2"> </a>  
+                  <a href="CodeSystem-australian-indigenous-status-1.html#australian-indigenous-status-1-2">2</a>
+                </td>
+                <td>https://healthterminologies.gov.au/fhir/CodeSystem/australian-indigenous-status-1</td>
+                <td>Torres Strait Islander but not Aboriginal origin</td>
+                <td>
+                  <div>
+                    <p>Torres Strait Islander but not Aboriginal origin</p>
+
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---healthterminologies.gov.au-fhir-CodeSystem-australian-indigenous-status-1-3"> </a>  
+                  <a href="CodeSystem-australian-indigenous-status-1.html#australian-indigenous-status-1-3">3</a>
+                </td>
+                <td>https://healthterminologies.gov.au/fhir/CodeSystem/australian-indigenous-status-1</td>
+                <td>Both Aboriginal and Torres Strait Islander origin</td>
+                <td>
+                  <div>
+                    <p>Both Aboriginal and Torres Strait Islander origin</p>
+
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---healthterminologies.gov.au-fhir-CodeSystem-australian-indigenous-status-1-4"> </a>  
+                  <a href="CodeSystem-australian-indigenous-status-1.html#australian-indigenous-status-1-4">4</a>
+                </td>
+                <td>https://healthterminologies.gov.au/fhir/CodeSystem/australian-indigenous-status-1</td>
+                <td>Neither Aboriginal nor Torres Strait Islander origin</td>
+                <td>
+                  <div>
+                    <p>Neither Aboriginal nor Torres Strait Islander origin</p>
+
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---healthterminologies.gov.au-fhir-CodeSystem-australian-indigenous-status-1-9"> </a>  
+                  <a href="CodeSystem-australian-indigenous-status-1.html#australian-indigenous-status-1-9">9</a>
+                </td>
+                <td>https://healthterminologies.gov.au/fhir/CodeSystem/australian-indigenous-status-1</td>
+                <td>Not stated/inadequately described</td>
+                <td>
+                  <div>
+                    <p>Not stated/inadequately described</p>
+
+                  </div>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="https://healthterminologies.gov.au/fhir/ValueSet/australian-indigenous-status-1"/>
+        <identifier>
+          <system value="urn:ietf:rfc:3986"/>
+          <value value="urn:oid:1.2.36.1.2001.1004.201.10001"/>
+        </identifier>
+        <version value="1.0.2"/>
+        <name value="AustralianIndigenousStatus"/>
+        <title value="Australian Indigenous Status"/>
+        <status value="active"/>
+        <experimental value="false"/>
+        <date value="2020-05-31"/>
+        <publisher value="Rob Eastwood (himself)"/>
+        <contact>
+          <telecom>
+            <system value="url"/>
+            <value value="https://github.com/robstwd"/>
+          </telecom>
+        </contact>
+        <description value="The Australian Indigenous Status value set includes values to support the representation of a person's Indigenous status. That is, whether a person identifies as being of Aboriginal or Torres Strait Islander origin. The values are those concepts defined in the Australian Indigenous Status code system (https://healthterminologies.gov.au/fhir/CodeSystem/australian-indigenous-status-1)."/>
+        <jurisdiction>
+          <coding>
+            <system value="urn:iso:std:iso:3166"/>
+            <code value="AU"/>
+          </coding>
+        </jurisdiction>
+        <copyright value="Copyright © 2018 Australian Digital Health Agency – All rights reserved. Except for the material identified below, this content is licensed under a Creative Commons Attribution 4.0 International License. See https://creativecommons.org/licenses/by/4.0/. &#xA;&#xA;This resource includes material that is based on Australian Institute of Health and Welfare material. &#xA;&#xA;All copies of this resource must include this copyright statement and all information contained in this statement."/>
+        <expansion>
+          <identifier value="urn:uuid:0f1a2fce-b9fe-4386-aebf-0c7320ea1dd7"/>
+          <timestamp value="2022-12-13T20:43:35+00:00"/>
+          <total value="5"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="https://healthterminologies.gov.au/fhir/CodeSystem/australian-indigenous-status-1|1.0.3"/>
+          </parameter>
+          <contains>
+            <system value="https://healthterminologies.gov.au/fhir/CodeSystem/australian-indigenous-status-1"/>
+            <code value="1"/>
+            <display value="Aboriginal but not Torres Strait Islander origin"/>
+          </contains>
+          <contains>
+            <system value="https://healthterminologies.gov.au/fhir/CodeSystem/australian-indigenous-status-1"/>
+            <code value="2"/>
+            <display value="Torres Strait Islander but not Aboriginal origin"/>
+          </contains>
+          <contains>
+            <system value="https://healthterminologies.gov.au/fhir/CodeSystem/australian-indigenous-status-1"/>
+            <code value="3"/>
+            <display value="Both Aboriginal and Torres Strait Islander origin"/>
+          </contains>
+          <contains>
+            <system value="https://healthterminologies.gov.au/fhir/CodeSystem/australian-indigenous-status-1"/>
+            <code value="4"/>
+            <display value="Neither Aboriginal nor Torres Strait Islander origin"/>
+          </contains>
+          <contains>
+            <system value="https://healthterminologies.gov.au/fhir/CodeSystem/australian-indigenous-status-1"/>
+            <code value="9"/>
+            <display value="Not stated/inadequately described"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="https://healthterminologies.gov.au/fhir/ValueSet/common-languages-australia-2"/>
+    <resource>
+      <ValueSet>
+        <id value="common-languages-australia-2"/>
+        <meta>
+          <versionId value="1"/>
+          <lastUpdated value="2022-11-24T05:55:57.985+00:00"/>
+          <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
+        </meta>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 340 concepts</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
+              <a href="http://hl7.org/fhir/R4/valueset-languages.html">Common Languages v4.0.1 (ValueSet)</a>
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-ace"> </a>  ace
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Achinese</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-ach"> </a>  ach
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Acholi</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-aa"> </a>  aa
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Afar</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-ak"> </a>  ak
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Akan</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-sq"> </a>  sq
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Albanian</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-am"> </a>  am
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Amharic</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-anu"> </a>  anu
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Anuak</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-asf"> </a>  asf
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Auslan</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-gwm"> </a>  gwm
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Awngthim</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-rki"> </a>  rki
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Rakhine</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-hy"> </a>  hy
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Armenian</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-aii"> </a>  aii
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Assyrian Neo-Aramaic</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-bfa"> </a>  bfa
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Bari</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-bsq"> </a>  bsq
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Bassa</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-be"> </a>  be
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Belarusian</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-bs"> </a>  bs
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Bosnian</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-bg"> </a>  bg
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Bulgarian</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-yue"> </a>  yue
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Cantonese</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-ceb"> </a>  ceb
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Cebuano</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-cld"> </a>  cld
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Chaldean Neo-Aramaic</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-prs"> </a>  prs
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Dari</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-dwu"> </a>  dwu
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Dhuwal</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-din"> </a>  din
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Dinka</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-et"> </a>  et
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Estonian</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-ee"> </a>  ee
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Ewe</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-cfm"> </a>  cfm
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Falam Chin</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-fa"> </a>  fa
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Persian</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-hif"> </a>  hif
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Fiji Hindi</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-fj"> </a>  fj
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Fijian</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-fil"> </a>  fil
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Filipino</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-fuv"> </a>  fuv
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Nigerian Fulfulde</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-ff"> </a>  ff
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Fullah</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-nan"> </a>  nan
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Min Nan Chinese</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-zh-min"> </a>  zh-min
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Fuzhou</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-gaa"> </a>  gaa
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Ga</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-lg"> </a>  lg
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Ganda</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-ki"> </a>  ki
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Gikuyu</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-hac"> </a>  hac
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Gurani</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-gu"> </a>  gu
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Gujarati</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-cnh"> </a>  cnh
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Hakha Chin</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-hak"> </a>  hak
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Hakka Chinese</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-har"> </a>  har
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Harari</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-mey"> </a>  mey
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Hassaniyya</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-haz"> </a>  haz
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Hazaragi</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-he"> </a>  he
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Hebrew</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-ho"> </a>  ho
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Hiri Motu</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-hmn"> </a>  hmn
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Hmong</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-hu"> </a>  hu
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Hungarian</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-id"> </a>  id
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Indonesian</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-jv"> </a>  jv
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Javanese</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-kac"> </a>  kac
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Jingpho</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-pga"> </a>  pga
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Sudanese Creole Arabic</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-keo"> </a>  keo
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Kakwa</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-kn"> </a>  kn
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Kannada</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-eky"> </a>  eky
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Eastern Kayah</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-kyu"> </a>  kyu
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Western Kayah</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-kk"> </a>  kk
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Kazakh</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-km"> </a>  km
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Khmer</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-cnk"> </a>  cnk
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Khumi Chin</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-rw"> </a>  rw
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Kinyarwanda</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-rn"> </a>  rn
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Rundi</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-kqs"> </a>  kqs
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Northern Kissi</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-mku"> </a>  mku
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Konyanka Maninka</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-kri"> </a>  kri
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Krio</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-kun"> </a>  kun
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Kunama</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-kmr"> </a>  kmr
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Northern Kurdish</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-lo"> </a>  lo
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Lao</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-lir"> </a>  lir
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Liberian English</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-ln"> </a>  ln
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Lingala</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-mk"> </a>  mk
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Macedonian</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-mhi"> </a>  mhi
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Ma'di</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-zlm"> </a>  zlm
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Malay</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-ml"> </a>  ml
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Malayalam</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-mt"> </a>  mt
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Maltese</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-cmn"> </a>  cmn
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Mandarin</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-mrh"> </a>  mrh
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Mara Chin</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-hlt"> </a>  hlt
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Matu Chin</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-mfe"> </a>  mfe
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Morisyen</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-men"> </a>  men
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Mende (Sierra Leone)</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-lus"> </a>  lus
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Lushai</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-mo"> </a>  mo
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Moldavian</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-mnw"> </a>  mnw
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Mon</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-mn"> </a>  mn
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Mongolian</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-unr"> </a>  unr
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Mundari</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-my"> </a>  my
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Burmese</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-ne"> </a>  ne
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Nepali</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-azj"> </a>  azj
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>North Azerbaijani</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-nus"> </a>  nus
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Nuer</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-om"> </a>  om
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Oromo</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-ps"> </a>  ps
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Pashto</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-fuc"> </a>  fuc
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Pulaar</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-kjp"> </a>  kjp
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Pwo Eastern Karen</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-rhg"> </a>  rhg
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Rohingya</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-ro"> </a>  ro
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Romanian</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-spy"> </a>  spy
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Sabaot</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-ssy"> </a>  ssy
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Saho</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-sm"> </a>  sm
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Samoan</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-ksw"> </a>  ksw
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>S'gaw Karen</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-shn"> </a>  shn
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Shan</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-wuu"> </a>  wuu
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Wu Chinese</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-sid"> </a>  sid
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Sidamo</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-sd"> </a>  sd
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Sindhi</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-si"> </a>  si
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Sinhalese</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-csy"> </a>  csy
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Siyin Chin</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-sk"> </a>  sk
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Slovak</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-sl"> </a>  sl
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Slovenian</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-so"> </a>  so
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Somali</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-ckb"> </a>  ckb
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Central Kurdish</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-azb"> </a>  azb
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>South Azerbaijani</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-sdh"> </a>  sdh
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Southern Kurdish</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-apd"> </a>  apd
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Sudanese Arabic</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-sus"> </a>  sus
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Susu</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-swh"> </a>  swh
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Swahili</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-abh"> </a>  abh
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Tajiki Arabic</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-ta"> </a>  ta
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Tamil</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-tt"> </a>  tt
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Tartar</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-ctd"> </a>  ctd
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Tedim Chin</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-tet"> </a>  tet
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Tetum</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-th"> </a>  th
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Thai</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-tem"> </a>  tem
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Time</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-bo"> </a>  bo
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Tibetan</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-tig"> </a>  tig
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Tigre</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-ti"> </a>  ti
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Tigrinya</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-tpi"> </a>  tpi
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Tok Pisin</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-to"> </a>  to
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Tonga</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-tr"> </a>  tr
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Turkish</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-tk"> </a>  tk
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Turkmen</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-uk"> </a>  uk
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Ukrainian</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-ur"> </a>  ur
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Urdu</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-ug"> </a>  ug
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Uyghur</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-uz"> </a>  uz
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Uzbek</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-vi"> </a>  vi
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Vietnamese</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-wo"> </a>  wo
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Wolof</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-zom"> </a>  zom
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Zou</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-czt"> </a>  czt
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Zotung Chin</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-aoi"> </a>  aoi
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Anindilyakwa</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-mph"> </a>  mph
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Maung</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-nuy"> </a>  nuy
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Nunggubuyu</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-rmb"> </a>  rmb
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Rembarrnga</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-tiw"> </a>  tiw
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Tiwi</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-alh"> </a>  alh
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Alawa</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-ngk"> </a>  ngk
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Dalabon</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-nji"> </a>  nji
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Gudanji</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-ibd"> </a>  ibd
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Iwaidja</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-djn"> </a>  djn
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Jawoyn</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-jig"> </a>  jig
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Jingulu</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-wlg"> </a>  wlg
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Kunbarlang</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-lrg"> </a>  lrg
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Laragia</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-mbp"> </a>  mbp
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Malak Malak</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-mpc"> </a>  mpc
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Mangarayi</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-zmt"> </a>  zmt
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Maringarr</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-mec"> </a>  mec
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Marra</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-mfr"> </a>  mfr
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Marrithiyel</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-zml"> </a>  zml
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Matngala</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-mwf"> </a>  mwf
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Murrinh-Patha</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-nck"> </a>  nck
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Nakara</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-djj"> </a>  djj
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Djeebbana</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-nig"> </a>  nig
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Ngalakgan</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-djd"> </a>  djd
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Ngaliwurru</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-nug"> </a>  nug
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Nungali</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-wmb"> </a>  wmb
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Wambaya</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-wrr"> </a>  wrr
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Wardaman</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-amg"> </a>  amg
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Amurdak</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-wrk"> </a>  wrk
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Garrwa</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-woa"> </a>  woa
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Kuwema</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-zmm"> </a>  zmm
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Marramaninyshi</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-nid"> </a>  nid
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Ngandi</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-wny"> </a>  wny
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Waanyi</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-waq"> </a>  waq
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Wagiman</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-jao"> </a>  jao
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Yanyuwa</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-zmd"> </a>  zmd
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Maridan</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-bvr"> </a>  bvr
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Burarra</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-gge"> </a>  gge
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Gurr-goni</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-djr"> </a>  djr
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Djambarrpuyngu</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-gnn"> </a>  gnn
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Gumatj</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-guf"> </a>  guf
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Gupapuyngu</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-djb"> </a>  djb
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Djinba</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-rit"> </a>  rit
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Ritharrngu</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-jay"> </a>  jay
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Yan-nhangu</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-dwy"> </a>  dwy
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Dhuwaya</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-dhg"> </a>  dhg
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Djangu</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-gvn"> </a>  gvn
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Kuku-Yalanji</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-kky"> </a>  kky
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Guugu Yimidhirr</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-kuy"> </a>  kuy
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Kuuku-Ya'u</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-wim"> </a>  wim
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Wik-Mungkan</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-dbl"> </a>  dbl
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Dyirbal</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-kkp"> </a>  kkp
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Koko-Bera</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-thd"> </a>  thd
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Kuuk Thayorre</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-lby"> </a>  lby
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Lamalama</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-yii"> </a>  yii
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Yidiny</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-wig"> </a>  wig
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Wik Ngathan</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-aid"> </a>  aid
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Alngith</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-xmh"> </a>  xmh
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Kugu-Muminh</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-umg"> </a>  umg
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Morrobalama</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-awg"> </a>  awg
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Anguthimri</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-dyy"> </a>  dyy
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Dyaabugay</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-mwp"> </a>  mwp
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Kalaw Lagaw Ya</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-ulk"> </a>  ulk
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Meriam Mir</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-tcs"> </a>  tcs
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Yumplatok</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-gjr"> </a>  gjr
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Gurindji Kriol</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-ddj"> </a>  ddj
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Jaru</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-dmw"> </a>  dmw
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Mudburra</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-rxd"> </a>  rxd
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Ngardi</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-nbj"> </a>  nbj
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Ngarinyman</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-wmt"> </a>  wmt
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Walmajarri</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-wrl"> </a>  wrl
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Warlmanpa</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-wbp"> </a>  wbp
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Warlpiri</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-wrm"> </a>  wrm
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Warumungu</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-aly"> </a>  aly
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Alyawarr</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-gbb"> </a>  gbb
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Kaytetye</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-adg"> </a>  adg
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Andegerebinha</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-amx"> </a>  amx
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Anmatyerr</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-aer"> </a>  aer
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Eastern Arrernte</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-are"> </a>  are
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Western Arrarnta</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-ant"> </a>  ant
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Antikarinya</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-ktd"> </a>  ktd
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Kukatha</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-kux"> </a>  kux
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Kukatja</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-piu"> </a>  piu
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Pintupi-Luritja</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-mpj"> </a>  mpj
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Martu Wangka</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-ntj"> </a>  ntj
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Ngaanyatjarra</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-pjt"> </a>  pjt
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Pitjantjatjara</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-pti"> </a>  pti
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Wangkatha</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-wbt"> </a>  wbt
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Warnman</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-kdd"> </a>  kdd
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Yankunytjatjara</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-bcj"> </a>  bcj
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Bardi</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-bck"> </a>  bck
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Bunuba</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-gni"> </a>  gni
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Gooniyandi</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-rsm"> </a>  rsm
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Miriwoong</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-ung"> </a>  ung
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Ngarinyin</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-nyh"> </a>  nyh
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Nyikina</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-wro"> </a>  wro
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Worrorra</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-wub"> </a>  wub
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Wunambal</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-ywr"> </a>  ywr
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Yawuru</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-gma"> </a>  gma
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Gambera</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-djw"> </a>  djw
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Djawi</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-gia"> </a>  gia
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Kija</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-adt"> </a>  adt
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Adnymathanha</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-ard"> </a>  ard
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Arabana</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-bdy"> </a>  bdy
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Bandjalang</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-pnw"> </a>  pnw
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Banyjima</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-xby"> </a>  xby
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Batyala</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-bym"> </a>  bym
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Bidjara</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-dyn"> </a>  dyn
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Dhanggatti</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-dif"> </a>  dif
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Diyari</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-kld"> </a>  kld
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Gamilaraay</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-rxw"> </a>  rxw
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Karuwali</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-gih"> </a>  gih
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Githabul</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-kgs"> </a>  kgs
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Kumbainggar</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-nak"> </a>  nak
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Nakanai</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-gbd"> </a>  gbd
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Karajarri</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-vka"> </a>  vka
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Kariyarra</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-zku"> </a>  zku
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Kaurna</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-gyd"> </a>  gyd
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Kayardild</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-rop"> </a>  rop
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Kriol</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-lbz"> </a>  lbz
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Lardil</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-mem"> </a>  mem
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Mangala</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-zmu"> </a>  zmu
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Muruwari</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-nnr"> </a>  nnr
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Narungga</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-nrl"> </a>  nrl
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Ngarluma</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-nay"> </a>  nay
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Ngarrindjeri</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-nly"> </a>  nly
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Nyamal</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-nna"> </a>  nna
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Nyangumarta</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-nys"> </a>  nys
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Nyungar</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-drl"> </a>  drl
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Paakantyi</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-xny"> </a>  xny
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Nyiyaparli</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-wbv"> </a>  wbv
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Wajarri</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-wrh"> </a>  wrh
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Wiradjuri</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-yij"> </a>  yij
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Yindjibarndi</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-ywg"> </a>  ywg
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Yinhawangka</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-xyy"> </a>  xyy
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Yorta Yorta</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-bia"> </a>  bia
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Badimaya</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-rbp"> </a>  rbp
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Barababaraba</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-dda"> </a>  dda
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Dadi Dadi</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-tbh"> </a>  tbh
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Dharawal</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-tjw"> </a>  tjw
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Djabwurrung</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-wrg"> </a>  wrg
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Warungu</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-llj"> </a>  llj
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Ladji Ladji</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-xrg"> </a>  xrg
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Minang</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-nju"> </a>  nju
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Ngatjumaya</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-wrb"> </a>  wrb
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Waluwarra</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-wgg"> </a>  wgg
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Wangkangurru</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-wgy"> </a>  wgy
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Wargamay</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-weg"> </a>  weg
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Wergaia</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-yub"> </a>  yub
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Yugambal</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-ar"> </a>  ar
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Arabisk</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-bn"> </a>  bn
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Bengali</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-cs"> </a>  cs
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Czech</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-da"> </a>  da
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Danish</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-de"> </a>  de
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>German</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-de-AT"> </a>  de-AT
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>German (Austria)</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-de-CH"> </a>  de-CH
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>German (Switzerland)</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-de-DE"> </a>  de-DE
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>German (Germany)</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-el"> </a>  el
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Greek</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-en"> </a>  en
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>English</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-en-AU"> </a>  en-AU
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>English (Australia)</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-en-CA"> </a>  en-CA
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>English (Canada)</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-en-GB"> </a>  en-GB
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>English (Great Britain)</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-en-IN"> </a>  en-IN
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>English (India)</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-en-NZ"> </a>  en-NZ
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>English (New Zeland)</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-en-SG"> </a>  en-SG
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>English (Singapore)</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-en-US"> </a>  en-US
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>English (United States)</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-es"> </a>  es
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Spanish</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-es-AR"> </a>  es-AR
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Spanish (Argentina)</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-es-ES"> </a>  es-ES
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Spanish (Spain)</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-es-UY"> </a>  es-UY
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Spanish (Uruguay)</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-fi"> </a>  fi
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Finnish</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-fr"> </a>  fr
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>French</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-fr-BE"> </a>  fr-BE
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>French (Belgium)</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-fr-CH"> </a>  fr-CH
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>French (Switzerland)</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-fr-FR"> </a>  fr-FR
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>French (France)</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-fy"> </a>  fy
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Frysian</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-fy-NL"> </a>  fy-NL
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Frysian (Netherlands)</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-hi"> </a>  hi
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Hindi</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-hr"> </a>  hr
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Croatian</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-it"> </a>  it
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Italian</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-it-CH"> </a>  it-CH
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Italian (Switzerland)</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-it-IT"> </a>  it-IT
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Italian (Italy)</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-ja"> </a>  ja
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Japanese</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-ko"> </a>  ko
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Korean</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-nl"> </a>  nl
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Dutch</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-nl-BE"> </a>  nl-BE
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Dutch (Belgium)</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-nl-NL"> </a>  nl-NL
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Dutch (Netherlands)</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-no"> </a>  no
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Norwegian</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-no-NO"> </a>  no-NO
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Norwegian (Norway)</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-pa"> </a>  pa
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Punjabi</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-pl"> </a>  pl
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Polskie</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-pt"> </a>  pt
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Portuguese</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-pt-BR"> </a>  pt-BR
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Portuguese (Brazil)</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-ru"> </a>  ru
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Russian</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-ru-RU"> </a>  ru-RU
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Russian (Russia)</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-sr"> </a>  sr
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Serbian</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-sr-RS"> </a>  sr-RS
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Serbian (Serbia)</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-sv"> </a>  sv
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Swedish</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-sv-SE"> </a>  sv-SE
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Swedish (Sweden)</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-te"> </a>  te
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Telegu</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-zh"> </a>  zh
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Chinese</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-zh-CN"> </a>  zh-CN
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Chinese (China)</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-zh-HK"> </a>  zh-HK
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Chinese (Hong Kong)</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-zh-SG"> </a>  zh-SG
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Chinese (Singapore)</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-bcp-47-zh-TW"> </a>  zh-TW
+                </td>
+                <td>urn:ietf:bcp:47</td>
+                <td>Chinese (Taiwan)</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="https://healthterminologies.gov.au/fhir/ValueSet/common-languages-australia-2"/>
+        <identifier>
+          <system value="urn:ietf:rfc:3986"/>
+          <value value="urn:oid:1.2.36.1.2001.1004.201.10069"/>
+        </identifier>
+        <version value="2.2.1"/>
+        <name value="CommonLanguagesInAustralia"/>
+        <title value="Common Languages in Australia"/>
+        <status value="active"/>
+        <experimental value="false"/>
+        <date value="2020-05-31"/>
+        <publisher value="Rob Eastwood (himself)"/>
+        <contact>
+          <telecom>
+            <system value="url"/>
+            <value value="https://github.com/robstwd"/>
+          </telecom>
+        </contact>
+        <description value="The Common Languages in Australia value set includes languages that are commonly encountered in Australia, including a comprehensive set of Australian Indigenous languages."/>
+        <jurisdiction>
+          <coding>
+            <system value="urn:iso:std:iso:3166"/>
+            <code value="AU"/>
+          </coding>
+        </jurisdiction>
+        <copyright value="Copyright © 2019 Australian Digital Health Agency - All rights reserved. Except for the material identified below, this content is licensed under a Creative Commons Attribution 4.0 International License. See https://creativecommons.org/licenses/by/4.0/. &#xA;&#xA;This resource also includes all or a portion of material that is HL7 FHIR Copyright © 2011+ HL7 licensed under Creative Commons 'No Rights Reserved' (CC0)  &#xA;&#xA;&#x9;Copyright (c) 2008 IETF Trust and the persons identified as the document authors (https://tools.ietf.org/html/bcp47). All rights reserved.  &#xA;&#xA;All copies of this resource must include this copyright statement and all information contained in this statement."/>
+        <expansion>
+          <identifier value="urn:uuid:028786b4-24ff-4a30-a9d6-c8151f7da095"/>
+          <timestamp value="2022-12-13T20:43:35+00:00"/>
+          <total value="340"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="limitedExpansion"/>
+            <valueBoolean value="true"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="http://hl7.org/fhir/ValueSet/languages|4.0.1"/>
+          </parameter>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="ace"/>
+            <display value="Achinese"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="ach"/>
+            <display value="Acholi"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="aa"/>
+            <display value="Afar"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="ak"/>
+            <display value="Akan"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="sq"/>
+            <display value="Albanian"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="am"/>
+            <display value="Amharic"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="anu"/>
+            <display value="Anuak"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="asf"/>
+            <display value="Auslan"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="gwm"/>
+            <display value="Awngthim"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="rki"/>
+            <display value="Rakhine"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="hy"/>
+            <display value="Armenian"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="aii"/>
+            <display value="Assyrian Neo-Aramaic"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="bfa"/>
+            <display value="Bari"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="bsq"/>
+            <display value="Bassa"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="be"/>
+            <display value="Belarusian"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="bs"/>
+            <display value="Bosnian"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="bg"/>
+            <display value="Bulgarian"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="yue"/>
+            <display value="Cantonese"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="ceb"/>
+            <display value="Cebuano"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="cld"/>
+            <display value="Chaldean Neo-Aramaic"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="prs"/>
+            <display value="Dari"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="dwu"/>
+            <display value="Dhuwal"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="din"/>
+            <display value="Dinka"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="et"/>
+            <display value="Estonian"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="ee"/>
+            <display value="Ewe"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="cfm"/>
+            <display value="Falam Chin"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="fa"/>
+            <display value="Persian"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="hif"/>
+            <display value="Fiji Hindi"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="fj"/>
+            <display value="Fijian"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="fil"/>
+            <display value="Filipino"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="fuv"/>
+            <display value="Nigerian Fulfulde"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="ff"/>
+            <display value="Fullah"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="nan"/>
+            <display value="Min Nan Chinese"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="zh-min"/>
+            <display value="Fuzhou"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="gaa"/>
+            <display value="Ga"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="lg"/>
+            <display value="Ganda"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="ki"/>
+            <display value="Gikuyu"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="hac"/>
+            <display value="Gurani"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="gu"/>
+            <display value="Gujarati"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="cnh"/>
+            <display value="Hakha Chin"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="hak"/>
+            <display value="Hakka Chinese"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="har"/>
+            <display value="Harari"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="mey"/>
+            <display value="Hassaniyya"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="haz"/>
+            <display value="Hazaragi"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="he"/>
+            <display value="Hebrew"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="ho"/>
+            <display value="Hiri Motu"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="hmn"/>
+            <display value="Hmong"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="hu"/>
+            <display value="Hungarian"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="id"/>
+            <display value="Indonesian"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="jv"/>
+            <display value="Javanese"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="kac"/>
+            <display value="Jingpho"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="pga"/>
+            <display value="Sudanese Creole Arabic"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="keo"/>
+            <display value="Kakwa"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="kn"/>
+            <display value="Kannada"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="eky"/>
+            <display value="Eastern Kayah"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="kyu"/>
+            <display value="Western Kayah"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="kk"/>
+            <display value="Kazakh"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="km"/>
+            <display value="Khmer"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="cnk"/>
+            <display value="Khumi Chin"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="rw"/>
+            <display value="Kinyarwanda"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="rn"/>
+            <display value="Rundi"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="kqs"/>
+            <display value="Northern Kissi"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="mku"/>
+            <display value="Konyanka Maninka"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="kri"/>
+            <display value="Krio"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="kun"/>
+            <display value="Kunama"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="kmr"/>
+            <display value="Northern Kurdish"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="lo"/>
+            <display value="Lao"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="lir"/>
+            <display value="Liberian English"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="ln"/>
+            <display value="Lingala"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="mk"/>
+            <display value="Macedonian"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="mhi"/>
+            <display value="Ma'di"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="zlm"/>
+            <display value="Malay"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="ml"/>
+            <display value="Malayalam"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="mt"/>
+            <display value="Maltese"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="cmn"/>
+            <display value="Mandarin"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="mrh"/>
+            <display value="Mara Chin"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="hlt"/>
+            <display value="Matu Chin"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="mfe"/>
+            <display value="Morisyen"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="men"/>
+            <display value="Mende (Sierra Leone)"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="lus"/>
+            <display value="Lushai"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="mo"/>
+            <display value="Moldavian"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="mnw"/>
+            <display value="Mon"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="mn"/>
+            <display value="Mongolian"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="unr"/>
+            <display value="Mundari"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="my"/>
+            <display value="Burmese"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="ne"/>
+            <display value="Nepali"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="azj"/>
+            <display value="North Azerbaijani"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="nus"/>
+            <display value="Nuer"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="om"/>
+            <display value="Oromo"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="ps"/>
+            <display value="Pashto"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="fuc"/>
+            <display value="Pulaar"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="kjp"/>
+            <display value="Pwo Eastern Karen"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="rhg"/>
+            <display value="Rohingya"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="ro"/>
+            <display value="Romanian"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="spy"/>
+            <display value="Sabaot"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="ssy"/>
+            <display value="Saho"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="sm"/>
+            <display value="Samoan"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="ksw"/>
+            <display value="S'gaw Karen"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="shn"/>
+            <display value="Shan"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="wuu"/>
+            <display value="Wu Chinese"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="sid"/>
+            <display value="Sidamo"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="sd"/>
+            <display value="Sindhi"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="si"/>
+            <display value="Sinhalese"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="csy"/>
+            <display value="Siyin Chin"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="sk"/>
+            <display value="Slovak"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="sl"/>
+            <display value="Slovenian"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="so"/>
+            <display value="Somali"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="ckb"/>
+            <display value="Central Kurdish"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="azb"/>
+            <display value="South Azerbaijani"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="sdh"/>
+            <display value="Southern Kurdish"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="apd"/>
+            <display value="Sudanese Arabic"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="sus"/>
+            <display value="Susu"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="swh"/>
+            <display value="Swahili"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="abh"/>
+            <display value="Tajiki Arabic"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="ta"/>
+            <display value="Tamil"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="tt"/>
+            <display value="Tartar"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="ctd"/>
+            <display value="Tedim Chin"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="tet"/>
+            <display value="Tetum"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="th"/>
+            <display value="Thai"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="tem"/>
+            <display value="Time"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="bo"/>
+            <display value="Tibetan"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="tig"/>
+            <display value="Tigre"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="ti"/>
+            <display value="Tigrinya"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="tpi"/>
+            <display value="Tok Pisin"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="to"/>
+            <display value="Tonga"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="tr"/>
+            <display value="Turkish"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="tk"/>
+            <display value="Turkmen"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="uk"/>
+            <display value="Ukrainian"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="ur"/>
+            <display value="Urdu"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="ug"/>
+            <display value="Uyghur"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="uz"/>
+            <display value="Uzbek"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="vi"/>
+            <display value="Vietnamese"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="wo"/>
+            <display value="Wolof"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="zom"/>
+            <display value="Zou"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="czt"/>
+            <display value="Zotung Chin"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="aoi"/>
+            <display value="Anindilyakwa"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="mph"/>
+            <display value="Maung"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="nuy"/>
+            <display value="Nunggubuyu"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="rmb"/>
+            <display value="Rembarrnga"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="tiw"/>
+            <display value="Tiwi"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="alh"/>
+            <display value="Alawa"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="ngk"/>
+            <display value="Dalabon"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="nji"/>
+            <display value="Gudanji"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="ibd"/>
+            <display value="Iwaidja"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="djn"/>
+            <display value="Jawoyn"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="jig"/>
+            <display value="Jingulu"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="wlg"/>
+            <display value="Kunbarlang"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="lrg"/>
+            <display value="Laragia"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="mbp"/>
+            <display value="Malak Malak"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="mpc"/>
+            <display value="Mangarayi"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="zmt"/>
+            <display value="Maringarr"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="mec"/>
+            <display value="Marra"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="mfr"/>
+            <display value="Marrithiyel"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="zml"/>
+            <display value="Matngala"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="mwf"/>
+            <display value="Murrinh-Patha"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="nck"/>
+            <display value="Nakara"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="djj"/>
+            <display value="Djeebbana"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="nig"/>
+            <display value="Ngalakgan"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="djd"/>
+            <display value="Ngaliwurru"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="nug"/>
+            <display value="Nungali"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="wmb"/>
+            <display value="Wambaya"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="wrr"/>
+            <display value="Wardaman"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="amg"/>
+            <display value="Amurdak"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="wrk"/>
+            <display value="Garrwa"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="woa"/>
+            <display value="Kuwema"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="zmm"/>
+            <display value="Marramaninyshi"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="nid"/>
+            <display value="Ngandi"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="wny"/>
+            <display value="Waanyi"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="waq"/>
+            <display value="Wagiman"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="jao"/>
+            <display value="Yanyuwa"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="zmd"/>
+            <display value="Maridan"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="bvr"/>
+            <display value="Burarra"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="gge"/>
+            <display value="Gurr-goni"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="djr"/>
+            <display value="Djambarrpuyngu"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="gnn"/>
+            <display value="Gumatj"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="guf"/>
+            <display value="Gupapuyngu"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="djb"/>
+            <display value="Djinba"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="rit"/>
+            <display value="Ritharrngu"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="jay"/>
+            <display value="Yan-nhangu"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="dwy"/>
+            <display value="Dhuwaya"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="dhg"/>
+            <display value="Djangu"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="gvn"/>
+            <display value="Kuku-Yalanji"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="kky"/>
+            <display value="Guugu Yimidhirr"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="kuy"/>
+            <display value="Kuuku-Ya'u"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="wim"/>
+            <display value="Wik-Mungkan"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="dbl"/>
+            <display value="Dyirbal"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="kkp"/>
+            <display value="Koko-Bera"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="thd"/>
+            <display value="Kuuk Thayorre"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="lby"/>
+            <display value="Lamalama"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="yii"/>
+            <display value="Yidiny"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="wig"/>
+            <display value="Wik Ngathan"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="aid"/>
+            <display value="Alngith"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="xmh"/>
+            <display value="Kugu-Muminh"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="umg"/>
+            <display value="Morrobalama"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="awg"/>
+            <display value="Anguthimri"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="dyy"/>
+            <display value="Dyaabugay"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="mwp"/>
+            <display value="Kalaw Lagaw Ya"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="ulk"/>
+            <display value="Meriam Mir"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="tcs"/>
+            <display value="Yumplatok"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="gjr"/>
+            <display value="Gurindji Kriol"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="ddj"/>
+            <display value="Jaru"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="dmw"/>
+            <display value="Mudburra"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="rxd"/>
+            <display value="Ngardi"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="nbj"/>
+            <display value="Ngarinyman"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="wmt"/>
+            <display value="Walmajarri"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="wrl"/>
+            <display value="Warlmanpa"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="wbp"/>
+            <display value="Warlpiri"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="wrm"/>
+            <display value="Warumungu"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="aly"/>
+            <display value="Alyawarr"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="gbb"/>
+            <display value="Kaytetye"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="adg"/>
+            <display value="Andegerebinha"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="amx"/>
+            <display value="Anmatyerr"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="aer"/>
+            <display value="Eastern Arrernte"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="are"/>
+            <display value="Western Arrarnta"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="ant"/>
+            <display value="Antikarinya"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="ktd"/>
+            <display value="Kukatha"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="kux"/>
+            <display value="Kukatja"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="piu"/>
+            <display value="Pintupi-Luritja"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="mpj"/>
+            <display value="Martu Wangka"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="ntj"/>
+            <display value="Ngaanyatjarra"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="pjt"/>
+            <display value="Pitjantjatjara"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="pti"/>
+            <display value="Wangkatha"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="wbt"/>
+            <display value="Warnman"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="kdd"/>
+            <display value="Yankunytjatjara"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="bcj"/>
+            <display value="Bardi"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="bck"/>
+            <display value="Bunuba"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="gni"/>
+            <display value="Gooniyandi"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="rsm"/>
+            <display value="Miriwoong"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="ung"/>
+            <display value="Ngarinyin"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="nyh"/>
+            <display value="Nyikina"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="wro"/>
+            <display value="Worrorra"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="wub"/>
+            <display value="Wunambal"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="ywr"/>
+            <display value="Yawuru"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="gma"/>
+            <display value="Gambera"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="djw"/>
+            <display value="Djawi"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="gia"/>
+            <display value="Kija"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="adt"/>
+            <display value="Adnymathanha"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="ard"/>
+            <display value="Arabana"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="bdy"/>
+            <display value="Bandjalang"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="pnw"/>
+            <display value="Banyjima"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="xby"/>
+            <display value="Batyala"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="bym"/>
+            <display value="Bidjara"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="dyn"/>
+            <display value="Dhanggatti"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="dif"/>
+            <display value="Diyari"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="kld"/>
+            <display value="Gamilaraay"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="rxw"/>
+            <display value="Karuwali"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="gih"/>
+            <display value="Githabul"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="kgs"/>
+            <display value="Kumbainggar"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="nak"/>
+            <display value="Nakanai"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="gbd"/>
+            <display value="Karajarri"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="vka"/>
+            <display value="Kariyarra"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="zku"/>
+            <display value="Kaurna"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="gyd"/>
+            <display value="Kayardild"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="rop"/>
+            <display value="Kriol"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="lbz"/>
+            <display value="Lardil"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="mem"/>
+            <display value="Mangala"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="zmu"/>
+            <display value="Muruwari"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="nnr"/>
+            <display value="Narungga"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="nrl"/>
+            <display value="Ngarluma"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="nay"/>
+            <display value="Ngarrindjeri"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="nly"/>
+            <display value="Nyamal"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="nna"/>
+            <display value="Nyangumarta"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="nys"/>
+            <display value="Nyungar"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="drl"/>
+            <display value="Paakantyi"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="xny"/>
+            <display value="Nyiyaparli"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="wbv"/>
+            <display value="Wajarri"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="wrh"/>
+            <display value="Wiradjuri"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="yij"/>
+            <display value="Yindjibarndi"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="ywg"/>
+            <display value="Yinhawangka"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="xyy"/>
+            <display value="Yorta Yorta"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="bia"/>
+            <display value="Badimaya"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="rbp"/>
+            <display value="Barababaraba"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="dda"/>
+            <display value="Dadi Dadi"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="tbh"/>
+            <display value="Dharawal"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="tjw"/>
+            <display value="Djabwurrung"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="wrg"/>
+            <display value="Warungu"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="llj"/>
+            <display value="Ladji Ladji"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="xrg"/>
+            <display value="Minang"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="nju"/>
+            <display value="Ngatjumaya"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="wrb"/>
+            <display value="Waluwarra"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="wgg"/>
+            <display value="Wangkangurru"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="wgy"/>
+            <display value="Wargamay"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="weg"/>
+            <display value="Wergaia"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="yub"/>
+            <display value="Yugambal"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="ar"/>
+            <display value="Arabisk"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="bn"/>
+            <display value="Bengali"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="cs"/>
+            <display value="Czech"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="da"/>
+            <display value="Danish"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="de"/>
+            <display value="German"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="de-AT"/>
+            <display value="German (Austria)"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="de-CH"/>
+            <display value="German (Switzerland)"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="de-DE"/>
+            <display value="German (Germany)"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="el"/>
+            <display value="Greek"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="en"/>
+            <display value="English"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="en-AU"/>
+            <display value="English (Australia)"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="en-CA"/>
+            <display value="English (Canada)"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="en-GB"/>
+            <display value="English (Great Britain)"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="en-IN"/>
+            <display value="English (India)"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="en-NZ"/>
+            <display value="English (New Zeland)"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="en-SG"/>
+            <display value="English (Singapore)"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="en-US"/>
+            <display value="English (United States)"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="es"/>
+            <display value="Spanish"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="es-AR"/>
+            <display value="Spanish (Argentina)"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="es-ES"/>
+            <display value="Spanish (Spain)"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="es-UY"/>
+            <display value="Spanish (Uruguay)"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="fi"/>
+            <display value="Finnish"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="fr"/>
+            <display value="French"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="fr-BE"/>
+            <display value="French (Belgium)"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="fr-CH"/>
+            <display value="French (Switzerland)"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="fr-FR"/>
+            <display value="French (France)"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="fy"/>
+            <display value="Frysian"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="fy-NL"/>
+            <display value="Frysian (Netherlands)"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="hi"/>
+            <display value="Hindi"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="hr"/>
+            <display value="Croatian"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="it"/>
+            <display value="Italian"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="it-CH"/>
+            <display value="Italian (Switzerland)"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="it-IT"/>
+            <display value="Italian (Italy)"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="ja"/>
+            <display value="Japanese"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="ko"/>
+            <display value="Korean"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="nl"/>
+            <display value="Dutch"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="nl-BE"/>
+            <display value="Dutch (Belgium)"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="nl-NL"/>
+            <display value="Dutch (Netherlands)"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="no"/>
+            <display value="Norwegian"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="no-NO"/>
+            <display value="Norwegian (Norway)"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="pa"/>
+            <display value="Punjabi"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="pl"/>
+            <display value="Polskie"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="pt"/>
+            <display value="Portuguese"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="pt-BR"/>
+            <display value="Portuguese (Brazil)"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="ru"/>
+            <display value="Russian"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="ru-RU"/>
+            <display value="Russian (Russia)"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="sr"/>
+            <display value="Serbian"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="sr-RS"/>
+            <display value="Serbian (Serbia)"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="sv"/>
+            <display value="Swedish"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="sv-SE"/>
+            <display value="Swedish (Sweden)"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="te"/>
+            <display value="Telegu"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="zh"/>
+            <display value="Chinese"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="zh-CN"/>
+            <display value="Chinese (China)"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="zh-HK"/>
+            <display value="Chinese (Hong Kong)"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="zh-SG"/>
+            <display value="Chinese (Singapore)"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="zh-TW"/>
+            <display value="Chinese (Taiwan)"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+</Bundle>

@@ -1,0 +1,49 @@
+[
+  {
+    "id" : "ncts.terminology.support.01",
+    "type" : "ImplementationGuide",
+    "url" : "https://github.com/robswtd/fhir/ig/ImplementationGuide/ncts.terminology.support.01",
+    "version" : "0.0.1",
+    "name" : "RobsNCTSTerminologySupportIG"
+  },
+  {
+    "id" : "australian-indigenous-status-1",
+    "type" : "CodeSystem",
+    "url" : "https://healthterminologies.gov.au/fhir/CodeSystem/australian-indigenous-status-1",
+    "version" : "1.0.3",
+    "name" : "AustralianIndigenousStatus",
+    "oids" : ["1.2.36.1.2001.1004.200.10012"]
+  },
+  {
+    "id" : "date-accuracy-indicator-1",
+    "type" : "CodeSystem",
+    "url" : "https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1",
+    "version" : "1.0.3",
+    "name" : "DateAccuracyIndicator",
+    "oids" : ["1.2.36.1.2001.1004.200.10014"]
+  },
+  {
+    "id" : "australian-indigenous-status-1",
+    "type" : "ValueSet",
+    "url" : "https://healthterminologies.gov.au/fhir/ValueSet/australian-indigenous-status-1",
+    "version" : "1.0.2",
+    "name" : "AustralianIndigenousStatus",
+    "oids" : ["1.2.36.1.2001.1004.201.10001"]
+  },
+  {
+    "id" : "common-languages-australia-2",
+    "type" : "ValueSet",
+    "url" : "https://healthterminologies.gov.au/fhir/ValueSet/common-languages-australia-2",
+    "version" : "2.2.1",
+    "name" : "CommonLanguagesInAustralia",
+    "oids" : ["1.2.36.1.2001.1004.201.10069"]
+  },
+  {
+    "id" : "date-accuracy-indicator-1",
+    "type" : "ValueSet",
+    "url" : "https://healthterminologies.gov.au/fhir/ValueSet/date-accuracy-indicator-1",
+    "version" : "1.0.2",
+    "name" : "DateAccuracyIndicator",
+    "oids" : ["1.2.36.1.2001.1004.201.10004"]
+  }
+]
