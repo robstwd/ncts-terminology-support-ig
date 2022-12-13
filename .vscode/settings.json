@@ -1,0 +1,12 @@
+{
+    "xml.fileAssociations": [
+      {
+        "pattern": "**/codesystem-*.xml",
+        "systemId": "file:///c%3A/Users/rob/Documents/PC_stuff/software/FHIR/schema/4.0.1/fhir-all-xsd/fhir-single.xsd"
+      },
+      {
+        "pattern": "**/valueset-*.xml",
+        "systemId": "file:///c%3A/Users/rob/Documents/PC_stuff/software/FHIR/schema/4.0.1/fhir-all-xsd/fhir-single.xsd"
+      }
+    ]
+}
