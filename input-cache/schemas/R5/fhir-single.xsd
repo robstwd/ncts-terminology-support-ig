@@ -47,7 +47,7 @@
   POSSIBILITY OF SUCH DAMAGE.
   
 
-  Generated on Mon, Dec 12, 2022 06:54+0000 for FHIR v5.0.0-cibuild 
+  Generated on Mon, Dec 12, 2022 20:19+0000 for FHIR v5.0.0-cibuild 
 -->
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://hl7.org/fhir" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" targetNamespace="http://hl7.org/fhir" elementFormDefault="qualified" version="5.0.0-cibuild">
   <!-- Note: When using this schema with some tools, it may also be necessary to declare xmlns:xml="http://www.w3.org/XML/1998/namespace", however this causes performance issues with other tools and thus is not in the base schemas. -->
@@ -61225,26 +61225,24 @@ Deceased patients may also be marked as inactive for the same reasons, but may b
     <xs:complexContent>
       <xs:extension base="BackboneElement">
         <xs:sequence>
-          <xs:choice minOccurs="0" maxOccurs="1" >
-            <xs:annotation>
-              <xs:documentation xml:lang="en">A code expressing the type of property.</xs:documentation>
-            </xs:annotation>
-            <xs:element name="imageAttachment" type="Attachment"/>
-            <xs:element name="imageReference" type="Reference"/>
-          </xs:choice>
-          <xs:element name="form" minOccurs="0" maxOccurs="1" type="CodeableConcept">
-            <xs:annotation>
-              <xs:documentation xml:lang="en">The specific chemical entity of the substance being characterized, to distinguish for example salt or base.</xs:documentation>
-           </xs:annotation>
-          </xs:element>
           <xs:element name="technique" minOccurs="0" maxOccurs="1" type="CodeableConcept">
             <xs:annotation>
               <xs:documentation xml:lang="en">The method used to elucidate the characterization of the drug substance. Example: HPLC.</xs:documentation>
            </xs:annotation>
           </xs:element>
-          <xs:element name="description" minOccurs="0" maxOccurs="1" type="string">
+          <xs:element name="form" minOccurs="0" maxOccurs="1" type="CodeableConcept">
             <xs:annotation>
-              <xs:documentation xml:lang="en">Narrative text about the characterization.</xs:documentation>
+              <xs:documentation xml:lang="en">The specific chemical entity of the substance being characterized, to distinguish for example salt or base.</xs:documentation>
+           </xs:annotation>
+          </xs:element>
+          <xs:element name="description" minOccurs="0" maxOccurs="1" type="markdown">
+            <xs:annotation>
+              <xs:documentation xml:lang="en">Narrative text, data, tables about the characterization.</xs:documentation>
+           </xs:annotation>
+          </xs:element>
+          <xs:element name="file" minOccurs="0" maxOccurs="unbounded" type="Attachment">
+            <xs:annotation>
+              <xs:documentation xml:lang="en">An image or data file that characterizes this substance.</xs:documentation>
            </xs:annotation>
           </xs:element>
         </xs:sequence>
