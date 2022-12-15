@@ -1,10 +1,10 @@
 ﻿RobsNCTSTerminologySupportIG : Validation Results
 =========================================
 
-err = 0, warn = 4, info = 0
+err = 0, warn = 0, info = 0
 IG Publisher Version: 1.2.24
-Generated Wed Dec 14 09:48:03 UTC 2022. FHIR version 4.0.1 for ncts.terminology.support.01#0.0.1 (canonical = https://github.com/robswtd/fhir/ig)
- Build Errors : 0 / 4 / 0
+Generated Thu Dec 15 11:12:35 UTC 2022. FHIR version 4.0.1 for ncts.terminology.support.01#0.0.1 (canonical = https://github.com/robswtd/fhir/ig)
+ Build Errors : 0 / 0 / 0
  /home/runner/work/ncts-terminology-support-ig/ncts-terminology-support-ig/input/ncts.terminology.support.01 : 0 / 0 / 1
  /home/runner/work/ncts-terminology-support-ig/ncts-terminology-support-ig/input/resources/CodeSystem/codesystem-australian-indigenous-status-1 : 0 / 0 / 1
  /home/runner/work/ncts-terminology-support-ig/ncts-terminology-support-ig/input/resources/CodeSystem/codesystem-date-accuracy-indicator-1 : 0 / 0 / 1
@@ -13,10 +13,6 @@ Generated Wed Dec 14 09:48:03 UTC 2022. FHIR version 4.0.1 for ncts.terminology.
  /home/runner/work/ncts-terminology-support-ig/ncts-terminology-support-ig/input/resources/ValueSet/valueset-date-accuracy-indicator-1 : 0 / 0 / 1
 </table>
 == n/a ==
-WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
-WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
-WARNING: 3: An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml] is not included anywhere in the produced implementation guide
-WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
 == input/ncts.terminology.support.01.xml ==
 == input/resources/CodeSystem/codesystem-australian-indigenous-status-1.xml ==
 == input/resources/CodeSystem/codesystem-date-accuracy-indicator-1.xml ==

@@ -1,773 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="4a5fd92e-fbd2-4ca1-9744-4715c3683482"/>
+  <id value="e3fcbb4d-bb73-44ef-b719-f13eda6660bb"/>
   <meta>
-    <lastUpdated value="2022-12-14T09:47:39.689+00:00"/>
+    <lastUpdated value="2022-12-15T11:12:15.450+00:00"/>
   </meta>
   <type value="collection"/>
-  <entry>
-    <fullUrl value="https://healthterminologies.gov.au/fhir/ValueSet/date-accuracy-indicator-1"/>
-    <resource>
-      <ValueSet>
-        <id value="date-accuracy-indicator-1"/>
-        <meta>
-          <versionId value="1"/>
-          <lastUpdated value="2022-11-24T05:55:58.556+00:00"/>
-          <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
-        </meta>
-        <text>
-          <status value="generated"/>
-          <div xmlns="http://www.w3.org/1999/xhtml">
-            <p>This value set contains 27 concepts</p>
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
-              <a href="CodeSystem-date-accuracy-indicator-1.html">Date Accuracy Indicator v1.0.3 (CodeSystem)</a>
-            </p>
-            <table class="codes">
-              <tr>
-                <td style="white-space:nowrap">
-                  <b>Code</b>
-                </td>
-                <td>
-                  <b>System</b>
-                </td>
-                <td>
-                  <b>Display</b>
-                </td>
-                <td>
-                  <b>Definition</b>
-                </td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="https---healthterminologies.gov.au-fhir-CodeSystem-date-accuracy-indicator-1-AAA"> </a>  
-                  <a href="CodeSystem-date-accuracy-indicator-1.html#date-accuracy-indicator-1-AAA">AAA</a>
-                </td>
-                <td>https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1</td>
-                <td>Day, month and year are accurate</td>
-                <td>
-                  <div>
-                    <p>Day, month and year are accurate</p>
-
-                  </div>
-                </td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="https---healthterminologies.gov.au-fhir-CodeSystem-date-accuracy-indicator-1-AAE"> </a>  
-                  <a href="CodeSystem-date-accuracy-indicator-1.html#date-accuracy-indicator-1-AAE">AAE</a>
-                </td>
-                <td>https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1</td>
-                <td>Day and month are accurate, year is estimated</td>
-                <td>
-                  <div>
-                    <p>Day and month are accurate, year is estimated</p>
-
-                  </div>
-                </td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="https---healthterminologies.gov.au-fhir-CodeSystem-date-accuracy-indicator-1-AAU"> </a>  
-                  <a href="CodeSystem-date-accuracy-indicator-1.html#date-accuracy-indicator-1-AAU">AAU</a>
-                </td>
-                <td>https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1</td>
-                <td>Day and month are accurate, year is unknown</td>
-                <td>
-                  <div>
-                    <p>Day and month are accurate, year is unknown</p>
-
-                  </div>
-                </td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="https---healthterminologies.gov.au-fhir-CodeSystem-date-accuracy-indicator-1-AEA"> </a>  
-                  <a href="CodeSystem-date-accuracy-indicator-1.html#date-accuracy-indicator-1-AEA">AEA</a>
-                </td>
-                <td>https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1</td>
-                <td>Day is accurate, month is estimated, year is accurate</td>
-                <td>
-                  <div>
-                    <p>Day is accurate, month is estimated, year is accurate</p>
-
-                  </div>
-                </td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="https---healthterminologies.gov.au-fhir-CodeSystem-date-accuracy-indicator-1-AEE"> </a>  
-                  <a href="CodeSystem-date-accuracy-indicator-1.html#date-accuracy-indicator-1-AEE">AEE</a>
-                </td>
-                <td>https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1</td>
-                <td>Day is accurate, month and year are estimated</td>
-                <td>
-                  <div>
-                    <p>Day is accurate, month and year are estimated</p>
-
-                  </div>
-                </td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="https---healthterminologies.gov.au-fhir-CodeSystem-date-accuracy-indicator-1-AEU"> </a>  
-                  <a href="CodeSystem-date-accuracy-indicator-1.html#date-accuracy-indicator-1-AEU">AEU</a>
-                </td>
-                <td>https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1</td>
-                <td>Day is accurate, month is estimated, year is unknown</td>
-                <td>
-                  <div>
-                    <p>Day is accurate, month is estimated, year is unknown</p>
-
-                  </div>
-                </td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="https---healthterminologies.gov.au-fhir-CodeSystem-date-accuracy-indicator-1-AUA"> </a>  
-                  <a href="CodeSystem-date-accuracy-indicator-1.html#date-accuracy-indicator-1-AUA">AUA</a>
-                </td>
-                <td>https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1</td>
-                <td>Day is accurate, month is unknown, year is accurate</td>
-                <td>
-                  <div>
-                    <p>Day is accurate, month is unknown, year is accurate</p>
-
-                  </div>
-                </td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="https---healthterminologies.gov.au-fhir-CodeSystem-date-accuracy-indicator-1-AUE"> </a>  
-                  <a href="CodeSystem-date-accuracy-indicator-1.html#date-accuracy-indicator-1-AUE">AUE</a>
-                </td>
-                <td>https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1</td>
-                <td>Day is accurate, month is unknown, year is estimated</td>
-                <td>
-                  <div>
-                    <p>Day is accurate, month is unknown, year is estimated</p>
-
-                  </div>
-                </td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="https---healthterminologies.gov.au-fhir-CodeSystem-date-accuracy-indicator-1-AUU"> </a>  
-                  <a href="CodeSystem-date-accuracy-indicator-1.html#date-accuracy-indicator-1-AUU">AUU</a>
-                </td>
-                <td>https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1</td>
-                <td>Day is accurate, month and year are unknown</td>
-                <td>
-                  <div>
-                    <p>Day is accurate, month and year are unknown</p>
-
-                  </div>
-                </td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="https---healthterminologies.gov.au-fhir-CodeSystem-date-accuracy-indicator-1-EAA"> </a>  
-                  <a href="CodeSystem-date-accuracy-indicator-1.html#date-accuracy-indicator-1-EAA">EAA</a>
-                </td>
-                <td>https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1</td>
-                <td>Day is estimated, month and year are accurate</td>
-                <td>
-                  <div>
-                    <p>Day is estimated, month and year are accurate</p>
-
-                  </div>
-                </td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="https---healthterminologies.gov.au-fhir-CodeSystem-date-accuracy-indicator-1-EAE"> </a>  
-                  <a href="CodeSystem-date-accuracy-indicator-1.html#date-accuracy-indicator-1-EAE">EAE</a>
-                </td>
-                <td>https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1</td>
-                <td>Day is estimated, month is accurate, year is estimated</td>
-                <td>
-                  <div>
-                    <p>Day is estimated, month is accurate, year is estimated</p>
-
-                  </div>
-                </td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="https---healthterminologies.gov.au-fhir-CodeSystem-date-accuracy-indicator-1-EAU"> </a>  
-                  <a href="CodeSystem-date-accuracy-indicator-1.html#date-accuracy-indicator-1-EAU">EAU</a>
-                </td>
-                <td>https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1</td>
-                <td>Day is estimated, month is accurate, year is unknown</td>
-                <td>
-                  <div>
-                    <p>Day is estimated, month is accurate, year is unknown</p>
-
-                  </div>
-                </td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="https---healthterminologies.gov.au-fhir-CodeSystem-date-accuracy-indicator-1-EEA"> </a>  
-                  <a href="CodeSystem-date-accuracy-indicator-1.html#date-accuracy-indicator-1-EEA">EEA</a>
-                </td>
-                <td>https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1</td>
-                <td>Day and month are estimated, year is accurate</td>
-                <td>
-                  <div>
-                    <p>Day and month are estimated, year is accurate</p>
-
-                  </div>
-                </td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="https---healthterminologies.gov.au-fhir-CodeSystem-date-accuracy-indicator-1-EEE"> </a>  
-                  <a href="CodeSystem-date-accuracy-indicator-1.html#date-accuracy-indicator-1-EEE">EEE</a>
-                </td>
-                <td>https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1</td>
-                <td>Day, month and year are estimated</td>
-                <td>
-                  <div>
-                    <p>Day, month and year are estimated</p>
-
-                  </div>
-                </td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="https---healthterminologies.gov.au-fhir-CodeSystem-date-accuracy-indicator-1-EEU"> </a>  
-                  <a href="CodeSystem-date-accuracy-indicator-1.html#date-accuracy-indicator-1-EEU">EEU</a>
-                </td>
-                <td>https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1</td>
-                <td>Day and month are estimated, year is unknown</td>
-                <td>
-                  <div>
-                    <p>Day and month are estimated, year is unknown</p>
-
-                  </div>
-                </td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="https---healthterminologies.gov.au-fhir-CodeSystem-date-accuracy-indicator-1-EUA"> </a>  
-                  <a href="CodeSystem-date-accuracy-indicator-1.html#date-accuracy-indicator-1-EUA">EUA</a>
-                </td>
-                <td>https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1</td>
-                <td>Day is estimated, month is unknown, year is accurate</td>
-                <td>
-                  <div>
-                    <p>Day is estimated, month is unknown, year is accurate</p>
-
-                  </div>
-                </td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="https---healthterminologies.gov.au-fhir-CodeSystem-date-accuracy-indicator-1-EUE"> </a>  
-                  <a href="CodeSystem-date-accuracy-indicator-1.html#date-accuracy-indicator-1-EUE">EUE</a>
-                </td>
-                <td>https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1</td>
-                <td>Day is estimated, month is unknown, year is estimated</td>
-                <td>
-                  <div>
-                    <p>Day is estimated, month is unknown, year is estimated</p>
-
-                  </div>
-                </td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="https---healthterminologies.gov.au-fhir-CodeSystem-date-accuracy-indicator-1-EUU"> </a>  
-                  <a href="CodeSystem-date-accuracy-indicator-1.html#date-accuracy-indicator-1-EUU">EUU</a>
-                </td>
-                <td>https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1</td>
-                <td>Day is estimated, month and year are unknown</td>
-                <td>
-                  <div>
-                    <p>Day is estimated, month and year are unknown</p>
-
-                  </div>
-                </td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="https---healthterminologies.gov.au-fhir-CodeSystem-date-accuracy-indicator-1-UAA"> </a>  
-                  <a href="CodeSystem-date-accuracy-indicator-1.html#date-accuracy-indicator-1-UAA">UAA</a>
-                </td>
-                <td>https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1</td>
-                <td>Day is unknown, month and year are accurate</td>
-                <td>
-                  <div>
-                    <p>Day is unknown, month and year are accurate</p>
-
-                  </div>
-                </td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="https---healthterminologies.gov.au-fhir-CodeSystem-date-accuracy-indicator-1-UAE"> </a>  
-                  <a href="CodeSystem-date-accuracy-indicator-1.html#date-accuracy-indicator-1-UAE">UAE</a>
-                </td>
-                <td>https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1</td>
-                <td>Day is unknown, month is accurate, year is estimated</td>
-                <td>
-                  <div>
-                    <p>Day is unknown, month is accurate, year is estimated</p>
-
-                  </div>
-                </td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="https---healthterminologies.gov.au-fhir-CodeSystem-date-accuracy-indicator-1-UAU"> </a>  
-                  <a href="CodeSystem-date-accuracy-indicator-1.html#date-accuracy-indicator-1-UAU">UAU</a>
-                </td>
-                <td>https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1</td>
-                <td>Day is unknown, month is accurate, year is unknown</td>
-                <td>
-                  <div>
-                    <p>Day is unknown, month is accurate, year is unknown</p>
-
-                  </div>
-                </td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="https---healthterminologies.gov.au-fhir-CodeSystem-date-accuracy-indicator-1-UEA"> </a>  
-                  <a href="CodeSystem-date-accuracy-indicator-1.html#date-accuracy-indicator-1-UEA">UEA</a>
-                </td>
-                <td>https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1</td>
-                <td>Day is unknown, month is estimated, year is accurate</td>
-                <td>
-                  <div>
-                    <p>Day is unknown, month is estimated, year is accurate</p>
-
-                  </div>
-                </td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="https---healthterminologies.gov.au-fhir-CodeSystem-date-accuracy-indicator-1-UEE"> </a>  
-                  <a href="CodeSystem-date-accuracy-indicator-1.html#date-accuracy-indicator-1-UEE">UEE</a>
-                </td>
-                <td>https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1</td>
-                <td>Day is unknown, month and year are estimated</td>
-                <td>
-                  <div>
-                    <p>Day is unknown, month and year are estimated</p>
-
-                  </div>
-                </td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="https---healthterminologies.gov.au-fhir-CodeSystem-date-accuracy-indicator-1-UEU"> </a>  
-                  <a href="CodeSystem-date-accuracy-indicator-1.html#date-accuracy-indicator-1-UEU">UEU</a>
-                </td>
-                <td>https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1</td>
-                <td>Day is unknown, month is estimated, year is unknown</td>
-                <td>
-                  <div>
-                    <p>Day is unknown, month is estimated, year is unknown</p>
-
-                  </div>
-                </td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="https---healthterminologies.gov.au-fhir-CodeSystem-date-accuracy-indicator-1-UUA"> </a>  
-                  <a href="CodeSystem-date-accuracy-indicator-1.html#date-accuracy-indicator-1-UUA">UUA</a>
-                </td>
-                <td>https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1</td>
-                <td>Day and month are unknown, year is accurate</td>
-                <td>
-                  <div>
-                    <p>Day and month are unknown, year is accurate</p>
-
-                  </div>
-                </td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="https---healthterminologies.gov.au-fhir-CodeSystem-date-accuracy-indicator-1-UUE"> </a>  
-                  <a href="CodeSystem-date-accuracy-indicator-1.html#date-accuracy-indicator-1-UUE">UUE</a>
-                </td>
-                <td>https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1</td>
-                <td>Day and month are unknown, year is estimated</td>
-                <td>
-                  <div>
-                    <p>Day and month are unknown, year is estimated</p>
-
-                  </div>
-                </td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="https---healthterminologies.gov.au-fhir-CodeSystem-date-accuracy-indicator-1-UUU"> </a>  
-                  <a href="CodeSystem-date-accuracy-indicator-1.html#date-accuracy-indicator-1-UUU">UUU</a>
-                </td>
-                <td>https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1</td>
-                <td>Day, month and year are unknown</td>
-                <td>
-                  <div>
-                    <p>Day, month and year are unknown</p>
-
-                  </div>
-                </td>
-              </tr>
-            </table>
-          </div>
-        </text>
-        <url value="https://healthterminologies.gov.au/fhir/ValueSet/date-accuracy-indicator-1"/>
-        <identifier>
-          <system value="urn:ietf:rfc:3986"/>
-          <value value="urn:oid:1.2.36.1.2001.1004.201.10004"/>
-        </identifier>
-        <version value="1.0.2"/>
-        <name value="DateAccuracyIndicator"/>
-        <title value="Date Accuracy Indicator"/>
-        <status value="active"/>
-        <experimental value="false"/>
-        <date value="2020-05-31"/>
-        <publisher value="Rob Eastwood (himself)"/>
-        <contact>
-          <telecom>
-            <system value="url"/>
-            <value value="https://github.com/robstwd"/>
-          </telecom>
-        </contact>
-        <description value="The Date Accuracy Indicator value set includes values that indicate the accuracy of components of a reported date."/>
-        <jurisdiction>
-          <coding>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="AU"/>
-          </coding>
-        </jurisdiction>
-        <copyright value="Copyright © 2018 Australian Digital Health Agency - All rights reserved. Except for the material identified below, this content is licensed under a Creative Commons Attribution 4.0 International License. See https://creativecommons.org/licenses/by/4.0/. &#xA;&#xA;This resource includes material that is based on Australian Institute of Health and Welfare material. &#xA;&#xA;All copies of this resource must include this copyright statement and all information contained in this statement."/>
-        <expansion>
-          <identifier value="urn:uuid:83cbfde8-0881-47e9-abfa-dda0a3d1ca20"/>
-          <timestamp value="2022-12-14T09:47:50+00:00"/>
-          <total value="27"/>
-          <parameter>
-            <name value="excludeNested"/>
-            <valueBoolean value="false"/>
-          </parameter>
-          <parameter>
-            <name value="version"/>
-            <valueUri value="https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1|1.0.3"/>
-          </parameter>
-          <contains>
-            <system value="https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1"/>
-            <code value="AAA"/>
-            <display value="Day, month and year are accurate"/>
-          </contains>
-          <contains>
-            <system value="https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1"/>
-            <code value="AAE"/>
-            <display value="Day and month are accurate, year is estimated"/>
-          </contains>
-          <contains>
-            <system value="https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1"/>
-            <code value="AAU"/>
-            <display value="Day and month are accurate, year is unknown"/>
-          </contains>
-          <contains>
-            <system value="https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1"/>
-            <code value="AEA"/>
-            <display value="Day is accurate, month is estimated, year is accurate"/>
-          </contains>
-          <contains>
-            <system value="https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1"/>
-            <code value="AEE"/>
-            <display value="Day is accurate, month and year are estimated"/>
-          </contains>
-          <contains>
-            <system value="https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1"/>
-            <code value="AEU"/>
-            <display value="Day is accurate, month is estimated, year is unknown"/>
-          </contains>
-          <contains>
-            <system value="https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1"/>
-            <code value="AUA"/>
-            <display value="Day is accurate, month is unknown, year is accurate"/>
-          </contains>
-          <contains>
-            <system value="https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1"/>
-            <code value="AUE"/>
-            <display value="Day is accurate, month is unknown, year is estimated"/>
-          </contains>
-          <contains>
-            <system value="https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1"/>
-            <code value="AUU"/>
-            <display value="Day is accurate, month and year are unknown"/>
-          </contains>
-          <contains>
-            <system value="https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1"/>
-            <code value="EAA"/>
-            <display value="Day is estimated, month and year are accurate"/>
-          </contains>
-          <contains>
-            <system value="https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1"/>
-            <code value="EAE"/>
-            <display value="Day is estimated, month is accurate, year is estimated"/>
-          </contains>
-          <contains>
-            <system value="https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1"/>
-            <code value="EAU"/>
-            <display value="Day is estimated, month is accurate, year is unknown"/>
-          </contains>
-          <contains>
-            <system value="https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1"/>
-            <code value="EEA"/>
-            <display value="Day and month are estimated, year is accurate"/>
-          </contains>
-          <contains>
-            <system value="https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1"/>
-            <code value="EEE"/>
-            <display value="Day, month and year are estimated"/>
-          </contains>
-          <contains>
-            <system value="https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1"/>
-            <code value="EEU"/>
-            <display value="Day and month are estimated, year is unknown"/>
-          </contains>
-          <contains>
-            <system value="https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1"/>
-            <code value="EUA"/>
-            <display value="Day is estimated, month is unknown, year is accurate"/>
-          </contains>
-          <contains>
-            <system value="https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1"/>
-            <code value="EUE"/>
-            <display value="Day is estimated, month is unknown, year is estimated"/>
-          </contains>
-          <contains>
-            <system value="https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1"/>
-            <code value="EUU"/>
-            <display value="Day is estimated, month and year are unknown"/>
-          </contains>
-          <contains>
-            <system value="https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1"/>
-            <code value="UAA"/>
-            <display value="Day is unknown, month and year are accurate"/>
-          </contains>
-          <contains>
-            <system value="https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1"/>
-            <code value="UAE"/>
-            <display value="Day is unknown, month is accurate, year is estimated"/>
-          </contains>
-          <contains>
-            <system value="https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1"/>
-            <code value="UAU"/>
-            <display value="Day is unknown, month is accurate, year is unknown"/>
-          </contains>
-          <contains>
-            <system value="https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1"/>
-            <code value="UEA"/>
-            <display value="Day is unknown, month is estimated, year is accurate"/>
-          </contains>
-          <contains>
-            <system value="https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1"/>
-            <code value="UEE"/>
-            <display value="Day is unknown, month and year are estimated"/>
-          </contains>
-          <contains>
-            <system value="https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1"/>
-            <code value="UEU"/>
-            <display value="Day is unknown, month is estimated, year is unknown"/>
-          </contains>
-          <contains>
-            <system value="https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1"/>
-            <code value="UUA"/>
-            <display value="Day and month are unknown, year is accurate"/>
-          </contains>
-          <contains>
-            <system value="https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1"/>
-            <code value="UUE"/>
-            <display value="Day and month are unknown, year is estimated"/>
-          </contains>
-          <contains>
-            <system value="https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1"/>
-            <code value="UUU"/>
-            <display value="Day, month and year are unknown"/>
-          </contains>
-        </expansion>
-      </ValueSet>
-    </resource>
-  </entry>
-  <entry>
-    <fullUrl value="https://healthterminologies.gov.au/fhir/ValueSet/australian-indigenous-status-1"/>
-    <resource>
-      <ValueSet>
-        <id value="australian-indigenous-status-1"/>
-        <meta>
-          <versionId value="1"/>
-          <lastUpdated value="2022-11-24T05:55:56.660+00:00"/>
-          <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
-        </meta>
-        <text>
-          <status value="generated"/>
-          <div xmlns="http://www.w3.org/1999/xhtml">
-            <p>This value set contains 5 concepts</p>
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
-              <a href="CodeSystem-australian-indigenous-status-1.html">Australian Indigenous Status v1.0.3 (CodeSystem)</a>
-            </p>
-            <table class="codes">
-              <tr>
-                <td style="white-space:nowrap">
-                  <b>Code</b>
-                </td>
-                <td>
-                  <b>System</b>
-                </td>
-                <td>
-                  <b>Display</b>
-                </td>
-                <td>
-                  <b>Definition</b>
-                </td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="https---healthterminologies.gov.au-fhir-CodeSystem-australian-indigenous-status-1-1"> </a>  
-                  <a href="CodeSystem-australian-indigenous-status-1.html#australian-indigenous-status-1-1">1</a>
-                </td>
-                <td>https://healthterminologies.gov.au/fhir/CodeSystem/australian-indigenous-status-1</td>
-                <td>Aboriginal but not Torres Strait Islander origin</td>
-                <td>
-                  <div>
-                    <p>Aboriginal but not Torres Strait Islander origin</p>
-
-                  </div>
-                </td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="https---healthterminologies.gov.au-fhir-CodeSystem-australian-indigenous-status-1-2"> </a>  
-                  <a href="CodeSystem-australian-indigenous-status-1.html#australian-indigenous-status-1-2">2</a>
-                </td>
-                <td>https://healthterminologies.gov.au/fhir/CodeSystem/australian-indigenous-status-1</td>
-                <td>Torres Strait Islander but not Aboriginal origin</td>
-                <td>
-                  <div>
-                    <p>Torres Strait Islander but not Aboriginal origin</p>
-
-                  </div>
-                </td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="https---healthterminologies.gov.au-fhir-CodeSystem-australian-indigenous-status-1-3"> </a>  
-                  <a href="CodeSystem-australian-indigenous-status-1.html#australian-indigenous-status-1-3">3</a>
-                </td>
-                <td>https://healthterminologies.gov.au/fhir/CodeSystem/australian-indigenous-status-1</td>
-                <td>Both Aboriginal and Torres Strait Islander origin</td>
-                <td>
-                  <div>
-                    <p>Both Aboriginal and Torres Strait Islander origin</p>
-
-                  </div>
-                </td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="https---healthterminologies.gov.au-fhir-CodeSystem-australian-indigenous-status-1-4"> </a>  
-                  <a href="CodeSystem-australian-indigenous-status-1.html#australian-indigenous-status-1-4">4</a>
-                </td>
-                <td>https://healthterminologies.gov.au/fhir/CodeSystem/australian-indigenous-status-1</td>
-                <td>Neither Aboriginal nor Torres Strait Islander origin</td>
-                <td>
-                  <div>
-                    <p>Neither Aboriginal nor Torres Strait Islander origin</p>
-
-                  </div>
-                </td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="https---healthterminologies.gov.au-fhir-CodeSystem-australian-indigenous-status-1-9"> </a>  
-                  <a href="CodeSystem-australian-indigenous-status-1.html#australian-indigenous-status-1-9">9</a>
-                </td>
-                <td>https://healthterminologies.gov.au/fhir/CodeSystem/australian-indigenous-status-1</td>
-                <td>Not stated/inadequately described</td>
-                <td>
-                  <div>
-                    <p>Not stated/inadequately described</p>
-
-                  </div>
-                </td>
-              </tr>
-            </table>
-          </div>
-        </text>
-        <url value="https://healthterminologies.gov.au/fhir/ValueSet/australian-indigenous-status-1"/>
-        <identifier>
-          <system value="urn:ietf:rfc:3986"/>
-          <value value="urn:oid:1.2.36.1.2001.1004.201.10001"/>
-        </identifier>
-        <version value="1.0.2"/>
-        <name value="AustralianIndigenousStatus"/>
-        <title value="Australian Indigenous Status"/>
-        <status value="active"/>
-        <experimental value="false"/>
-        <date value="2020-05-31"/>
-        <publisher value="Rob Eastwood (himself)"/>
-        <contact>
-          <telecom>
-            <system value="url"/>
-            <value value="https://github.com/robstwd"/>
-          </telecom>
-        </contact>
-        <description value="The Australian Indigenous Status value set includes values to support the representation of a person's Indigenous status. That is, whether a person identifies as being of Aboriginal or Torres Strait Islander origin. The values are those concepts defined in the Australian Indigenous Status code system (https://healthterminologies.gov.au/fhir/CodeSystem/australian-indigenous-status-1)."/>
-        <jurisdiction>
-          <coding>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="AU"/>
-          </coding>
-        </jurisdiction>
-        <copyright value="Copyright © 2018 Australian Digital Health Agency – All rights reserved. Except for the material identified below, this content is licensed under a Creative Commons Attribution 4.0 International License. See https://creativecommons.org/licenses/by/4.0/. &#xA;&#xA;This resource includes material that is based on Australian Institute of Health and Welfare material. &#xA;&#xA;All copies of this resource must include this copyright statement and all information contained in this statement."/>
-        <expansion>
-          <identifier value="urn:uuid:8b1ce6c6-db36-41a8-8a92-b19f858d2c6e"/>
-          <timestamp value="2022-12-14T09:47:50+00:00"/>
-          <total value="5"/>
-          <parameter>
-            <name value="excludeNested"/>
-            <valueBoolean value="false"/>
-          </parameter>
-          <parameter>
-            <name value="version"/>
-            <valueUri value="https://healthterminologies.gov.au/fhir/CodeSystem/australian-indigenous-status-1|1.0.3"/>
-          </parameter>
-          <contains>
-            <system value="https://healthterminologies.gov.au/fhir/CodeSystem/australian-indigenous-status-1"/>
-            <code value="1"/>
-            <display value="Aboriginal but not Torres Strait Islander origin"/>
-          </contains>
-          <contains>
-            <system value="https://healthterminologies.gov.au/fhir/CodeSystem/australian-indigenous-status-1"/>
-            <code value="2"/>
-            <display value="Torres Strait Islander but not Aboriginal origin"/>
-          </contains>
-          <contains>
-            <system value="https://healthterminologies.gov.au/fhir/CodeSystem/australian-indigenous-status-1"/>
-            <code value="3"/>
-            <display value="Both Aboriginal and Torres Strait Islander origin"/>
-          </contains>
-          <contains>
-            <system value="https://healthterminologies.gov.au/fhir/CodeSystem/australian-indigenous-status-1"/>
-            <code value="4"/>
-            <display value="Neither Aboriginal nor Torres Strait Islander origin"/>
-          </contains>
-          <contains>
-            <system value="https://healthterminologies.gov.au/fhir/CodeSystem/australian-indigenous-status-1"/>
-            <code value="9"/>
-            <display value="Not stated/inadequately described"/>
-          </contains>
-        </expansion>
-      </ValueSet>
-    </resource>
-  </entry>
   <entry>
     <fullUrl value="https://healthterminologies.gov.au/fhir/ValueSet/common-languages-australia-2"/>
     <resource>
@@ -3207,8 +2445,8 @@
         </jurisdiction>
         <copyright value="Copyright © 2019 Australian Digital Health Agency - All rights reserved. Except for the material identified below, this content is licensed under a Creative Commons Attribution 4.0 International License. See https://creativecommons.org/licenses/by/4.0/. &#xA;&#xA;This resource also includes all or a portion of material that is HL7 FHIR Copyright © 2011+ HL7 licensed under Creative Commons 'No Rights Reserved' (CC0)  &#xA;&#xA;&#x9;Copyright (c) 2008 IETF Trust and the persons identified as the document authors (https://tools.ietf.org/html/bcp47). All rights reserved.  &#xA;&#xA;All copies of this resource must include this copyright statement and all information contained in this statement."/>
         <expansion>
-          <identifier value="urn:uuid:ca02b2ae-7fd7-4b91-ad20-5039dd5a5a11"/>
-          <timestamp value="2022-12-14T09:47:51+00:00"/>
+          <identifier value="urn:uuid:7cb69ddb-fc82-486b-a4b8-04966a848b89"/>
+          <timestamp value="2022-12-15T11:12:24+00:00"/>
           <total value="340"/>
           <parameter>
             <name value="excludeNested"/>
@@ -4921,6 +4159,768 @@
             <system value="urn:ietf:bcp:47"/>
             <code value="zh-TW"/>
             <display value="Chinese (Taiwan)"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="https://healthterminologies.gov.au/fhir/ValueSet/date-accuracy-indicator-1"/>
+    <resource>
+      <ValueSet>
+        <id value="date-accuracy-indicator-1"/>
+        <meta>
+          <versionId value="1"/>
+          <lastUpdated value="2022-11-24T05:55:58.556+00:00"/>
+          <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
+        </meta>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 27 concepts</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
+              <a href="CodeSystem-date-accuracy-indicator-1.html">Date Accuracy Indicator v1.0.3 (CodeSystem)</a>
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---healthterminologies.gov.au-fhir-CodeSystem-date-accuracy-indicator-1-AAA"> </a>  
+                  <a href="CodeSystem-date-accuracy-indicator-1.html#date-accuracy-indicator-1-AAA">AAA</a>
+                </td>
+                <td>https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1</td>
+                <td>Day, month and year are accurate</td>
+                <td>
+                  <div>
+                    <p>Day, month and year are accurate</p>
+
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---healthterminologies.gov.au-fhir-CodeSystem-date-accuracy-indicator-1-AAE"> </a>  
+                  <a href="CodeSystem-date-accuracy-indicator-1.html#date-accuracy-indicator-1-AAE">AAE</a>
+                </td>
+                <td>https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1</td>
+                <td>Day and month are accurate, year is estimated</td>
+                <td>
+                  <div>
+                    <p>Day and month are accurate, year is estimated</p>
+
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---healthterminologies.gov.au-fhir-CodeSystem-date-accuracy-indicator-1-AAU"> </a>  
+                  <a href="CodeSystem-date-accuracy-indicator-1.html#date-accuracy-indicator-1-AAU">AAU</a>
+                </td>
+                <td>https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1</td>
+                <td>Day and month are accurate, year is unknown</td>
+                <td>
+                  <div>
+                    <p>Day and month are accurate, year is unknown</p>
+
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---healthterminologies.gov.au-fhir-CodeSystem-date-accuracy-indicator-1-AEA"> </a>  
+                  <a href="CodeSystem-date-accuracy-indicator-1.html#date-accuracy-indicator-1-AEA">AEA</a>
+                </td>
+                <td>https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1</td>
+                <td>Day is accurate, month is estimated, year is accurate</td>
+                <td>
+                  <div>
+                    <p>Day is accurate, month is estimated, year is accurate</p>
+
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---healthterminologies.gov.au-fhir-CodeSystem-date-accuracy-indicator-1-AEE"> </a>  
+                  <a href="CodeSystem-date-accuracy-indicator-1.html#date-accuracy-indicator-1-AEE">AEE</a>
+                </td>
+                <td>https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1</td>
+                <td>Day is accurate, month and year are estimated</td>
+                <td>
+                  <div>
+                    <p>Day is accurate, month and year are estimated</p>
+
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---healthterminologies.gov.au-fhir-CodeSystem-date-accuracy-indicator-1-AEU"> </a>  
+                  <a href="CodeSystem-date-accuracy-indicator-1.html#date-accuracy-indicator-1-AEU">AEU</a>
+                </td>
+                <td>https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1</td>
+                <td>Day is accurate, month is estimated, year is unknown</td>
+                <td>
+                  <div>
+                    <p>Day is accurate, month is estimated, year is unknown</p>
+
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---healthterminologies.gov.au-fhir-CodeSystem-date-accuracy-indicator-1-AUA"> </a>  
+                  <a href="CodeSystem-date-accuracy-indicator-1.html#date-accuracy-indicator-1-AUA">AUA</a>
+                </td>
+                <td>https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1</td>
+                <td>Day is accurate, month is unknown, year is accurate</td>
+                <td>
+                  <div>
+                    <p>Day is accurate, month is unknown, year is accurate</p>
+
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---healthterminologies.gov.au-fhir-CodeSystem-date-accuracy-indicator-1-AUE"> </a>  
+                  <a href="CodeSystem-date-accuracy-indicator-1.html#date-accuracy-indicator-1-AUE">AUE</a>
+                </td>
+                <td>https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1</td>
+                <td>Day is accurate, month is unknown, year is estimated</td>
+                <td>
+                  <div>
+                    <p>Day is accurate, month is unknown, year is estimated</p>
+
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---healthterminologies.gov.au-fhir-CodeSystem-date-accuracy-indicator-1-AUU"> </a>  
+                  <a href="CodeSystem-date-accuracy-indicator-1.html#date-accuracy-indicator-1-AUU">AUU</a>
+                </td>
+                <td>https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1</td>
+                <td>Day is accurate, month and year are unknown</td>
+                <td>
+                  <div>
+                    <p>Day is accurate, month and year are unknown</p>
+
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---healthterminologies.gov.au-fhir-CodeSystem-date-accuracy-indicator-1-EAA"> </a>  
+                  <a href="CodeSystem-date-accuracy-indicator-1.html#date-accuracy-indicator-1-EAA">EAA</a>
+                </td>
+                <td>https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1</td>
+                <td>Day is estimated, month and year are accurate</td>
+                <td>
+                  <div>
+                    <p>Day is estimated, month and year are accurate</p>
+
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---healthterminologies.gov.au-fhir-CodeSystem-date-accuracy-indicator-1-EAE"> </a>  
+                  <a href="CodeSystem-date-accuracy-indicator-1.html#date-accuracy-indicator-1-EAE">EAE</a>
+                </td>
+                <td>https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1</td>
+                <td>Day is estimated, month is accurate, year is estimated</td>
+                <td>
+                  <div>
+                    <p>Day is estimated, month is accurate, year is estimated</p>
+
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---healthterminologies.gov.au-fhir-CodeSystem-date-accuracy-indicator-1-EAU"> </a>  
+                  <a href="CodeSystem-date-accuracy-indicator-1.html#date-accuracy-indicator-1-EAU">EAU</a>
+                </td>
+                <td>https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1</td>
+                <td>Day is estimated, month is accurate, year is unknown</td>
+                <td>
+                  <div>
+                    <p>Day is estimated, month is accurate, year is unknown</p>
+
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---healthterminologies.gov.au-fhir-CodeSystem-date-accuracy-indicator-1-EEA"> </a>  
+                  <a href="CodeSystem-date-accuracy-indicator-1.html#date-accuracy-indicator-1-EEA">EEA</a>
+                </td>
+                <td>https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1</td>
+                <td>Day and month are estimated, year is accurate</td>
+                <td>
+                  <div>
+                    <p>Day and month are estimated, year is accurate</p>
+
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---healthterminologies.gov.au-fhir-CodeSystem-date-accuracy-indicator-1-EEE"> </a>  
+                  <a href="CodeSystem-date-accuracy-indicator-1.html#date-accuracy-indicator-1-EEE">EEE</a>
+                </td>
+                <td>https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1</td>
+                <td>Day, month and year are estimated</td>
+                <td>
+                  <div>
+                    <p>Day, month and year are estimated</p>
+
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---healthterminologies.gov.au-fhir-CodeSystem-date-accuracy-indicator-1-EEU"> </a>  
+                  <a href="CodeSystem-date-accuracy-indicator-1.html#date-accuracy-indicator-1-EEU">EEU</a>
+                </td>
+                <td>https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1</td>
+                <td>Day and month are estimated, year is unknown</td>
+                <td>
+                  <div>
+                    <p>Day and month are estimated, year is unknown</p>
+
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---healthterminologies.gov.au-fhir-CodeSystem-date-accuracy-indicator-1-EUA"> </a>  
+                  <a href="CodeSystem-date-accuracy-indicator-1.html#date-accuracy-indicator-1-EUA">EUA</a>
+                </td>
+                <td>https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1</td>
+                <td>Day is estimated, month is unknown, year is accurate</td>
+                <td>
+                  <div>
+                    <p>Day is estimated, month is unknown, year is accurate</p>
+
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---healthterminologies.gov.au-fhir-CodeSystem-date-accuracy-indicator-1-EUE"> </a>  
+                  <a href="CodeSystem-date-accuracy-indicator-1.html#date-accuracy-indicator-1-EUE">EUE</a>
+                </td>
+                <td>https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1</td>
+                <td>Day is estimated, month is unknown, year is estimated</td>
+                <td>
+                  <div>
+                    <p>Day is estimated, month is unknown, year is estimated</p>
+
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---healthterminologies.gov.au-fhir-CodeSystem-date-accuracy-indicator-1-EUU"> </a>  
+                  <a href="CodeSystem-date-accuracy-indicator-1.html#date-accuracy-indicator-1-EUU">EUU</a>
+                </td>
+                <td>https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1</td>
+                <td>Day is estimated, month and year are unknown</td>
+                <td>
+                  <div>
+                    <p>Day is estimated, month and year are unknown</p>
+
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---healthterminologies.gov.au-fhir-CodeSystem-date-accuracy-indicator-1-UAA"> </a>  
+                  <a href="CodeSystem-date-accuracy-indicator-1.html#date-accuracy-indicator-1-UAA">UAA</a>
+                </td>
+                <td>https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1</td>
+                <td>Day is unknown, month and year are accurate</td>
+                <td>
+                  <div>
+                    <p>Day is unknown, month and year are accurate</p>
+
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---healthterminologies.gov.au-fhir-CodeSystem-date-accuracy-indicator-1-UAE"> </a>  
+                  <a href="CodeSystem-date-accuracy-indicator-1.html#date-accuracy-indicator-1-UAE">UAE</a>
+                </td>
+                <td>https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1</td>
+                <td>Day is unknown, month is accurate, year is estimated</td>
+                <td>
+                  <div>
+                    <p>Day is unknown, month is accurate, year is estimated</p>
+
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---healthterminologies.gov.au-fhir-CodeSystem-date-accuracy-indicator-1-UAU"> </a>  
+                  <a href="CodeSystem-date-accuracy-indicator-1.html#date-accuracy-indicator-1-UAU">UAU</a>
+                </td>
+                <td>https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1</td>
+                <td>Day is unknown, month is accurate, year is unknown</td>
+                <td>
+                  <div>
+                    <p>Day is unknown, month is accurate, year is unknown</p>
+
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---healthterminologies.gov.au-fhir-CodeSystem-date-accuracy-indicator-1-UEA"> </a>  
+                  <a href="CodeSystem-date-accuracy-indicator-1.html#date-accuracy-indicator-1-UEA">UEA</a>
+                </td>
+                <td>https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1</td>
+                <td>Day is unknown, month is estimated, year is accurate</td>
+                <td>
+                  <div>
+                    <p>Day is unknown, month is estimated, year is accurate</p>
+
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---healthterminologies.gov.au-fhir-CodeSystem-date-accuracy-indicator-1-UEE"> </a>  
+                  <a href="CodeSystem-date-accuracy-indicator-1.html#date-accuracy-indicator-1-UEE">UEE</a>
+                </td>
+                <td>https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1</td>
+                <td>Day is unknown, month and year are estimated</td>
+                <td>
+                  <div>
+                    <p>Day is unknown, month and year are estimated</p>
+
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---healthterminologies.gov.au-fhir-CodeSystem-date-accuracy-indicator-1-UEU"> </a>  
+                  <a href="CodeSystem-date-accuracy-indicator-1.html#date-accuracy-indicator-1-UEU">UEU</a>
+                </td>
+                <td>https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1</td>
+                <td>Day is unknown, month is estimated, year is unknown</td>
+                <td>
+                  <div>
+                    <p>Day is unknown, month is estimated, year is unknown</p>
+
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---healthterminologies.gov.au-fhir-CodeSystem-date-accuracy-indicator-1-UUA"> </a>  
+                  <a href="CodeSystem-date-accuracy-indicator-1.html#date-accuracy-indicator-1-UUA">UUA</a>
+                </td>
+                <td>https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1</td>
+                <td>Day and month are unknown, year is accurate</td>
+                <td>
+                  <div>
+                    <p>Day and month are unknown, year is accurate</p>
+
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---healthterminologies.gov.au-fhir-CodeSystem-date-accuracy-indicator-1-UUE"> </a>  
+                  <a href="CodeSystem-date-accuracy-indicator-1.html#date-accuracy-indicator-1-UUE">UUE</a>
+                </td>
+                <td>https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1</td>
+                <td>Day and month are unknown, year is estimated</td>
+                <td>
+                  <div>
+                    <p>Day and month are unknown, year is estimated</p>
+
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---healthterminologies.gov.au-fhir-CodeSystem-date-accuracy-indicator-1-UUU"> </a>  
+                  <a href="CodeSystem-date-accuracy-indicator-1.html#date-accuracy-indicator-1-UUU">UUU</a>
+                </td>
+                <td>https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1</td>
+                <td>Day, month and year are unknown</td>
+                <td>
+                  <div>
+                    <p>Day, month and year are unknown</p>
+
+                  </div>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="https://healthterminologies.gov.au/fhir/ValueSet/date-accuracy-indicator-1"/>
+        <identifier>
+          <system value="urn:ietf:rfc:3986"/>
+          <value value="urn:oid:1.2.36.1.2001.1004.201.10004"/>
+        </identifier>
+        <version value="1.0.2"/>
+        <name value="DateAccuracyIndicator"/>
+        <title value="Date Accuracy Indicator"/>
+        <status value="active"/>
+        <experimental value="false"/>
+        <date value="2020-05-31"/>
+        <publisher value="Rob Eastwood (himself)"/>
+        <contact>
+          <telecom>
+            <system value="url"/>
+            <value value="https://github.com/robstwd"/>
+          </telecom>
+        </contact>
+        <description value="The Date Accuracy Indicator value set includes values that indicate the accuracy of components of a reported date."/>
+        <jurisdiction>
+          <coding>
+            <system value="urn:iso:std:iso:3166"/>
+            <code value="AU"/>
+          </coding>
+        </jurisdiction>
+        <copyright value="Copyright © 2018 Australian Digital Health Agency - All rights reserved. Except for the material identified below, this content is licensed under a Creative Commons Attribution 4.0 International License. See https://creativecommons.org/licenses/by/4.0/. &#xA;&#xA;This resource includes material that is based on Australian Institute of Health and Welfare material. &#xA;&#xA;All copies of this resource must include this copyright statement and all information contained in this statement."/>
+        <expansion>
+          <identifier value="urn:uuid:6e977792-4ee4-4dbe-9097-69f07431781d"/>
+          <timestamp value="2022-12-15T11:12:25+00:00"/>
+          <total value="27"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1|1.0.3"/>
+          </parameter>
+          <contains>
+            <system value="https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1"/>
+            <code value="AAA"/>
+            <display value="Day, month and year are accurate"/>
+          </contains>
+          <contains>
+            <system value="https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1"/>
+            <code value="AAE"/>
+            <display value="Day and month are accurate, year is estimated"/>
+          </contains>
+          <contains>
+            <system value="https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1"/>
+            <code value="AAU"/>
+            <display value="Day and month are accurate, year is unknown"/>
+          </contains>
+          <contains>
+            <system value="https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1"/>
+            <code value="AEA"/>
+            <display value="Day is accurate, month is estimated, year is accurate"/>
+          </contains>
+          <contains>
+            <system value="https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1"/>
+            <code value="AEE"/>
+            <display value="Day is accurate, month and year are estimated"/>
+          </contains>
+          <contains>
+            <system value="https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1"/>
+            <code value="AEU"/>
+            <display value="Day is accurate, month is estimated, year is unknown"/>
+          </contains>
+          <contains>
+            <system value="https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1"/>
+            <code value="AUA"/>
+            <display value="Day is accurate, month is unknown, year is accurate"/>
+          </contains>
+          <contains>
+            <system value="https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1"/>
+            <code value="AUE"/>
+            <display value="Day is accurate, month is unknown, year is estimated"/>
+          </contains>
+          <contains>
+            <system value="https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1"/>
+            <code value="AUU"/>
+            <display value="Day is accurate, month and year are unknown"/>
+          </contains>
+          <contains>
+            <system value="https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1"/>
+            <code value="EAA"/>
+            <display value="Day is estimated, month and year are accurate"/>
+          </contains>
+          <contains>
+            <system value="https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1"/>
+            <code value="EAE"/>
+            <display value="Day is estimated, month is accurate, year is estimated"/>
+          </contains>
+          <contains>
+            <system value="https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1"/>
+            <code value="EAU"/>
+            <display value="Day is estimated, month is accurate, year is unknown"/>
+          </contains>
+          <contains>
+            <system value="https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1"/>
+            <code value="EEA"/>
+            <display value="Day and month are estimated, year is accurate"/>
+          </contains>
+          <contains>
+            <system value="https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1"/>
+            <code value="EEE"/>
+            <display value="Day, month and year are estimated"/>
+          </contains>
+          <contains>
+            <system value="https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1"/>
+            <code value="EEU"/>
+            <display value="Day and month are estimated, year is unknown"/>
+          </contains>
+          <contains>
+            <system value="https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1"/>
+            <code value="EUA"/>
+            <display value="Day is estimated, month is unknown, year is accurate"/>
+          </contains>
+          <contains>
+            <system value="https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1"/>
+            <code value="EUE"/>
+            <display value="Day is estimated, month is unknown, year is estimated"/>
+          </contains>
+          <contains>
+            <system value="https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1"/>
+            <code value="EUU"/>
+            <display value="Day is estimated, month and year are unknown"/>
+          </contains>
+          <contains>
+            <system value="https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1"/>
+            <code value="UAA"/>
+            <display value="Day is unknown, month and year are accurate"/>
+          </contains>
+          <contains>
+            <system value="https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1"/>
+            <code value="UAE"/>
+            <display value="Day is unknown, month is accurate, year is estimated"/>
+          </contains>
+          <contains>
+            <system value="https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1"/>
+            <code value="UAU"/>
+            <display value="Day is unknown, month is accurate, year is unknown"/>
+          </contains>
+          <contains>
+            <system value="https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1"/>
+            <code value="UEA"/>
+            <display value="Day is unknown, month is estimated, year is accurate"/>
+          </contains>
+          <contains>
+            <system value="https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1"/>
+            <code value="UEE"/>
+            <display value="Day is unknown, month and year are estimated"/>
+          </contains>
+          <contains>
+            <system value="https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1"/>
+            <code value="UEU"/>
+            <display value="Day is unknown, month is estimated, year is unknown"/>
+          </contains>
+          <contains>
+            <system value="https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1"/>
+            <code value="UUA"/>
+            <display value="Day and month are unknown, year is accurate"/>
+          </contains>
+          <contains>
+            <system value="https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1"/>
+            <code value="UUE"/>
+            <display value="Day and month are unknown, year is estimated"/>
+          </contains>
+          <contains>
+            <system value="https://healthterminologies.gov.au/fhir/CodeSystem/date-accuracy-indicator-1"/>
+            <code value="UUU"/>
+            <display value="Day, month and year are unknown"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="https://healthterminologies.gov.au/fhir/ValueSet/australian-indigenous-status-1"/>
+    <resource>
+      <ValueSet>
+        <id value="australian-indigenous-status-1"/>
+        <meta>
+          <versionId value="1"/>
+          <lastUpdated value="2022-11-24T05:55:56.660+00:00"/>
+          <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
+        </meta>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 5 concepts</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
+              <a href="CodeSystem-australian-indigenous-status-1.html">Australian Indigenous Status v1.0.3 (CodeSystem)</a>
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---healthterminologies.gov.au-fhir-CodeSystem-australian-indigenous-status-1-1"> </a>  
+                  <a href="CodeSystem-australian-indigenous-status-1.html#australian-indigenous-status-1-1">1</a>
+                </td>
+                <td>https://healthterminologies.gov.au/fhir/CodeSystem/australian-indigenous-status-1</td>
+                <td>Aboriginal but not Torres Strait Islander origin</td>
+                <td>
+                  <div>
+                    <p>Aboriginal but not Torres Strait Islander origin</p>
+
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---healthterminologies.gov.au-fhir-CodeSystem-australian-indigenous-status-1-2"> </a>  
+                  <a href="CodeSystem-australian-indigenous-status-1.html#australian-indigenous-status-1-2">2</a>
+                </td>
+                <td>https://healthterminologies.gov.au/fhir/CodeSystem/australian-indigenous-status-1</td>
+                <td>Torres Strait Islander but not Aboriginal origin</td>
+                <td>
+                  <div>
+                    <p>Torres Strait Islander but not Aboriginal origin</p>
+
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---healthterminologies.gov.au-fhir-CodeSystem-australian-indigenous-status-1-3"> </a>  
+                  <a href="CodeSystem-australian-indigenous-status-1.html#australian-indigenous-status-1-3">3</a>
+                </td>
+                <td>https://healthterminologies.gov.au/fhir/CodeSystem/australian-indigenous-status-1</td>
+                <td>Both Aboriginal and Torres Strait Islander origin</td>
+                <td>
+                  <div>
+                    <p>Both Aboriginal and Torres Strait Islander origin</p>
+
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---healthterminologies.gov.au-fhir-CodeSystem-australian-indigenous-status-1-4"> </a>  
+                  <a href="CodeSystem-australian-indigenous-status-1.html#australian-indigenous-status-1-4">4</a>
+                </td>
+                <td>https://healthterminologies.gov.au/fhir/CodeSystem/australian-indigenous-status-1</td>
+                <td>Neither Aboriginal nor Torres Strait Islander origin</td>
+                <td>
+                  <div>
+                    <p>Neither Aboriginal nor Torres Strait Islander origin</p>
+
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---healthterminologies.gov.au-fhir-CodeSystem-australian-indigenous-status-1-9"> </a>  
+                  <a href="CodeSystem-australian-indigenous-status-1.html#australian-indigenous-status-1-9">9</a>
+                </td>
+                <td>https://healthterminologies.gov.au/fhir/CodeSystem/australian-indigenous-status-1</td>
+                <td>Not stated/inadequately described</td>
+                <td>
+                  <div>
+                    <p>Not stated/inadequately described</p>
+
+                  </div>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="https://healthterminologies.gov.au/fhir/ValueSet/australian-indigenous-status-1"/>
+        <identifier>
+          <system value="urn:ietf:rfc:3986"/>
+          <value value="urn:oid:1.2.36.1.2001.1004.201.10001"/>
+        </identifier>
+        <version value="1.0.2"/>
+        <name value="AustralianIndigenousStatus"/>
+        <title value="Australian Indigenous Status"/>
+        <status value="active"/>
+        <experimental value="false"/>
+        <date value="2020-05-31"/>
+        <publisher value="Rob Eastwood (himself)"/>
+        <contact>
+          <telecom>
+            <system value="url"/>
+            <value value="https://github.com/robstwd"/>
+          </telecom>
+        </contact>
+        <description value="The Australian Indigenous Status value set includes values to support the representation of a person's Indigenous status. That is, whether a person identifies as being of Aboriginal or Torres Strait Islander origin. The values are those concepts defined in the Australian Indigenous Status code system (https://healthterminologies.gov.au/fhir/CodeSystem/australian-indigenous-status-1)."/>
+        <jurisdiction>
+          <coding>
+            <system value="urn:iso:std:iso:3166"/>
+            <code value="AU"/>
+          </coding>
+        </jurisdiction>
+        <copyright value="Copyright © 2018 Australian Digital Health Agency – All rights reserved. Except for the material identified below, this content is licensed under a Creative Commons Attribution 4.0 International License. See https://creativecommons.org/licenses/by/4.0/. &#xA;&#xA;This resource includes material that is based on Australian Institute of Health and Welfare material. &#xA;&#xA;All copies of this resource must include this copyright statement and all information contained in this statement."/>
+        <expansion>
+          <identifier value="urn:uuid:01b6d1e3-3ca3-4127-b0f3-f741e79bad1a"/>
+          <timestamp value="2022-12-15T11:12:25+00:00"/>
+          <total value="5"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="https://healthterminologies.gov.au/fhir/CodeSystem/australian-indigenous-status-1|1.0.3"/>
+          </parameter>
+          <contains>
+            <system value="https://healthterminologies.gov.au/fhir/CodeSystem/australian-indigenous-status-1"/>
+            <code value="1"/>
+            <display value="Aboriginal but not Torres Strait Islander origin"/>
+          </contains>
+          <contains>
+            <system value="https://healthterminologies.gov.au/fhir/CodeSystem/australian-indigenous-status-1"/>
+            <code value="2"/>
+            <display value="Torres Strait Islander but not Aboriginal origin"/>
+          </contains>
+          <contains>
+            <system value="https://healthterminologies.gov.au/fhir/CodeSystem/australian-indigenous-status-1"/>
+            <code value="3"/>
+            <display value="Both Aboriginal and Torres Strait Islander origin"/>
+          </contains>
+          <contains>
+            <system value="https://healthterminologies.gov.au/fhir/CodeSystem/australian-indigenous-status-1"/>
+            <code value="4"/>
+            <display value="Neither Aboriginal nor Torres Strait Islander origin"/>
+          </contains>
+          <contains>
+            <system value="https://healthterminologies.gov.au/fhir/CodeSystem/australian-indigenous-status-1"/>
+            <code value="9"/>
+            <display value="Not stated/inadequately described"/>
           </contains>
         </expansion>
       </ValueSet>

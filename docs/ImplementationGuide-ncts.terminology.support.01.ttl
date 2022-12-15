@@ -18,7 +18,7 @@
   fhir:ImplementationGuide.title [ fhir:value "Rob's NCTS Terminology Support FHIR IG"]; # 
   fhir:ImplementationGuide.status [ fhir:value "draft"]; # 
   fhir:ImplementationGuide.experimental [ fhir:value "true"^^xsd:boolean]; # 
-  fhir:ImplementationGuide.date [ fhir:value "2022-12-14T09:47:39+00:00"^^xsd:dateTime]; # 
+  fhir:ImplementationGuide.date [ fhir:value "2022-12-15T11:12:15+00:00"^^xsd:dateTime]; # 
   fhir:ImplementationGuide.publisher [ fhir:value "Rob Eastwood (himself)"]; # 
   fhir:ImplementationGuide.contact [
      fhir:index 0;
