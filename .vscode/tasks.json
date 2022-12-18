@@ -6,7 +6,7 @@
     {
       "label": "Run FHIR IG Publisher build",
       "type": "shell",
-      "command": "java -jar ~/Documents/PC_stuff/software/FHIR/publisher/publisher-1.2.24.jar -ig ig.ini",
+      "command": "java -jar ~/Documents/PC_stuff/software/FHIR/publisher/publisher.jar -ig ig.ini",
       "group": {
         "kind": "build",
         "isDefault": true
